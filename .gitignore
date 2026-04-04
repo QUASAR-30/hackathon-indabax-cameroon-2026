@@ -1,0 +1,65 @@
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Jupyter Notebooks ──────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Secrets ────────────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Données brutes (lourdes / régénérables depuis les scripts) ─────────────────
+data/*.xlsx
+data/raw/
+data/exports_excel/
+data/extraction.log
+
+# ERA5 raw : 40 fichiers reproductibles via 01_extract_era5_pm25_target.py
+data/era5_raw/
+
+# FIRMS raw : reproductible via 04_extract_firms_fire.py
+data/firms_raw/
+
+# Dataset features : 34 MB — régénérable via 03_feature_engineering.py
+data/dataset_features.parquet
+
+# Dataset merged avec Excel original : régénérable via 02_build_pm25_target.py
+data/dataset_with_pm25_target.parquet
+data/era5_features_all_cities.parquet
+
+# ── Fichiers committé explicitement (petits, utiles pour la démo) ──────────────
+# data/pm25_proxy_era5.parquet        ← 2.3 MB  ✓ committé
+# data/pm25_with_uncertainty.parquet  ← 2.3 MB  ✓ committé
+# data/firms_fire_daily.parquet       ← 327 KB  ✓ committé
+# data/cams_validation.parquet        ← 44 KB   ✓ committé
+# data/predictions_latest.parquet     ← 7.7 KB  ✓ committé
+# data/alerts_latest.json             ← 65 KB   ✓ committé
+# models/xgboost_final.pkl            ← 2.4 MB  ✓ committé
+# models/lightgbm_final.pkl           ← 5.8 MB  ✓ committé
+# models/xgboost_coldstart.pkl        ← 2.2 MB  ✓ committé
+
+
+CLAUDE.md
+
+# ── OS / IDE ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
