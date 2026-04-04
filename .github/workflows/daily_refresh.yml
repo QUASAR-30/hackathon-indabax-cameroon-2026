@@ -1,0 +1,60 @@
+name: Daily PM2.5 Forecast Refresh
+
+on:
+  schedule:
+    # Tous les jours a 06:00 UTC (07:00 WAT — heure Cameroun)
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      forecast_days:
+        description: 'Nombre de jours de prevision (1-16)'
+        required: false
+        default: '7'
+
+jobs:
+  forecast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install numpy pandas requests pyarrow xgboost lightgbm scikit-learn
+
+      - name: Run PM2.5 inference pipeline
+        env:
+          FORECAST_DAYS: ${{ github.event.inputs.forecast_days || '7' }}
+        run: |
+          python notebooks/08_inference_realtime.py --days "$FORECAST_DAYS"
+
+      - name: Verify outputs
+        run: |
+          python - <<'EOF'
+          import pandas as pd, json
+          df = pd.read_parquet('data/predictions_latest.parquet')
+          print(f"Predictions: {len(df)} lignes | {df['city'].nunique()} villes | {df['time'].nunique()} jours")
+          print(df.groupby('city')['pm25_pred'].mean().sort_values(ascending=False).head(5).to_string())
+          with open('data/alerts_latest.json') as f:
+              a = json.load(f)
+          print(f"Alertes: {a['total_alerts']} | Dangereux: {a['dangerous']} | Genere: {a['generated_at']}")
+          EOF
+
+      - name: Commit updated predictions
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/predictions_latest.parquet data/alerts_latest.json
+          git diff --cached --quiet || git commit -m "chore: daily PM2.5 forecast $(date -u '+%Y-%m-%d')"
+          git push
