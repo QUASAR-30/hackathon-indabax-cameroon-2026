@@ -15,6 +15,8 @@ jobs:
   forecast:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    permissions:
+      contents: write   # allow git push of predictions_latest.parquet + alerts_latest.json
 
     steps:
       - name: Checkout repository
@@ -57,4 +59,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/predictions_latest.parquet data/alerts_latest.json
           git diff --cached --quiet || git commit -m "chore: daily PM2.5 forecast $(date -u '+%Y-%m-%d')"
+          git pull --rebase origin main
           git push
