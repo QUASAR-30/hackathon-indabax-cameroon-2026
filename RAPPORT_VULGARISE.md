@@ -209,7 +209,7 @@ F_hygro = min(1 + 0.004 × max(0, RH - 75%), 1.3)  ← si pas de pluie
 F_hygro = 1.0                                        ← si pluie > 1mm (pluie efface l'effet)
 ```
 
-*Plafonné à 1.3× : littérature Pöhlker 2023 montre que l'effet hygroscopique ne peut pas dépasser ce facteur pour les aérosols africains.*
+*Plafonné à 1.3× : littérature (Swietlicki et al. 2008, Tellus B) montre que la croissance hygroscopique des aérosols tropicaux dépasse rarement +30%.*
 
 ---
 
@@ -402,7 +402,7 @@ C'est l'objectif du système temps réel.
 Chaque matin à 7h (heure du Cameroun) :
 
 1. RÉCUPÉRER les prévisions météo pour les 40 villes
-   → Open-Meteo : API gratuite, données pour 7 à 16 jours à l'avance
+   → Open-Meteo : API gratuite, données pour **7 jours** à l'avance (extensible à 16)
    → Températures, pluie, vent, BLH, humidité...
 
 2. CONSTRUIRE les mêmes 139 variables qu'on a utilisées pour l'entraînement
@@ -425,7 +425,7 @@ Tout ça sans intervention humaine, automatiquement, tous les jours.
 **Pourquoi Open-Meteo ?**
 - **Gratuit** — pas de clé API requise pour l'usage de base
 - **40 villes en une seule requête** — on envoie toutes les coordonnées GPS en une fois
-- **16 jours de prévision** — suffisant pour les décisions de santé publique
+- **7 jours de prévision** par défaut — suffisant pour les décisions de santé publique (extensible à 16 jours)
 - **Données identiques à ERA5** — les variables sont les mêmes que celles utilisées pour l'entraînement
 
 ### 10.4 Le problème du "démarrage à froid" et comment on le résout

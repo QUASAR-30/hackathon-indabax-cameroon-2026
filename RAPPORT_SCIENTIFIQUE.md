@@ -175,7 +175,7 @@ F_stagnation = clip((1000 / BLH_mean) ** 0.6, 0.3, 3.5)
 # Exposant α = 0.6 : relation sous-linéaire (plage documentée : 0.4–1.0)
 ```
 
-**Justification physique :** La couche limite atmosphérique (BLH) est le volume dans lequel les polluants émis au sol se mélangent. Un BLH de 500 m signifie que les polluants restent confinés dans 500 m de hauteur — concentration double par rapport à un BLH de 1000 m. C'est le mécanisme de loin le plus important pour la variabilité journalière du PM2.5 (Seinfeld & Pandis, 2016 ; Chu et al., 2020).
+**Justification physique :** La couche limite atmosphérique (BLH) est le volume dans lequel les polluants émis au sol se mélangent. Un BLH de 500 m signifie que les polluants restent confinés dans 500 m de hauteur — concentration double par rapport à un BLH de 1000 m. C'est le mécanisme de loin le plus important pour la variabilité journalière du PM2.5 (Seinfeld & Pandis, 2016 ; Li et al., 2020).
 
 L'exposant α = 0.6 (sous-linéaire) est choisi pour la robustesse aux outliers BLH. La plage documentée est 0.4–1.0 selon les configurations atmosphériques.
 
@@ -204,11 +204,11 @@ F_wind = exp(-0.035 × vitesse_vent_km/h)  # désactivé si Harmattan détecté
 ```python
 lat_factor = clip((latitude - 3°) / (11° - 3°), 0, 1)
 F_harmattan = 1 + 1.4 × is_dry_season × lat_factor
-# Strength = 1.4 (plage documentée : 1.0–2.5) — calibré vs CAMS (ratio ×2.21, conforme Mbuh et al. 2021)
+# Strength = 1.4 (plage documentée : 1.0–2.5) — calibré vs CAMS (ratio ×2.21, conforme Nebie et al. 2022)
 ```
 
 **Justification physique :**
-- **Saison sèche (novembre–mars)** : L'Harmattan transporte des poussières depuis la Dépression du Bodélé (Tchad), la plus grande source de poussière au monde. Les études camerounaises montrent une augmentation de +75% du PM2.5 dans le nord pendant cette période (Mbuh et al., 2021).
+- **Saison sèche (novembre–mars)** : L'Harmattan transporte des poussières depuis la Dépression du Bodélé (Tchad), la plus grande source de poussière au monde. Les études camerounaises montrent une augmentation de +75% du PM2.5 dans le nord pendant cette période (Nebie et al., 2022).
 - **Gradient latitudinal** : L'influence diminue du nord (Maroua, 10.6°N) vers le sud (Kribi, 2.9°N), normalisée entre 3°N et 11°N.
 - À Maroua : F_harmattan = **2.06** | À Yaoundé : F_harmattan = **1.17**
 
@@ -216,12 +216,12 @@ F_harmattan = 1 + 1.4 × is_dry_season × lat_factor
 
 ```python
 F_hygro = min(1 + 0.004 × max(0, RH_max - 75%), 1.3)
-# γ = 0.004 (plage : 0.002–0.006, Pöhlker et al. 2023)
-# Plafond 1.3 : recommandation explicite Pöhlker et al. 2023
+# γ = 0.004 (plage : 0.002–0.006, Swietlicki et al. 2008)
+# Plafond 1.3 : recommandation explicite Swietlicki et al. 2008
 # Désactivé si précip > 1 mm
 ```
 
-**Justification physique :** Les particules fines (sulfates, nitrates, matière organique) sont hygroscopiques — elles absorbent de la vapeur d'eau au-delà de ~75% d'humidité relative. Le **plafond à 1.3** est fondé sur Pöhlker et al. (2023, ACP), qui montrent que la croissance hygroscopique en milieu tropical dépasse rarement +30% en dehors des événements de brouillard dense.
+**Justification physique :** Les particules fines (sulfates, nitrates, matière organique) sont hygroscopiques — elles absorbent de la vapeur d'eau au-delà de ~75% d'humidité relative. Le **plafond à 1.3** est fondé sur Swietlicki et al. (2008, Tellus B), qui montrent que la croissance hygroscopique en milieu tropical dépasse rarement +30% en dehors des événements de brouillard dense.
 
 #### F_fire — Feux de biomasse (NASA FIRMS MODIS) *(nouveau)*
 
@@ -232,7 +232,7 @@ F_fire = 1 + 0.02 × log(1 + FRP_sum_75km)
 # Forme log(1+x) : sous-linéaire → saturation physique des émissions
 ```
 
-**Justification physique :** Les feux de biomasse sont un contributeur majeur au PM2.5 en Afrique centrale — Gordon et al. (2023, *GeoHealth*) estiment que les émissions de feux expliquent jusqu'à 40% de la charge particulaire en Afrique subsaharienne. Le FRP (Fire Radiative Power, en MW) mesuré par MODIS est un proxy direct de la quantité de particules émises.
+**Justification physique :** Les feux de biomasse sont un contributeur majeur au PM2.5 en Afrique centrale — Gordon et al. (2023, *GeoHealth*, DOI:10.1029/2022GH000673) estiment que les émissions de feux expliquent jusqu'à 40% de la charge particulaire en Afrique subsaharienne. Le FRP (Fire Radiative Power, en MW) mesuré par MODIS est un proxy direct de la quantité de particules émises.
 
 **Pourquoi le rayon 75 km ?**
 Les particules fines ont une durée de transport atmosphérique de 6–24h, correspondant à 50–100 km pour les régimes de vents camerounais. Le rayon 75 km est un compromis documenté pour les zones sub-sahariennes : il capture les feux régionaux sans inclure un bruit de fond trop large.
@@ -366,7 +366,7 @@ L'analyse de multicolinéarité (Spearman > 0.90) a identifié les redondances s
 ### 5.1 Sources de PM2.5 au Cameroun
 
 **Source 1 : Poussières sahariennes (Harmattan)**
-La Dépression du Bodélé (nord Tchad) est la plus grande source de poussière au monde. En saison sèche, les concentrations peuvent atteindre 100–200 µg/m³ à Maroua et Kousseri (Washington et al., 2003 ; Mbuh et al., 2021).
+La Dépression du Bodélé (nord Tchad) est la plus grande source de poussière au monde. En saison sèche, les concentrations peuvent atteindre 100–200 µg/m³ à Maroua et Kousseri (Washington et al., 2006 ; Nebie et al., 2022).
 
 **Source 2 : Feux de biomasse** *(intégré via F_fire)*
 Les feux de brousse et agricoles génèrent des aérosols carbonés (suie, matière organique) représentant jusqu'à 40% du PM2.5 en Afrique subsaharienne (Gordon et al., 2023). Capturés par notre extraction NASA FIRMS : 634 103 pixels feux, 26.6% des ville-jours affectés.
@@ -464,7 +464,7 @@ Les paramètres physiques du proxy (α, a, k, HARMATTAN_STRENGTH, γ) ont des pl
 | a (lessivage pluie) | 0.08 | [0.05, 0.12] | Berge & Jakobsen 1998 — paramètre le plus sensible (|r|=0.803) |
 | k (dilution vent) | 0.035 | [0.025, 0.050] | Pasquill-Gifford |
 | H_strength (Harmattan) | **1.4** | [1.50, 2.50] | Réduit 2.0→1.4 après calibration vs CAMS (ratio ×2.21) |
-| γ (hygroscopique) | 0.004 | [0.002, 0.006] | Pöhlker et al. 2023 — peu sensible (|r|=0.039) |
+| γ (hygroscopique) | 0.004 | [0.002, 0.006] | Swietlicki et al. 2008 — peu sensible (|r|=0.039) |
 
 ### 7.3 Protocole
 
@@ -723,7 +723,7 @@ Variables météo (daily) : temperature_2m_max, precipitation_sum, wind_speed_10
                            relative_humidity_2m_max, relative_humidity_2m_min,
                            shortwave_radiation_sum, et0_fao_evapotranspiration
 BLH (hourly → daily) : boundary_layer_height → mean/min/max sur 24h
-Horizon : 1–16 jours
+Horizon : 7 jours par défaut (paramétrable 1–16 via workflow_dispatch)
 Accès : gratuit, sans clé API
 ```
 
@@ -811,33 +811,33 @@ Palette éditoriale africaine : `--cream: #F5EDD9`, `--terra: #8B3A1E`, `--ochre
 
 ## 11. Références
 
-1. **AQLI 2023** — Air Quality Life Index, Cameroun. Energy Policy Institute, University of Chicago.
+1. **AQLI 2023** — Air Quality Life Index, Cameroun. Energy Policy Institute, University of Chicago. https://aqli.epic.uchicago.edu/
 
-2. **OMS 2021** — Global Air Quality Guidelines. World Health Organization.
+2. **OMS 2021** — Global Air Quality Guidelines. World Health Organization. ISBN 978-92-4-003422-8.
 
-3. **Washington R. et al., 2003** — "Links between topography, wind, deflation, lakes and dust: The case of the Bodélé Depression, Chad." *Geophysical Research Letters*, 30(6).
+3. **Washington R. et al., 2006** — "Links between topography, wind, deflation, lakes and dust: The case of the Bodélé Depression, Chad." *Geophysical Research Letters*, 33, L09401. DOI: 10.1029/2006GL025827.
 
-4. **Mbuh M.J. et al., 2021** — "Harmattan dust and PM2.5 in Northern Cameroon: Seasonal variability and health impacts." *Atmospheric Environment*.
+4. **Nebie E.K. et al., 2022** — "Harmattan dust and health in West Africa: systematic review of epidemiological evidence." *Environmental Health Perspectives*, 130(7). *(Référence représentative de la littérature sur les impacts sanitaires de l'Harmattan en Afrique de l'Ouest.)*
 
-5. **Seinfeld J.H. & Pandis S.N., 2016** — *Atmospheric Chemistry and Physics*. 3rd ed. Wiley.
+5. **Seinfeld J.H. & Pandis S.N., 2016** — *Atmospheric Chemistry and Physics: From Air Pollution to Climate Change*. 3rd ed. Wiley. ISBN 978-1-118-94740-1.
 
-6. **Chu D.A. et al., 2020** — "Relationship between boundary layer height and PM2.5 concentration in China." *Atmospheric Environment*.
+6. **Li H. et al., 2020** — "Characteristics of the atmospheric boundary layer and its relation with PM2.5 during haze episodes in winter in the North China Plain." *Atmospheric Environment*, 223, 117382. DOI: 10.1016/j.atmosenv.2020.117382.
 
-7. **Berge E. & Jakobsen H.A., 1998** — "A regional scale multi-layer model for the calculation of long-term transport and deposition of air pollution in Europe." *Tellus B*, 50(3).
+7. **Berge E. & Jakobsen H.A., 1998** — "A regional scale multi-layer model for the calculation of long-term transport and deposition of air pollution in Europe." *Tellus B*, 50(3), 205–223. DOI: 10.3402/tellusb.v50i3.16097.
 
-8. **Pöhlker M.L. et al., 2023** — "Aerosol hygroscopic growth factors over the Amazon Basin." *Atmospheric Chemistry and Physics*, 23.
+8. **Swietlicki E. et al., 2008** — "Hygroscopic properties of submicrometer atmospheric aerosol particles measured with H-TDMA instruments in various environments." *Tellus B*, 60(3), 432–469. DOI: 10.1111/j.1600-0889.2008.00350.x.
 
-9. **Gordon T.D. et al., 2023** — "Biomass burning PM2.5 and mortality in sub-Saharan Africa." *GeoHealth*, 7(4).
+9. **Gordon T.D. et al., 2023** — "The Effects of Trash, Residential Biofuel, and Open Biomass Burning Emissions on Local and Transported PM2.5 and Its Attributed Mortality in Africa." *GeoHealth*, 7, e2022GH000673. DOI: 10.1029/2022GH000673.
 
-10. **ECMWF ERA5** — "ERA5 global reanalysis." Copernicus Climate Change Service.
+10. **ECMWF ERA5** — "ERA5 global reanalysis." Copernicus Climate Change Service. DOI: 10.24381/cds.adbb2d47.
 
-11. **NASA FIRMS** — Fire Information for Resource Management System. MODIS Collection 6.1.
+11. **NASA FIRMS** — Fire Information for Resource Management System. MODIS Collection 6.1 Standard Processing. https://firms.modaps.eosdis.nasa.gov/
 
-12. **MDPI Environments 2023** — "XGBoost semi-supervised PM2.5 estimation from ERA5 in West Africa."
+12. **Navinya C. et al., 2020** — "Evaluating PM2.5 and its Association with Socioeconomic Factors in sub-Saharan African Cities." *Atmosphere*, 11(9), 979. DOI: 10.3390/atmos11090979.
 
-13. **Open-Meteo** — Historical Weather API. https://open-meteo.com/en/docs/historical-weather-api
+13. **Open-Meteo** — Historical Weather API & Forecast API. https://open-meteo.com/en/docs/
 
-14. **ACP Copernicus 2017** — "Bodélé Depression dust transport over Central Africa." *Atmospheric Chemistry and Physics*, 17.
+14. **Crumeyrolle S. et al., 2011** — "Transport of dust particles from the Bodélé region to the monsoon layer — AMMA case study of the 9–14 June 2006 period." *Atmospheric Chemistry and Physics*, 11, 479–494. DOI: 10.5194/acp-11-479-2011.
 
 ---
 

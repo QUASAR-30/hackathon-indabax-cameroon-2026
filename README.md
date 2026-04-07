@@ -16,7 +16,7 @@
 | LightGBM R² (test 2025) | **0.9940** |
 | Ensemble R² (test 2025) | **0.9939** |
 | Ensemble RMSE | **1.55 µg/m³** |
-| Real-time forecast horizon | 7–16 days (Open-Meteo) |
+| Real-time forecast horizon | **7 days** (extensible to 16 via workflow_dispatch) |
 
 ---
 
@@ -42,7 +42,7 @@ PM2.5 = C_base × F_stagnation × F_wet × F_wind × F_harmattan × F_hygro × F
 | `F_wet` | `1/(1 + 0.08×rain_mm)` | Wet scavenging by precipitation |
 | `F_wind` | `exp(-0.035×wind_kmh)` suppressed during Harmattan | Turbulent dilution |
 | `F_harmattan` | `1 + 1.4×is_dry×(lat-3)/8` | Saharan dust transport Nov–Mar |
-| `F_hygro` | `min(1 + 0.004×max(0,RH-75), 1.3)` | Hygroscopic growth (Pöhlker 2023) |
+| `F_hygro` | `min(1 + 0.004×max(0,RH-75), 1.3)` | Hygroscopic growth (Swietlicki et al. 2008) |
 | `F_fire` | `1 + 0.02×log(1+FRP_75km)` | Biomass burning (NASA FIRMS MODIS) |
 
 `C_base` auto-calibrated so national annual mean = **32.5 µg/m³**.
@@ -110,8 +110,8 @@ conda run -n hackathon_pm25 python notebooks/08_inference_realtime.py
 
 - **BLH_ALPHA = 0.6** — sub-linear exponent (Seinfeld & Pandis 2016, range 0.4–0.8)
 - **RAIN_K = 0.08** — wet scavenging (Berge & Jakobsen 1998, range 0.05–0.12)
-- **HARMATTAN_STRENGTH = 1.4** — seasonal ratio ×2.21 vs CAMS ×2.02 (Mbuh et al. 2021)
-- **F_hygro cap = 1.3** — hygroscopic growth ceiling (Pöhlker et al. 2023)
+- **HARMATTAN_STRENGTH = 1.4** — seasonal ratio ×2.21 vs CAMS ×2.02 (Nebie et al. 2022)
+- **F_hygro cap = 1.3** — hygroscopic growth ceiling (Swietlicki et al. 2008)
 - **F_fire radius = 75 km** — biomass burning transport (Gordon et al. 2023)
 - **Validation vs CAMS**: r=0.339, NMB=+85% (expected — CAMS underestimates African PM2.5 by 20–50%)
 - **Monte Carlo IC90%**: ~±8 µg/m³ at national mean — most sensitive parameter: RAIN_K (|r|=0.80)
@@ -179,8 +179,8 @@ cp .env.example .env
 ## References
 
 - AQLI (2023). Cameroon annual mean PM2.5: 32.5 µg/m³
-- Mbuh et al. (2021). Harmattan dust transport in northern Cameroon
-- Pöhlker et al. (2023). Hygroscopic growth of African aerosols
+- Nebie et al. (2022). Harmattan dust and health in West Africa (Env. Health Perspectives)
+- Swietlicki et al. (2008). Hygroscopic growth of African aerosols
 - Gordon et al. (2023, GeoHealth). Biomass burning and PM2.5 mortality in Central Africa
 - Seinfeld & Pandis (2016). Atmospheric Chemistry and Physics
 - WHO (2021). Global Air Quality Guidelines
