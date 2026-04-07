@@ -96,6 +96,9 @@ conda run -n hackathon_pm25 python notebooks/08_inference_realtime.py
 │   └── xgboost_coldstart.pkl            # Meteo-only cold-start model
 ├── .github/workflows/
 │   └── daily_refresh.yml                # GitHub Actions daily cron (06:00 UTC)
+├── app.py                               # HuggingFace Spaces entry point
+├── requirements_hf.txt                  # Pinned deps for HF Spaces
+├── deploy_hf.py                         # Manual upload script (huggingface_hub)
 ├── RAPPORT_SCIENTIFIQUE.md
 ├── RAPPORT_VULGARISE.md
 └── requirements.txt
@@ -129,6 +132,22 @@ Test:   Train ≤2024 → Test 2025 (R²=0.993)
 
 **Ablation study:** meteo-only XGBoost achieves R²=0.993 — the model learns physics (Harmattan, precipitation, BLH), not autocorrelation.
 Top features: `is_true_harmattan` (41.6%), `climate_zone` (18.2%), `pm25_proxy_roll3_mean` (12.5%).
+
+---
+
+## Dashboard
+
+**Live HuggingFace Space:** https://huggingface.co/spaces/QUASAR-30/pm25-cameroun
+
+3 interactive pages:
+
+| Page | Content |
+|---|---|
+| **TEMPS RÉEL** | Mapbox scatter map · WHO alert panel by region/threshold · 40-city HTML table with progress bars · CSV/JSON export |
+| **PAR VILLE** | Time series 2020–2025 with Monte Carlo IC90% · 7-day Open-Meteo forecast · PM2.5 vs precip/BLH/wind correlation · Monthly seasonality |
+| **CLASSEMENT** | Top 10 cities with error bars · Latitude vs PM2.5 gradient (R²=0.882) · Monthly heatmap · Annual trends by region · Model performance + feature importance + ablation study |
+
+Updated daily at 06:00 UTC via GitHub Actions.
 
 ---
 

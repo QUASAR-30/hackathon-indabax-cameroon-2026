@@ -22,8 +22,9 @@
 8. [Les résultats : est-ce que ça marche ?](#8-les-résultats--est-ce-que-ça-marche-)
 9. [Ce que ça veut dire pour le Cameroun](#9-ce-que-ça-veut-dire-pour-le-cameroun)
 10. [Le système temps réel — des prévisions chaque matin](#10-le-système-temps-réel--des-prévisions-chaque-matin)
-11. [Les limites honnêtes du projet](#11-les-limites-honnêtes-du-projet)
-12. [Glossaire des notions clés](#12-glossaire-des-notions-clés)
+11. [Le dashboard — voir la qualité de l'air en un clic](#11-le-dashboard--voir-la-qualité-de-lair-en-un-clic)
+12. [Les limites honnêtes du projet](#12-les-limites-honnêtes-du-projet)
+13. [Glossaire des notions clés](#13-glossaire-des-notions-clés)
 
 ---
 
@@ -477,7 +478,45 @@ Tous les jours à 06:00 UTC (07:00 heure Cameroun) :
 
 ---
 
-## 11. Les limites honnêtes du projet
+## 11. Le dashboard — voir la qualité de l'air en un clic
+
+### 11.1 Un accès public, sans installation
+
+Toutes les prédictions sont accessibles à travers un **dashboard interactif** hébergé gratuitement sur HuggingFace Spaces, une plateforme internationale pour les projets d'IA :
+
+> **https://huggingface.co/spaces/QUASAR-30/pm25-cameroun**
+
+N'importe qui, depuis un téléphone ou un ordinateur, peut consulter les prévisions — sans créer de compte, sans télécharger quoi que ce soit.
+
+### 11.2 Les 3 pages du dashboard
+
+**Page 1 — TEMPS RÉEL**
+La page d'accueil. Une carte du Cameroun affiche les 40 villes avec des points colorés selon le niveau de pollution prévu aujourd'hui. Plus le point est rouge/foncé, plus l'air est dangereux. À côté :
+- Les alertes OMS actives, filtrables par région et par seuil
+- Un tableau des 40 villes classées par niveau de pollution avec des barres de progression visuelles
+- Export des données en CSV ou JSON (pour les journalistes, chercheurs, autorités)
+
+**Page 2 — PAR VILLE**
+Choisir une ville et voir :
+- Son historique complet de PM2.5 de 2020 à 2025, avec la **zone d'incertitude** en grisé (les limites haute et basse de l'estimation Monte Carlo)
+- Les **7 prochains jours de prévision** (losanges verts)
+- Les corrélations avec la météo : comment la pluie, le vent et la BLH influencent la pollution de cette ville spécifiquement
+- La saisonnalité mensuelle : quels mois sont les plus dangereux
+
+**Page 3 — CLASSEMENT**
+Une vue comparative des 40 villes :
+- Classement par pollution annuelle moyenne avec intervalles d'incertitude
+- Gradient nord-sud : plus on monte vers le nord, plus la pollution augmente (R²=0.88)
+- Carte de chaleur mensuelle : pour chaque ville, quels mois sont critiques
+- Performance des modèles : les graphiques de validation pour les curieux
+
+### 11.3 Mis à jour chaque matin automatiquement
+
+Grâce au système GitHub Actions décrit plus haut, le dashboard se rafraîchit automatiquement à **7h00 heure du Cameroun** avec les nouvelles prévisions météo. L'utilisateur voit toujours les données du jour.
+
+---
+
+## 12. Les limites honnêtes du projet
 
 ### 11.1 On prédit le proxy, pas la vraie pollution
 
@@ -497,7 +536,7 @@ On prédit par jour. Pour des alertes en temps réel, il faudrait des données m
 
 ---
 
-## 12. Glossaire des notions clés
+## 13. Glossaire des notions clés
 
 | Terme | Définition simple |
 |-------|-------------------|

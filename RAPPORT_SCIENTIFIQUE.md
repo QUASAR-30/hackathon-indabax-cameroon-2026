@@ -4,7 +4,7 @@
 **Projet** : Système de prévision de la qualité de l'air (PM2.5) pour 40 villes camerounaises
 **Période de données** : 2020-01-01 → 2025-12-20
 **Approche** : Proxy physico-statistique calibré ERA5 + NASA FIRMS + modèle XGBoost/LightGBM
-**Date** : Avril 2026 — *Version 5 (pipeline inférence temps réel, modèle cold-start, GitHub Actions)*
+**Date** : Avril 2026 — *Version 7 (dashboard TERRA, déploiement HuggingFace Spaces)*
 
 ---
 
@@ -203,14 +203,14 @@ F_wind = exp(-0.035 × vitesse_vent_km/h)  # désactivé si Harmattan détecté
 
 ```python
 lat_factor = clip((latitude - 3°) / (11° - 3°), 0, 1)
-F_harmattan = 1 + 2.0 × is_dry_season × lat_factor
-# Strength = 2.0 (plage documentée : 1.5–2.5, Mbuh et al. 2021)
+F_harmattan = 1 + 1.4 × is_dry_season × lat_factor
+# Strength = 1.4 (plage documentée : 1.0–2.5) — calibré vs CAMS (ratio ×2.21, conforme Mbuh et al. 2021)
 ```
 
 **Justification physique :**
 - **Saison sèche (novembre–mars)** : L'Harmattan transporte des poussières depuis la Dépression du Bodélé (Tchad), la plus grande source de poussière au monde. Les études camerounaises montrent une augmentation de +75% du PM2.5 dans le nord pendant cette période (Mbuh et al., 2021).
 - **Gradient latitudinal** : L'influence diminue du nord (Maroua, 10.6°N) vers le sud (Kribi, 2.9°N), normalisée entre 3°N et 11°N.
-- À Maroua : F_harmattan = **2.90** | À Yaoundé : F_harmattan = **1.22**
+- À Maroua : F_harmattan = **2.06** | À Yaoundé : F_harmattan = **1.17**
 
 #### F_hygro — Croissance hygroscopique
 
@@ -786,7 +786,7 @@ Les niveaux sont cohérents avec la saisonnalité documentée pour avril (transi
 
 #### Architecture
 
-Le dashboard `notebooks/07_dashboard.py` (Streamlit, ~1 700 lignes) expose trois pages :
+Le dashboard `notebooks/07_dashboard.py` (Streamlit, ~1 800 lignes) expose trois pages :
 
 | Page | Composants principaux |
 |---|---|
@@ -852,7 +852,8 @@ Palette éditoriale africaine : `--cream: #F5EDD9`, `--terra: #8B3A1E`, `--ochre
 | V3 | Avril 2026 | EDA rigoureuse, feature engineering basé sur données, patch BLH 2024 S1, anti-leak tests |
 | V4 | Avril 2026 | Calibration proxy vs CAMS (3 tests), ablation study ML, restructuration projet, BLH_MIN=250m, H_strength=1.4 |
 | V5 | Avril 2026 | Pipeline inférence temps réel (08_inference_realtime.py), modèle cold-start R²=0.9959, GitHub Actions cron quotidien, sorties JSON alertes |
-| **V6** | **Avril 2026** | **Dashboard Streamlit TERRA (3 pages, 1 700 lignes) · Navigation session_state P1→P2 · Alertes OMS interactives · Export CSV/JSON · Thème éditorial africain** |
+| V6 | Avril 2026 | Dashboard Streamlit TERRA (3 pages, ~1 800 lignes) · Navigation session_state P1→P2 · Alertes OMS interactives · Export CSV/JSON · Thème éditorial africain |
+| **V7** | **Avril 2026** | **Déploiement HuggingFace Spaces (QUASAR-30/pm25-cameroun) · app.py entry point · requirements pinned · sync GitHub Actions daily · fix deprecations Streamlit 1.56** |
 
 *Document généré dans le cadre du Hackathon IndabaX Cameroun 2026.*
 *Pipeline entièrement reproductible : voir dossier `notebooks/` (scripts 01 à 08).*
