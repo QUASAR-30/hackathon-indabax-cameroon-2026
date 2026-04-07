@@ -1,14 +1,14 @@
 ---
 title: PM2.5 Cameroun — IndabaX 2026
 emoji: 🌿
-colorFrom: orange
-colorTo: red
+colorFrom: red
+colorTo: yellow
 sdk: streamlit
 sdk_version: 1.56.0
 app_file: app.py
 pinned: true
 license: mit
-short_description: Real-time PM2.5 air quality forecast for 40 Cameroonian cities
+short_description: PM2.5 forecast for 40 Cameroonian cities
 ---
 
 # PM2.5 Cameroun — Qualité de l'Air en Temps Réel

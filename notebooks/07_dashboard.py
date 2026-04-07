@@ -661,7 +661,7 @@ def page_realtime():
                     x=0.01, y=0.99,
                 ),
             )
-            st.plotly_chart(fig, use_container_width=True,
+            st.plotly_chart(fig, width="stretch",
                             config={"scrollZoom": True, "displayModeBar": False})
 
     # ── Session state : pré-sélection ville la plus polluée pour P2 ─────────────
@@ -710,7 +710,7 @@ def page_realtime():
                     f"→ Analyser {top_alert_city}",
                     key="btn_top_alert",
                     help=f"Voir l'analyse historique complète de {top_alert_city}",
-                    use_container_width=True,
+                    width="stretch",
                 ):
                     st.session_state["city_sel"]    = top_alert_city
                     st.session_state["_nav_request"] = "PAR VILLE"
@@ -811,7 +811,7 @@ def page_realtime():
                     key="nav_city_select",
                 )
             with nav_col2:
-                if st.button("→ Analyser", key="btn_nav_city", use_container_width=True):
+                if st.button("→ Analyser", key="btn_nav_city", width="stretch"):
                     st.session_state["city_sel"]     = sel_city
                     st.session_state["_nav_request"] = "PAR VILLE"
                     st.rerun()
@@ -869,12 +869,13 @@ def page_city():
 
     # ── City selector ─────────────────────────────────────────────────────────
     cities = sorted(df_hist["city"].unique())
+    if "city_sel" not in st.session_state:
+        st.session_state["city_sel"] = "Maroua" if "Maroua" in cities else cities[0]
     sel_col, info_col = st.columns([2, 3])
     with sel_col:
         city = st.selectbox(
             "Choisir une ville",
             cities,
-            index=cities.index("Maroua") if "Maroua" in cities else 0,
             key="city_sel",
         )
     with info_col:
@@ -1049,7 +1050,7 @@ def page_city():
                    spikethickness=1),
         yaxis=dict(**_AXIS_STYLE, title="PM2.5 (µg/m³)"),
     )
-    st.plotly_chart(fig_ts, use_container_width=True,
+    st.plotly_chart(fig_ts, width="stretch",
                     config={"scrollZoom": True, "displayModeBar": False})
 
     # ── Meteorological drivers ────────────────────────────────────────────────
@@ -1145,7 +1146,7 @@ def page_city():
                 title_font=dict(color="rgba(74,20,140,0.7)", size=10),
                 row=2, col=1, secondary_y=True,
             )
-            st.plotly_chart(fig_meteo, use_container_width=True,
+            st.plotly_chart(fig_meteo, width="stretch",
                             config={"displayModeBar": False})
 
     # ── Seasonality ───────────────────────────────────────────────────────────
@@ -1224,7 +1225,7 @@ def page_city():
                     font=dict(size=11, family="Barlow Condensed"),
                     bgcolor="rgba(255,252,245,0.9)", bordercolor="#D4C4A0", borderwidth=1),
     )
-    st.plotly_chart(fig_season, use_container_width=True,
+    st.plotly_chart(fig_season, width="stretch",
                     config={"displayModeBar": False})
 
     # ── Export CSV ville ───────────────────────────────────────────────────────
@@ -1314,7 +1315,7 @@ def page_ranking():
                                         font=dict(size=11, color="#1A0F05")),
                              x=0.62, y=0.02)
         fig_top.update_layout(**lay)
-        st.plotly_chart(fig_top, use_container_width=True, config={"displayModeBar": False})
+        st.plotly_chart(fig_top, width="stretch", config={"displayModeBar": False})
 
     with col_r:
         lat_stats = (df_hist.groupby("city")
@@ -1397,7 +1398,7 @@ def page_ranking():
         lay2["legend"].update(title=dict(text="Catégorie AQI",
                                          font=dict(size=11, color="#1A0F05")))
         fig_grad.update_layout(**lay2)
-        st.plotly_chart(fig_grad, use_container_width=True, config={"displayModeBar": False})
+        st.plotly_chart(fig_grad, width="stretch", config={"displayModeBar": False})
 
     # ── Row 2: Heatmap saisonnalité + évolution inter-annuelle ────────────────
     col_a, col_b = st.columns([11, 9], gap="large")
@@ -1451,7 +1452,7 @@ def page_ranking():
                              showgrid=False, dtick=1, automargin=True)
         lay3["margin"].update(l=170, r=80, b=40, t=60)
         fig_heat.update_layout(**lay3)
-        st.plotly_chart(fig_heat, use_container_width=True, config={"displayModeBar": False})
+        st.plotly_chart(fig_heat, width="stretch", config={"displayModeBar": False})
 
     with col_b:
         years_all = sorted(df_hist["year"].unique())
@@ -1503,7 +1504,7 @@ def page_ranking():
         lay4["hovermode"] = "x unified"
         lay4["margin"].update(r=120)   # marge droite réduite — labels inline
         fig_yr.update_layout(**lay4)
-        st.plotly_chart(fig_yr, use_container_width=True, config={"displayModeBar": False})
+        st.plotly_chart(fig_yr, width="stretch", config={"displayModeBar": False})
 
     # ── Export CSV classement ────────────────────────────────────────────────
     rank_csv = city_stats[["city","mean","std","aqi"]].rename(columns={
