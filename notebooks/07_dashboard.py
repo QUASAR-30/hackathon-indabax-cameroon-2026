@@ -1754,7 +1754,7 @@ def render_sidebar():
 
 def main():
     st.set_page_config(
-        page_title="PM2.5 Cameroun — IndabaX 2026",
+        page_title="TERRA — PM2.5 Cameroun",
         page_icon="🌿",
         layout="wide",
         initial_sidebar_state="expanded",

@@ -1,7 +1,7 @@
-# Rapport Scientifique — Prévision PM2.5 au Cameroun
+# TERRA — Rapport Scientifique · Prévision PM2.5 au Cameroun
 ## Hackathon IndabaX Cameroun 2026
 
-**Projet** : Système de prévision de la qualité de l'air (PM2.5) pour 40 villes camerounaises
+**Projet** : TERRA — Système de surveillance de la qualité de l'air (PM2.5) pour 40 villes camerounaises
 **Période de données** : 2020-01-01 → 2025-12-20
 **Approche** : Proxy physico-statistique calibré ERA5 + NASA FIRMS + modèle XGBoost/LightGBM
 **Date** : Avril 2026 — *Version 7 (dashboard TERRA, déploiement HuggingFace Spaces)*

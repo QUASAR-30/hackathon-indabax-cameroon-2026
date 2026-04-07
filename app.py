@@ -1,6 +1,6 @@
 """
-HuggingFace Spaces entry point — PM2.5 Cameroun Dashboard
-IndabaX Cameroun 2026
+TERRA — Système de Surveillance PM2.5 · Cameroun
+HuggingFace Spaces entry point · IndabaX Cameroun 2026
 
 Usage:
   HF Spaces  : streamlit run app.py  (automatic via sdk: streamlit in README.md)

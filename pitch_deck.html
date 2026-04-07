@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TERRA — PM2.5 Cameroun · IndabaX 2026 · L'Aube Africaine</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --cream:#F5EDD9;--cream2:#EDE0C4;
+  --terra:#8B3A1E;--terra2:#6B2A10;
+  --ochre:#C8941A;--sand:#D4B896;
+  --dark:#1A1208;--text:#2C1A08;--muted:#7A6040;
+  --good:#2E7D32;--moderate:#F57F17;--bad:#C62828;
+}
+html,body{width:100%;height:100%;background:#111;font-family:'Segoe UI',system-ui,sans-serif;overflow:hidden}
+#deck{position:relative;width:100vw;height:100vh;display:flex;align-items:center;justify-content:center}
+.slide{display:none;position:absolute;width:1280px;height:720px;background:var(--cream);overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.6);flex-direction:column}
+.slide.active{display:flex}
+.sh{background:var(--terra);color:var(--cream);padding:16px 50px;display:flex;align-items:center;gap:14px;flex-shrink:0}
+.sh .badge{background:var(--ochre);color:var(--dark);font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;letter-spacing:.08em;text-transform:uppercase}
+.sh h2{font-size:20px;font-weight:700}
+.sb{flex:1;padding:28px 50px;display:flex;flex-direction:column;overflow:hidden}
+.sf{background:var(--terra2);color:var(--sand);padding:7px 50px;display:flex;align-items:center;justify-content:space-between;font-size:11px;letter-spacing:.05em;flex-shrink:0}
+
+/* SLIDE 1 */
+#s1{background:linear-gradient(145deg,var(--terra2) 0%,var(--terra) 60%,#A04020 100%);color:var(--cream);flex-direction:row}
+.s1l{flex:1;display:flex;flex-direction:column;justify-content:center;padding:55px 45px 45px 65px}
+.s1l .sup{font-size:12px;letter-spacing:.25em;text-transform:uppercase;color:var(--ochre);margin-bottom:28px;display:flex;align-items:center;gap:10px}
+.s1l .sup::before{content:'';display:inline-block;width:28px;height:2px;background:var(--ochre)}
+.s1l h1{font-size:52px;font-weight:800;line-height:1.05;margin-bottom:10px}
+.s1l h1 span{color:var(--ochre)}
+.s1l .sub{font-size:17px;color:var(--sand);line-height:1.5;margin-bottom:38px;max-width:500px}
+.s1l .team{border-left:3px solid var(--ochre);padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.s1l .team .tn{font-size:20px;font-weight:700}
+.s1l .team .tm{font-size:14px;color:var(--sand)}
+.s1l .team .ev{font-size:12px;color:var(--ochre);margin-top:4px;letter-spacing:.05em}
+.s1r{width:300px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;padding:36px;background:rgba(0,0,0,.25);border-left:1px solid rgba(255,255,255,.1)}
+.s1r .ql{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--sand);text-align:center}
+.s1r .qbox{background:white;padding:10px;border-radius:8px}
+.s1r .qurl{font-size:10px;color:var(--sand);text-align:center;opacity:.7}
+.s1r .stats{width:100%;display:flex;flex-direction:column;gap:9px}
+.s1r .st{background:rgba(255,255,255,.08);border-radius:8px;padding:9px 13px;border-left:3px solid var(--ochre)}
+.s1r .st .v{font-size:20px;font-weight:800;color:var(--ochre)}
+.s1r .st .l{font-size:11px;color:var(--sand)}
+
+/* SLIDE 2 */
+.kgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:18px}
+.kpi{background:white;border-radius:10px;padding:16px 14px;border-top:4px solid var(--terra);box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.kpi.bad{border-top-color:var(--bad)}.kpi.warn{border-top-color:var(--moderate)}
+.kpi .v{font-size:30px;font-weight:800;color:var(--terra);line-height:1}
+.kpi.bad .v{color:var(--bad)}.kpi.warn .v{color:var(--moderate)}
+.kpi .u{font-size:14px;font-weight:600}
+.kpi .d{font-size:11px;color:var(--muted);margin-top:5px;line-height:1.4}
+.kpi .s{font-size:10px;color:var(--sand);margin-top:3px}
+.gbar{background:white;border-radius:10px;padding:18px 22px;box-shadow:0 2px 8px rgba(0,0,0,.08);display:flex;flex-direction:column;gap:9px}
+.gbar h3{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:3px}
+.gcities{display:flex;align-items:flex-end;gap:0;height:75px}
+.gc{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:3px}
+.gb{width:65%;border-radius:4px 4px 0 0}
+.glb{font-size:10px;color:var(--muted);text-align:center}
+.glv{font-size:11px;font-weight:700;color:var(--text)}
+.cq{background:var(--terra);color:var(--cream);border-radius:10px;padding:14px 22px;font-size:15px;font-weight:600;line-height:1.5;display:flex;align-items:center;gap:14px;margin-bottom:16px}
+.cq .ic{font-size:28px;flex-shrink:0}
+
+/* SLIDE 3 */
+.pipe{display:flex;align-items:center;justify-content:center;gap:0;margin:8px 0 18px}
+.pb{background:white;border-radius:10px;padding:14px 12px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.08);min-width:130px;border-top:4px solid var(--terra)}
+.pb.hl{border-top-color:var(--ochre);background:#FFF8EC}
+.pb .ic{font-size:24px;margin-bottom:5px}
+.pb .ti{font-size:11px;font-weight:700;color:var(--text);margin-bottom:3px}
+.pb .su{font-size:10px;color:var(--muted);line-height:1.4}
+.pa{color:var(--terra);font-size:18px;padding:0 3px;font-weight:700}
+.igrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;flex:1}
+.inn{background:white;border-radius:10px;padding:15px;box-shadow:0 2px 8px rgba(0,0,0,.08);border-left:4px solid var(--ochre)}
+.inn .ic{font-size:20px;margin-bottom:7px}
+.inn h4{font-size:12px;font-weight:700;color:var(--text);margin-bottom:5px}
+.inn p{font-size:11px;color:var(--muted);line-height:1.5}
+.inn .bd2{display:inline-block;margin-top:5px;background:var(--terra);color:white;font-size:10px;padding:2px 7px;border-radius:20px}
+
+/* SLIDE 4 */
+.rgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px;flex:1}
+.rtbl{background:white;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.rtbl table{width:100%;border-collapse:collapse}
+.rtbl thead{background:var(--terra);color:var(--cream)}
+.rtbl th{padding:9px 13px;font-size:12px;text-align:left}
+.rtbl td{padding:9px 13px;font-size:12px;border-bottom:1px solid #f0e8d8}
+.rtbl tr:last-child td{border-bottom:none}
+.rtbl .best{background:#FFF8EC;font-weight:700}
+.rtbl .vg{color:var(--good);font-weight:800}
+.rtbl .vm{color:var(--muted)}
+.abox{background:white;border-radius:10px;padding:18px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.abox h3{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:12px}
+.arow{display:flex;align-items:center;gap:9px;margin-bottom:10px}
+.al{font-size:11px;color:var(--text);width:155px;flex-shrink:0}
+.abw{flex:1;height:20px;background:#f0e8d8;border-radius:4px;overflow:hidden}
+.ab{height:100%;border-radius:4px;display:flex;align-items:center;padding-left:7px}
+.ab span{font-size:10px;font-weight:700;color:white}
+.ibox{background:linear-gradient(135deg,var(--terra),var(--terra2));color:var(--cream);border-radius:10px;padding:16px 18px}
+.ibox h4{font-size:12px;color:var(--ochre);margin-bottom:7px;text-transform:uppercase;letter-spacing:.05em}
+.ibox p{font-size:12px;line-height:1.6}
+.ibox .big{font-size:26px;font-weight:800;color:var(--ochre)}
+
+/* SLIDE 5 */
+.dlayout{display:flex;gap:18px;flex:1}
+.dpages{flex:1;display:flex;flex-direction:column;gap:11px}
+.dp{background:white;border-radius:10px;padding:14px 16px;box-shadow:0 2px 8px rgba(0,0,0,.08);flex:1;display:flex;gap:12px;align-items:flex-start}
+.dp .pn{background:var(--terra);color:white;font-size:11px;font-weight:700;padding:3px 8px;border-radius:20px;flex-shrink:0;margin-top:2px}
+.dp h4{font-size:13px;font-weight:700;color:var(--text);margin-bottom:4px}
+.dp ul{list-style:none;padding:0}
+.dp li{font-size:11px;color:var(--muted);padding:2px 0;display:flex;align-items:center;gap:5px}
+.dp li::before{content:'→';color:var(--ochre);font-weight:700}
+.dqr{width:190px;flex-shrink:0;display:flex;flex-direction:column;align-items:center;gap:10px}
+.dqr .qbox{background:white;padding:9px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.12)}
+.dqr .ql{font-size:11px;text-align:center;color:var(--muted);line-height:1.4}
+.dqr .qurl{font-size:10px;color:var(--terra);text-align:center;word-break:break-all;font-weight:600}
+.dtag{background:var(--good);color:white;font-size:11px;padding:4px 11px;border-radius:20px;font-weight:700}
+
+/* SLIDE 6 */
+.igrid6{display:grid;grid-template-columns:1fr 1fr;gap:18px;flex:1}
+.ibox6{background:white;border-radius:10px;padding:18px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.ibox6 h3{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:12px}
+.done{display:flex;flex-direction:column;gap:7px}
+.di{display:flex;align-items:flex-start;gap:9px;font-size:12px;color:var(--text);line-height:1.4}
+.di .ck{background:var(--good);color:white;border-radius:50%;width:18px;height:18px;display:flex;align-items:center;justify-content:center;font-size:10px;flex-shrink:0;margin-top:1px}
+.tl{display:flex;flex-direction:column;gap:0}
+.tli{display:flex;gap:13px;padding-bottom:13px;position:relative}
+.tli:last-child{padding-bottom:0}
+.tld{width:13px;height:13px;border-radius:50%;background:var(--terra);flex-shrink:0;margin-top:3px;position:relative;z-index:1}
+.tli:not(:last-child)::before{content:'';position:absolute;left:5px;top:13px;width:2px;height:calc(100% - 3px);background:var(--sand)}
+.tlp{font-size:11px;font-weight:700;color:var(--ochre)}
+.tld2{font-size:11px;color:var(--muted);margin-top:2px;line-height:1.4}
+.scbox{background:linear-gradient(135deg,var(--terra),var(--terra2));color:var(--cream);border-radius:10px;padding:18px;display:flex;flex-direction:column;gap:9px;grid-column:1/-1}
+.scbox h3{font-size:12px;color:var(--ochre);text-transform:uppercase;letter-spacing:.1em;margin-bottom:5px}
+.scbox .bc{font-size:16px;font-weight:700;line-height:1.5}
+
+/* SLIDE 7 */
+#s7{background:linear-gradient(145deg,var(--terra2) 0%,#7A2A10 50%,var(--terra) 100%);color:var(--cream)}
+#s7 .s7b{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;padding:28px 60px}
+.ctaq{font-size:26px;font-weight:700;text-align:center;line-height:1.4;max-width:720px}
+.ctaq span{color:var(--ochre)}
+.ctal{display:flex;gap:28px;align-items:flex-start;justify-content:center}
+.ctalb{display:flex;flex-direction:column;align-items:center;gap:7px}
+.ctalb .qbox{background:white;padding:9px;border-radius:8px}
+.ctalb .ll{font-size:12px;color:var(--sand);text-align:center}
+.ctalb .lu{font-size:10px;color:var(--ochre);text-align:center;word-break:break-all}
+.ctas{display:flex;gap:16px}
+.ctap{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:30px;padding:7px 18px;font-size:12px;font-weight:600;display:flex;align-items:center;gap:7px}
+.ctap .dot{width:7px;height:7px;border-radius:50%;background:var(--ochre)}
+
+/* Nav */
+#nav{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:12px;background:rgba(0,0,0,.7);backdrop-filter:blur(8px);border-radius:40px;padding:7px 18px;z-index:100}
+#nav button{background:none;border:1px solid rgba(255,255,255,.3);color:white;border-radius:50%;width:34px;height:34px;cursor:pointer;font-size:15px;display:flex;align-items:center;justify-content:center;transition:background .2s}
+#nav button:hover{background:rgba(255,255,255,.15)}
+#nav button:disabled{opacity:.3;cursor:default}
+#counter{color:rgba(255,255,255,.8);font-size:12px;min-width:52px;text-align:center;font-family:monospace}
+.dnav{display:flex;gap:5px}
+.dnav span{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.3);cursor:pointer;transition:background .2s}
+.dnav span.on{background:var(--ochre)}
+
+@media print{
+  html,body{background:white;overflow:visible;width:297mm;height:auto}
+  #nav{display:none}
+  #deck{width:297mm;height:auto;display:block}
+  .slide{display:flex !important;width:297mm;height:167mm;page-break-after:always;position:relative;box-shadow:none}
+}
+</style>
+</head>
+<body>
+<div id="deck">
+
+<!-- SLIDE 1 -->
+<section class="slide active" id="s1">
+  <div class="s1l">
+    <div class="sup">IndabaX Cameroon 2026</div>
+    <h1>TERRA<br><span>PM2.5 Cameroun</span></h1>
+    <p class="sub">Surveillance qualité de l'air · 40 villes · Pipeline ERA5 + NASA FIRMS · XGBoost / LightGBM · Mis à jour 07h WAT</p>
+    <div class="team">
+      <div class="tn">🌅 L'Aube Africaine</div>
+      <div class="tm">TIOGUIM Prince — QUASAR-30</div>
+      <div class="ev">IndabaX Cameroon 2026 🇨🇲</div>
+    </div>
+  </div>
+  <div class="s1r">
+    <div class="ql">Dashboard Live</div>
+    <div class="qbox"><div id="qr1"></div></div>
+    <div class="qurl">huggingface.co/spaces/<br>QUASAR-30/pm25-cameroun</div>
+    <div class="stats">
+      <div class="st"><div class="v">40</div><div class="l">villes · 10 régions du Cameroun</div></div>
+      <div class="st"><div class="v">R² = 0.994</div><div class="l">précision modèle LightGBM</div></div>
+      <div class="st"><div class="v">7 jours</div><div class="l">de prévisions · automatiques · 07h WAT</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 2 -->
+<section class="slide" id="s2">
+  <div class="sh"><span class="badge">02 — Problème</span><h2>La Crise Silencieuse de l'Air Camerounais</h2></div>
+  <div class="sb">
+    <div class="cq"><span class="ic">⚠️</span><span><strong>9 jours sur 10</strong> au Cameroun, l'air dépasse le seuil dangereux de l'OMS — et <strong>aucun système d'alerte précoce</strong> n'existe à l'échelle nationale.</span></div>
+    <div class="kgrid">
+      <div class="kpi bad"><div class="v">89.8<span class="u">%</span></div><div class="d">des jours dépassent le seuil OMS 24h (15 µg/m³)</div><div class="s">Données ERA5 2020–2025</div></div>
+      <div class="kpi bad"><div class="v">32.5<span class="u"> µg/m³</span></div><div class="d">PM2.5 annuel moyen national = 6.5× le seuil OMS</div><div class="s">AQLI 2023</div></div>
+      <div class="kpi warn"><div class="v">2.7<span class="u"> ans</span></div><div class="d">d'espérance de vie perdus en moyenne par Camerounais</div><div class="s">AQLI 2023</div></div>
+      <div class="kpi bad"><div class="v">139<span class="u"> µg/m³</span></div><div class="d">pic Harmattan observé à Maroua = 28× le seuil OMS</div><div class="s">Données ERA5</div></div>
+    </div>
+    <div class="gbar">
+      <h3>Gradient de pollution Nord → Sud · moyenne annuelle 2020–2025 (µg/m³)</h3>
+      <div class="gcities">
+        <div class="gc"><div class="gb" style="height:85px;background:linear-gradient(180deg,#C62828,#E57373)"></div><div class="glv">52.7</div><div class="glb">Mokolo</div></div>
+        <div class="gc"><div class="gb" style="height:80px;background:linear-gradient(180deg,#C62828,#EF9A9A)"></div><div class="glv">50.6</div><div class="glb">Maroua</div></div>
+        <div class="gc"><div class="gb" style="height:63px;background:linear-gradient(180deg,#E65100,#FFAB40)"></div><div class="glv">40.5</div><div class="glb">Garoua</div></div>
+        <div class="gc"><div class="gb" style="height:48px;background:linear-gradient(180deg,#F57F17,#FFD54F)"></div><div class="glv">30.1</div><div class="glb">Ngaoundéré</div></div>
+        <div class="gc"><div class="gb" style="height:39px;background:linear-gradient(180deg,#558B2F,#AED581)"></div><div class="glv">28.4</div><div class="glb">Bafoussam</div></div>
+        <div class="gc"><div class="gb" style="height:32px;background:linear-gradient(180deg,#2E7D32,#A5D6A7)"></div><div class="glv">24.2</div><div class="glb">Yaoundé</div></div>
+        <div class="gc"><div class="gb" style="height:25px;background:linear-gradient(180deg,#1B5E20,#C8E6C9)"></div><div class="glv">21.1</div><div class="glb">Ambam</div></div>
+      </div>
+      <div style="font-size:11px;color:var(--muted);text-align:right">Facteur ×2.4 entre nord et sud</div>
+    </div>
+  </div>
+  <div class="sf"><span>TERRA · L'Aube Africaine · IndabaX Cameroon 2026</span><span>02 / 07</span></div>
+</section>
+
+<!-- SLIDE 3 -->
+<section class="slide" id="s3">
+  <div class="sh"><span class="badge">03 — Solution</span><h2>Un Pipeline IA Complet — Sans Capteur, Sans Mesure Sol</h2></div>
+  <div class="sb">
+    <div class="pipe">
+      <div class="pb"><div class="ic">🛰️</div><div class="ti">ERA5 Archive</div><div class="su">Météo satellite<br>2020–2025 · 40 villes</div></div>
+      <div class="pa">+</div>
+      <div class="pb"><div class="ic">🔥</div><div class="ti">NASA FIRMS</div><div class="su">Feux biomasse<br>MODIS · FRP 75km</div></div>
+      <div class="pa">→</div>
+      <div class="pb hl"><div class="ic">⚗️</div><div class="ti">Proxy Physique</div><div class="su">Formule × 6 facteurs<br>calibré 32.5 µg/m³<br>AQLI 2023</div></div>
+      <div class="pa">→</div>
+      <div class="pb"><div class="ic">🔧</div><div class="ti">139 Features</div><div class="su">Lags · Rolling<br>Harmattan · Spatial<br>Anti-leak 5/5 ✅</div></div>
+      <div class="pa">→</div>
+      <div class="pb hl"><div class="ic">🤖</div><div class="ti">XGBoost + LightGBM</div><div class="su">R²=0.994<br>Expanding-window CV<br>Ablation study</div></div>
+      <div class="pa">→</div>
+      <div class="pb"><div class="ic">🚨</div><div class="ti">Alertes OMS</div><div class="su">7 jours · 40 villes<br>GitHub Actions<br>07h WAT</div></div>
+    </div>
+    <div class="igrid">
+      <div class="inn"><div class="ic">🌍</div><h4>Zéro capteur requis</h4><p>Pas de station de mesure au Cameroun ? On reconstruit le PM2.5 depuis la physique atmosphérique : BLH, pluie, vent, Harmattan, hygroscopicité, feux.</p><span class="bd2">Innovation clé</span></div>
+      <div class="inn"><div class="ic">🔄</div><h4>Dual-model cold-start</h4><p>Modèle complet (lags + météo) OU modèle météo-only (R²=0.996) pour démarrage à froid. Bascule automatique selon l'historique disponible.</p><span class="bd2">Robustesse opérationnelle</span></div>
+      <div class="inn"><div class="ic">⚙️</div><h4>Automatisation totale</h4><p>GitHub Actions cron 06:00 UTC → Open-Meteo → prédictions → alertes OMS → push automatique chaque matin. Zéro intervention humaine.</p><span class="bd2">Production-ready</span></div>
+    </div>
+  </div>
+  <div class="sf"><span>TERRA · L'Aube Africaine · IndabaX Cameroon 2026</span><span>03 / 07</span></div>
+</section>
+
+<!-- SLIDE 4 -->
+<section class="slide" id="s4">
+  <div class="sh"><span class="badge">04 — Résultats</span><h2>Performances — Les Chiffres Parlent d'Eux-Mêmes</h2></div>
+  <div class="sb">
+    <div class="rgrid">
+      <div class="rtbl">
+        <table>
+          <thead><tr><th>Modèle</th><th>R²</th><th>RMSE (µg/m³)</th><th>MAPE</th></tr></thead>
+          <tbody>
+            <tr><td>Persistence (baseline)</td><td class="vm">0.745</td><td class="vm">—</td><td class="vm">—</td></tr>
+            <tr><td>XGBoost (complet)</td><td>0.9929</td><td>1.66</td><td>2.5%</td></tr>
+            <tr class="best"><td><strong>LightGBM ★</strong></td><td class="vg">0.9940</td><td class="vg">1.53</td><td class="vg">2.3%</td></tr>
+            <tr class="best"><td><strong>Ensemble 50/50</strong></td><td class="vg">0.9939</td><td class="vg">1.55</td><td class="vg">2.2%</td></tr>
+            <tr><td><em>Cold-start météo-only</em></td><td class="vg"><em>0.9959</em></td><td><em>—</em></td><td><em>—</em></td></tr>
+          </tbody>
+        </table>
+        <div style="font-size:10px;color:var(--muted);padding:7px 13px">Littérature africaine PM2.5 : R² 0.70–0.85 · RMSE 2.7–6.5 µg/m³</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:13px">
+        <div class="abox">
+          <h3>Ablation Study — Ce que le modèle apprend vraiment</h3>
+          <div class="arow"><div class="al">Persistence (J-1)</div><div class="abw"><div class="ab" style="width:74.5%;background:#E57373"><span>R²=0.745</span></div></div></div>
+          <div class="arow"><div class="al">Météo-only ★</div><div class="abw"><div class="ab" style="width:99.6%;background:#4CAF50"><span>R²=0.996</span></div></div></div>
+          <div class="arow"><div class="al">Complet (lags+météo)</div><div class="abw"><div class="ab" style="width:99.3%;background:#388E3C"><span>R²=0.993</span></div></div></div>
+          <div style="font-size:11px;color:var(--muted);margin-top:5px">Top features : <strong>is_true_harmattan</strong> 41.6% · <strong>climate_zone</strong> 18.2% · précipitations</div>
+        </div>
+        <div class="ibox">
+          <h4>Insight clé</h4>
+          <p>Le modèle météo-only atteint <span class="big">R²=0.996</span> — il apprend la physique (Harmattan, BLH, pluie), pas l'autocorrélation.<br><strong>→ Transférable à toute ville africaine disposant de données ERA5.</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sf"><span>TERRA · L'Aube Africaine · IndabaX Cameroon 2026</span><span>04 / 07</span></div>
+</section>
+
+<!-- SLIDE 5 -->
+<section class="slide" id="s5">
+  <div class="sh"><span class="badge">05 — Dashboard</span><h2>Interface Publique — Accessible à Tous, Depuis N'importe Où</h2></div>
+  <div class="sb">
+    <div class="dlayout">
+      <div class="dpages">
+        <div class="dp"><span class="pn">Page 1</span><div><h4>TEMPS RÉEL — Carte &amp; Alertes</h4><ul><li>Carte Mapbox · 40 villes · code couleur OMS instantané</li><li>Panneau alertes filtrable par région et seuil personnalisé</li><li>Tableau 40 villes avec barres de progression PM2.5</li><li>Export CSV / JSON pour journalistes, chercheurs, autorités</li></ul></div></div>
+        <div class="dp"><span class="pn">Page 2</span><div><h4>PAR VILLE — Historique &amp; Prévisions</h4><ul><li>Série temporelle 2020–2025 avec intervalle de confiance 90% (Monte Carlo)</li><li>7 prochains jours de prévision Open-Meteo (losanges verts)</li><li>Corrélations PM2.5 / pluie / BLH / vent · saisonnalité mensuelle</li></ul></div></div>
+        <div class="dp"><span class="pn">Page 3</span><div><h4>CLASSEMENT — Comparaison &amp; Modèles</h4><ul><li>Top 10 villes avec barres d'erreur ±IC90%</li><li>Gradient latitude vs PM2.5 (R²=0.882) · heatmap mensuelle</li><li>Ablation study · cross-validation · importance des variables</li></ul></div></div>
+      </div>
+      <div class="dqr">
+        <span class="dtag">🟢 RUNNING</span>
+        <div class="qbox"><div id="qr5hf"></div></div>
+        <div class="ql">Dashboard live</div>
+        <div class="qurl">huggingface.co/spaces/<br>QUASAR-30/pm25-cameroun</div>
+        <div style="margin-top:10px;width:100%;display:flex;flex-direction:column;align-items:center;gap:6px">
+          <div class="qbox"><div id="qr5gh"></div></div>
+          <div class="ql">Code source</div>
+          <div class="qurl">github.com/QUASAR-30/<br>hackathon-indabax-<br>cameroon-2026</div>
+        </div>
+        <div style="background:var(--ochre);color:white;border-radius:8px;padding:9px;text-align:center;width:100%;margin-top:4px">
+          <div style="font-size:11px;font-weight:700">Mis à jour</div>
+          <div style="font-size:20px;font-weight:800">07h WAT</div>
+          <div style="font-size:10px">chaque matin · GitHub Actions</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sf"><span>TERRA · L'Aube Africaine · IndabaX Cameroon 2026</span><span>05 / 07</span></div>
+</section>
+
+<!-- SLIDE 6 -->
+<section class="slide" id="s6">
+  <div class="sh"><span class="badge">06 — Impact</span><h2>Déjà en Production — Prêt à Passer à l'Échelle</h2></div>
+  <div class="sb">
+    <div class="igrid6">
+      <div class="ibox6">
+        <h3>Déjà Opérationnel</h3>
+        <div class="done">
+          <div class="di"><span class="ck">✓</span><span>40 villes · 10 régions camerounaises couvertes</span></div>
+          <div class="di"><span class="ck">✓</span><span>Prévisions 7 jours publiées automatiquement chaque matin</span></div>
+          <div class="di"><span class="ck">✓</span><span>Dashboard public HuggingFace — zéro coût d'infrastructure</span></div>
+          <div class="di"><span class="ck">✓</span><span>Alertes OMS classifiées en 6 niveaux · messages en français</span></div>
+          <div class="di"><span class="ck">✓</span><span>Export CSV/JSON pour intégration dans d'autres systèmes</span></div>
+          <div class="di"><span class="ck">✓</span><span>Code open-source · entièrement reproductible</span></div>
+        </div>
+      </div>
+      <div class="ibox6">
+        <h3>Plan de Déploiement</h3>
+        <div class="tl">
+          <div class="tli"><div class="tld"></div><div><div class="tlp">Phase 1 — M1/M2</div><div class="tld2">Alertes SMS · Orange API · Partenariat ONACC · Pilote Extrême-Nord</div></div></div>
+          <div class="tli"><div class="tld"></div><div><div class="tlp">Phase 2 — M3/M6</div><div class="tld2">Intégration Ministère de la Santé Publique · API publique pour chercheurs</div></div></div>
+          <div class="tli"><div class="tld"></div><div><div class="tlp">Phase 3 — M7+</div><div class="tld2">Extension régionale : Tchad, RCA, Gabon — même pipeline ERA5</div></div></div>
+        </div>
+      </div>
+      <div class="scbox">
+        <h3>Pourquoi c'est scalable à toute l'Afrique</h3>
+        <div class="bc">ERA5 couvre le monde entier depuis 1940, gratuitement. Notre modèle météo-only (R²=0.996) ne nécessite <strong>aucun capteur local</strong>. → Déploiement immédiat dans n'importe quelle ville africaine disposant de coordonnées GPS.</div>
+      </div>
+    </div>
+  </div>
+  <div class="sf"><span>TERRA · L'Aube Africaine · IndabaX Cameroon 2026</span><span>06 / 07</span></div>
+</section>
+
+<!-- SLIDE 7 -->
+<section class="slide" id="s7">
+  <div class="s7b">
+    <div class="ctaq">"Chaque matin à <span>7h</span>, 40 villes camerounaises reçoivent leurs prévisions PM2.5 — <span>sans capteur, sans serveur dédié, sans frais.</span>"</div>
+    <div class="ctas">
+      <div class="ctap"><span class="dot"></span> 40 villes · 10 régions</div>
+      <div class="ctap"><span class="dot"></span> R² = 0.994</div>
+      <div class="ctap"><span class="dot"></span> 7j de prévisions · live</div>
+      <div class="ctap"><span class="dot"></span> Open-source</div>
+    </div>
+    <div class="ctal">
+      <div class="ctalb"><div class="qbox"><div id="qr7hf"></div></div><div class="ll">Dashboard live</div><div class="lu">huggingface.co/spaces/QUASAR-30/pm25-cameroun</div></div>
+      <div class="ctalb"><div class="qbox"><div id="qr7gh"></div></div><div class="ll">Code source</div><div class="lu">github.com/QUASAR-30/hackathon-indabax-cameroon-2026</div></div>
+    </div>
+    <div style="color:var(--ochre);font-size:22px;font-weight:700;text-align:center">🌅 L'Aube Africaine — IndabaX Cameroon 2026</div>
+  </div>
+</section>
+
+</div>
+
+<div id="nav">
+  <button id="btnp" onclick="go(-1)">&#8249;</button>
+  <div class="dnav" id="dots"></div>
+  <span id="counter">1 / 7</span>
+  <button id="btnn" onclick="go(1)">&#8250;</button>
+  <button onclick="window.print()" title="Exporter PDF" style="background:rgba(200,148,26,.3);border-color:var(--ochre)">&#8659;</button>
+</div>
+
+<script>
+const HF = "https://huggingface.co/spaces/QUASAR-30/pm25-cameroun";
+const GH = "https://github.com/QUASAR-30/hackathon-indabax-cameroon-2026";
+const QS = 110, QSS = 95;
+
+function qr(id, url, sz) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  try {
+    new QRCode(el, {text: url, width: sz, height: sz, colorDark: "#2C1A08", colorLight: "#ffffff", correctLevel: QRCode.CorrectLevel.M});
+  } catch(e) {
+    const d = document.createElement('div');
+    d.style.cssText = 'font-size:9px;color:#888;padding:4px;text-align:center';
+    d.textContent = 'QR (online)';
+    el.appendChild(d);
+  }
+}
+
+qr("qr1",    HF, QS);
+qr("qr5hf",  HF, QSS);
+qr("qr5gh",  GH, QSS);
+qr("qr7hf",  HF, QS);
+qr("qr7gh",  GH, QS);
+
+const slides = document.querySelectorAll('.slide');
+const dotsEl = document.getElementById('dots');
+let cur = 0;
+
+slides.forEach(function(_, i) {
+  const d = document.createElement('span');
+  d.onclick = function() { goTo(i); };
+  dotsEl.appendChild(d);
+});
+
+function goTo(n) {
+  slides[cur].classList.remove('active');
+  cur = Math.max(0, Math.min(n, slides.length - 1));
+  slides[cur].classList.add('active');
+  document.getElementById('counter').textContent = (cur+1) + ' / ' + slides.length;
+  document.getElementById('btnp').disabled = cur === 0;
+  document.getElementById('btnn').disabled = cur === slides.length - 1;
+  const ds = dotsEl.children;
+  for (let i = 0; i < ds.length; i++) ds[i].classList.toggle('on', i === cur);
+}
+
+function go(d) { goTo(cur + d); }
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') go(1);
+  if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp') go(-1);
+});
+
+function scale() {
+  const s = Math.min(window.innerWidth / 1280, window.innerHeight / 720);
+  document.querySelectorAll('.slide').forEach(function(el) {
+    el.style.transform = 'scale(' + s + ')';
+    el.style.transformOrigin = 'center center';
+  });
+}
+window.addEventListener('resize', scale);
+scale();
+goTo(0);
+</script>
+</body>
+</html>

@@ -1,7 +1,9 @@
-# Hackathon IndabaX Cameroon 2026 — PM2.5 Air Quality Prediction
+# TERRA — Système de Surveillance PM2.5 · Cameroun
 
-> **Predicting PM2.5 air quality for 40 Cameroonian cities (2020–2025)**
-> Physics-calibrated ERA5 proxy · XGBoost/LightGBM · Real-time inference · GitHub Actions
+> **Prévision de la qualité de l'air PM2.5 pour 40 villes camerounaises (2020–2025)**
+> Proxy physico-calibré ERA5 · XGBoost/LightGBM · Inférence temps réel · GitHub Actions
+>
+> *Hackathon IndabaX Cameroon 2026 — Équipe L'Aube Africaine*
 
 ---
 

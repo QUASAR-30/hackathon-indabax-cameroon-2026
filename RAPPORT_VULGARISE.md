@@ -1,4 +1,4 @@
-# Rapport Scientifique Vulgarisé
+# TERRA — Rapport Grand Public
 ## Prédire la qualité de l'air au Cameroun avec l'Intelligence Artificielle
 ### Hackathon IndabaX Cameroun 2026
 
