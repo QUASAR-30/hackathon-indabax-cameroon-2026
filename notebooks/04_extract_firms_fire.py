@@ -188,9 +188,6 @@ def download_firms_year(year: int, source: str = DATA_SOURCE) -> pd.DataFrame:
                     log.warning(f"  Rate limit — attente 60s (tranche {i+1})")
                     time.sleep(60)
                     continue
-                if r.status_code == 400:
-                    # "No data" ou période sans feux
-                    break
                 r.raise_for_status()
                 if r.text.strip() and "latitude" in r.text:
                     df = pd.read_csv(StringIO(r.text))

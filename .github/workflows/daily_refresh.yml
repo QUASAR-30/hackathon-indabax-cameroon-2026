@@ -61,3 +61,11 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: daily PM2.5 forecast $(date -u '+%Y-%m-%d')"
           git pull --rebase origin main
           git push
+
+      - name: Sync to HuggingFace Space
+        continue-on-error: true   # silently skipped if HF_TOKEN secret not set
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git remote add hf https://QUASAR-30:$HF_TOKEN@huggingface.co/spaces/QUASAR-30/pm25-cameroun || true
+          git push hf main --force

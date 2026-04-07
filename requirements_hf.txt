@@ -1,0 +1,14 @@
+# HuggingFace Spaces requirements — pinned versions (tested 2026-04)
+# Usage: rename to requirements.txt in the HF Space repo
+# Local dev uses conda (hackathon_pm25 env) — see requirements.txt
+
+streamlit==1.56.0
+pandas==3.0.1
+numpy==2.4.3
+plotly==6.6.0
+scikit-learn==1.8.0
+xgboost==3.2.0
+lightgbm==4.6.0
+pyarrow==23.0.1
+requests==2.33.0
+joblib==1.5.3

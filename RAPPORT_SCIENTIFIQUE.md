@@ -782,6 +782,31 @@ En démarrage à froid (historique ERA5 se terminant en décembre 2025, prévisi
 
 Les niveaux sont cohérents avec la saisonnalité documentée pour avril (transition Harmattan→saison des pluies dans le Centre-Sud, résidus dans le Nord).
 
+### 10.7 Dashboard interactif — TERRA
+
+#### Architecture
+
+Le dashboard `notebooks/07_dashboard.py` (Streamlit, ~1 700 lignes) expose trois pages :
+
+| Page | Composants principaux |
+|---|---|
+| **TEMPS RÉEL** | Carte Mapbox scatter PM2.5 · 4 métriques (villes, PM2.5 moyen/max, alertes) · Panneau alertes OMS filtré par région/seuil · Tableau HTML 40 villes avec barres de progression · Export CSV/JSON |
+| **PAR VILLE** | Série temporelle 2020–2025 avec IC90% Monte Carlo (zone d'incertitude) · Prévisions 7 jours Open-Meteo (losanges verts) · Corrélation PM2.5 vs précipitations/BLH/vent · Saisonnalité mensuelle · Export historique |
+| **CLASSEMENT** | Top 10 barres d'erreur ±IC90% · Scatter latitude vs PM2.5 (R²=0.882, gradient Harmattan) · Heatmap mensuelle 15 villes · Évolution inter-annuelle par région · Cartes performance modèles · Importance variables · CV expanding-window · Ablation study |
+
+#### Navigation programmatique P1→P2
+
+La navigation inter-pages utilise un pattern `session_state` à deux clés :
+
+- `_nav_request` : écrite par les boutons natifs `st.button` dans la page TEMPS RÉEL. Jamais liée à un widget Streamlit → modification autorisée après rendu.
+- `_nav_page` : clé liée au widget `st.radio` (navigation visible). Mise à jour en consommant `_nav_request` **avant** l'instanciation du widget → changement de page dès le premier clic.
+
+Ce pattern contourne la limitation `StreamlitAPIException: cannot be modified after the widget is instantiated`.
+
+#### Thème graphique TERRA
+
+Palette éditoriale africaine : `--cream: #F5EDD9`, `--terra: #8B3A1E`, `--ochre: #C8941A`. Police Playfair Display (titres serif), Barlow Condensed (labels), DM Mono (valeurs numériques). Grain de texture SVG sur le fond pour un rendu "bulletin de terrain scientifique".
+
 ---
 
 ## 11. Références
@@ -826,7 +851,8 @@ Les niveaux sont cohérents avec la saisonnalité documentée pour avril (transi
 | V2 | Mars 2026 | Intégration NASA FIRMS F_fire + Validation Monte Carlo |
 | V3 | Avril 2026 | EDA rigoureuse, feature engineering basé sur données, patch BLH 2024 S1, anti-leak tests |
 | V4 | Avril 2026 | Calibration proxy vs CAMS (3 tests), ablation study ML, restructuration projet, BLH_MIN=250m, H_strength=1.4 |
-| **V5** | **Avril 2026** | **Pipeline inférence temps réel (08_inference_realtime.py), modèle cold-start R²=0.9959, GitHub Actions cron quotidien, sorties JSON alertes** |
+| V5 | Avril 2026 | Pipeline inférence temps réel (08_inference_realtime.py), modèle cold-start R²=0.9959, GitHub Actions cron quotidien, sorties JSON alertes |
+| **V6** | **Avril 2026** | **Dashboard Streamlit TERRA (3 pages, 1 700 lignes) · Navigation session_state P1→P2 · Alertes OMS interactives · Export CSV/JSON · Thème éditorial africain** |
 
 *Document généré dans le cadre du Hackathon IndabaX Cameroun 2026.*
 *Pipeline entièrement reproductible : voir dossier `notebooks/` (scripts 01 à 08).*
