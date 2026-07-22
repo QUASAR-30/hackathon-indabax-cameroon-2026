@@ -1,54 +1,164 @@
 {
-  "generated_at": "2026-07-21T08:32:38.386338",
+  "generated_at": "2026-07-22T08:32:19.510935",
   "forecast_days": 7,
-  "total_alerts": 267,
+  "total_alerts": 253,
   "dangerous": 0,
   "model": "cold_start",
   "alerts": [
     {
-      "city": "Buea",
-      "date": "2026-07-25",
-      "pm25": 37.29999923706055,
-      "level": "Tres Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.1667,
-      "longitude": 9.2333,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+      "city": "Meiganga",
+      "date": "2026-07-26",
+      "pm25": 34.70000076293945,
+      "level": "Mauvais",
+      "region": "Adamaoua",
+      "latitude": 6.5167,
+      "longitude": 14.2833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Poli",
       "date": "2026-07-27",
-      "pm25": 37.20000076293945,
-      "level": "Tres Mauvais",
+      "pm25": 32.900001525878906,
+      "level": "Mauvais",
       "region": "Nord",
       "latitude": 8.4667,
       "longitude": 13.24,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Yokadouma",
-      "date": "2026-07-21",
-      "pm25": 36.400001525878906,
-      "level": "Tres Mauvais",
-      "region": "Est",
-      "latitude": 3.5139,
-      "longitude": 15.0539,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Guider",
-      "date": "2026-07-21",
-      "pm25": 34.79999923706055,
+      "city": "Mbouda",
+      "date": "2026-07-22",
+      "pm25": 32.20000076293945,
       "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 9.93,
-      "longitude": 13.94,
+      "region": "Ouest",
+      "latitude": 5.6167,
+      "longitude": 10.2667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Tignere",
+      "date": "2026-07-23",
+      "pm25": 32.099998474121094,
+      "level": "Mauvais",
+      "region": "Adamaoua",
+      "latitude": 7.37,
+      "longitude": 12.65,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mokolo",
+      "date": "2026-07-23",
+      "pm25": 31.5,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 10.7333,
+      "longitude": 13.8,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ngaoundere",
+      "date": "2026-07-23",
+      "pm25": 31.0,
+      "level": "Mauvais",
+      "region": "Adamaoua",
+      "latitude": 7.3167,
+      "longitude": 13.5833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bamenda",
+      "date": "2026-07-25",
+      "pm25": 30.899999618530273,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 5.9627,
+      "longitude": 10.1479,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Nkongsamba",
+      "date": "2026-07-22",
+      "pm25": 30.899999618530273,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.95,
+      "longitude": 9.9333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Dschang",
+      "date": "2026-07-24",
+      "pm25": 30.600000381469727,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.45,
+      "longitude": 10.05,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Mbengwi",
-      "date": "2026-07-21",
-      "pm25": 34.599998474121094,
+      "date": "2026-07-22",
+      "pm25": 30.399999618530273,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 5.9833,
+      "longitude": 10.0167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bafoussam",
+      "date": "2026-07-22",
+      "pm25": 30.0,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.4667,
+      "longitude": 10.4167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Foumban",
+      "date": "2026-07-25",
+      "pm25": 29.899999618530273,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.7167,
+      "longitude": 10.9,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Wum",
+      "date": "2026-07-25",
+      "pm25": 29.799999237060547,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 6.3833,
+      "longitude": 10.0667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Meiganga",
+      "date": "2026-07-23",
+      "pm25": 29.700000762939453,
+      "level": "Mauvais",
+      "region": "Adamaoua",
+      "latitude": 6.5167,
+      "longitude": 14.2833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Limbe",
+      "date": "2026-07-24",
+      "pm25": 29.600000381469727,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.0167,
+      "longitude": 9.21,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mbengwi",
+      "date": "2026-07-26",
+      "pm25": 29.5,
       "level": "Mauvais",
       "region": "Nord-Ouest",
       "latitude": 5.9833,
@@ -57,8 +167,8 @@
     },
     {
       "city": "Maroua",
-      "date": "2026-07-27",
-      "pm25": 33.599998474121094,
+      "date": "2026-07-28",
+      "pm25": 29.299999237060547,
       "level": "Mauvais",
       "region": "Extreme-Nord",
       "latitude": 10.5833,
@@ -66,109 +176,9 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Mbouda",
-      "date": "2026-07-25",
-      "pm25": 33.5,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.6167,
-      "longitude": 10.2667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Touboro",
-      "date": "2026-07-21",
-      "pm25": 33.5,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 7.7667,
-      "longitude": 15.3667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Nkongsamba",
-      "date": "2026-07-21",
-      "pm25": 32.900001525878906,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.95,
-      "longitude": 9.9333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Batouri",
-      "date": "2026-07-21",
-      "pm25": 32.5,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 4.4333,
-      "longitude": 14.3667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yokadouma",
-      "date": "2026-07-22",
-      "pm25": 32.0,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.5139,
-      "longitude": 15.0539,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yokadouma",
-      "date": "2026-07-25",
-      "pm25": 31.799999237060547,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.5139,
-      "longitude": 15.0539,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Sangmelima",
-      "date": "2026-07-22",
-      "pm25": 31.700000762939453,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9333,
-      "longitude": 11.9833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bamenda",
-      "date": "2026-07-24",
-      "pm25": 31.600000381469727,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 5.9627,
-      "longitude": 10.1479,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Buea",
-      "date": "2026-07-21",
-      "pm25": 31.299999237060547,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.1667,
-      "longitude": 9.2333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Poli",
-      "date": "2026-07-25",
-      "pm25": 31.299999237060547,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 8.4667,
-      "longitude": 13.24,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
       "city": "Garoua",
-      "date": "2026-07-21",
-      "pm25": 31.100000381469727,
+      "date": "2026-07-23",
+      "pm25": 29.0,
       "level": "Mauvais",
       "region": "Nord",
       "latitude": 9.2992,
@@ -176,9 +186,139 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Tibati",
+      "city": "Tignere",
+      "date": "2026-07-26",
+      "pm25": 29.0,
+      "level": "Mauvais",
+      "region": "Adamaoua",
+      "latitude": 7.37,
+      "longitude": 12.65,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Maroua",
       "date": "2026-07-23",
-      "pm25": 31.100000381469727,
+      "pm25": 28.799999237060547,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 10.5833,
+      "longitude": 14.3167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bafoussam",
+      "date": "2026-07-24",
+      "pm25": 28.600000381469727,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.4667,
+      "longitude": 10.4167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bafoussam",
+      "date": "2026-07-25",
+      "pm25": 28.5,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.4667,
+      "longitude": 10.4167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Buea",
+      "date": "2026-07-25",
+      "pm25": 28.5,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.1667,
+      "longitude": 9.2333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mbouda",
+      "date": "2026-07-26",
+      "pm25": 28.5,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.6167,
+      "longitude": 10.2667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bafia",
+      "date": "2026-07-22",
+      "pm25": 28.399999618530273,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 4.75,
+      "longitude": 11.23,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bamenda",
+      "date": "2026-07-24",
+      "pm25": 28.399999618530273,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 5.9627,
+      "longitude": 10.1479,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Limbe",
+      "date": "2026-07-23",
+      "pm25": 28.399999618530273,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.0167,
+      "longitude": 9.21,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Poli",
+      "date": "2026-07-23",
+      "pm25": 28.399999618530273,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 8.4667,
+      "longitude": 13.24,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yokadouma",
+      "date": "2026-07-23",
+      "pm25": 28.299999237060547,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 3.5139,
+      "longitude": 15.0539,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Touboro",
+      "date": "2026-07-25",
+      "pm25": 28.0,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 7.7667,
+      "longitude": 15.3667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Foumban",
+      "date": "2026-07-24",
+      "pm25": 27.899999618530273,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.7167,
+      "longitude": 10.9,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Tibati",
+      "date": "2026-07-24",
+      "pm25": 27.700000762939453,
       "level": "Mauvais",
       "region": "Adamaoua",
       "latitude": 6.4667,
@@ -186,159 +326,19 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Loum",
-      "date": "2026-07-21",
-      "pm25": 31.0,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.7167,
-      "longitude": 9.7333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mbouda",
+      "city": "Tignere",
       "date": "2026-07-24",
-      "pm25": 31.0,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.6167,
-      "longitude": 10.2667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Maroua",
-      "date": "2026-07-21",
-      "pm25": 30.700000762939453,
-      "level": "Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 10.5833,
-      "longitude": 14.3167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Dschang",
-      "date": "2026-07-24",
-      "pm25": 30.600000381469727,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.45,
-      "longitude": 10.05,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Maroua",
-      "date": "2026-07-25",
-      "pm25": 30.600000381469727,
-      "level": "Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 10.5833,
-      "longitude": 14.3167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Wum",
-      "date": "2026-07-21",
-      "pm25": 30.600000381469727,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 6.3833,
-      "longitude": 10.0667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Nkongsamba",
-      "date": "2026-07-23",
-      "pm25": 30.5,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.95,
-      "longitude": 9.9333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Dschang",
-      "date": "2026-07-21",
-      "pm25": 30.399999618530273,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.45,
-      "longitude": 10.05,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mbouda",
-      "date": "2026-07-21",
-      "pm25": 30.399999618530273,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.6167,
-      "longitude": 10.2667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ngaoundere",
-      "date": "2026-07-22",
-      "pm25": 30.399999618530273,
+      "pm25": 27.700000762939453,
       "level": "Mauvais",
       "region": "Adamaoua",
-      "latitude": 7.3167,
-      "longitude": 13.5833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mokolo",
-      "date": "2026-07-27",
-      "pm25": 30.100000381469727,
-      "level": "Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 10.7333,
-      "longitude": 13.8,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Nkongsamba",
-      "date": "2026-07-22",
-      "pm25": 30.100000381469727,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.95,
-      "longitude": 9.9333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Maroua",
-      "date": "2026-07-26",
-      "pm25": 30.0,
-      "level": "Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 10.5833,
-      "longitude": 14.3167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Touboro",
-      "date": "2026-07-25",
-      "pm25": 29.799999237060547,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 7.7667,
-      "longitude": 15.3667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yokadouma",
-      "date": "2026-07-24",
-      "pm25": 29.700000762939453,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.5139,
-      "longitude": 15.0539,
+      "latitude": 7.37,
+      "longitude": 12.65,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Kumbo",
-      "date": "2026-07-23",
-      "pm25": 29.600000381469727,
+      "date": "2026-07-24",
+      "pm25": 27.600000381469727,
       "level": "Mauvais",
       "region": "Nord-Ouest",
       "latitude": 6.2,
@@ -346,109 +346,9 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Poli",
-      "date": "2026-07-22",
-      "pm25": 29.5,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 8.4667,
-      "longitude": 13.24,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Poli",
-      "date": "2026-07-26",
-      "pm25": 29.5,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 8.4667,
-      "longitude": 13.24,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bamenda",
-      "date": "2026-07-25",
-      "pm25": 29.399999618530273,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 5.9627,
-      "longitude": 10.1479,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mbengwi",
-      "date": "2026-07-23",
-      "pm25": 29.200000762939453,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 5.9833,
-      "longitude": 10.0167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yagoua",
-      "date": "2026-07-21",
-      "pm25": 29.200000762939453,
-      "level": "Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 10.3333,
-      "longitude": 15.2333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bamenda",
-      "date": "2026-07-21",
-      "pm25": 29.0,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 5.9627,
-      "longitude": 10.1479,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ngaoundere",
-      "date": "2026-07-25",
-      "pm25": 29.0,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 7.3167,
-      "longitude": 13.5833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Tignere",
-      "date": "2026-07-27",
-      "pm25": 29.0,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 7.37,
-      "longitude": 12.65,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Meiganga",
-      "date": "2026-07-23",
-      "pm25": 28.899999618530273,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 6.5167,
-      "longitude": 14.2833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Tignere",
-      "date": "2026-07-26",
-      "pm25": 28.899999618530273,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 7.37,
-      "longitude": 12.65,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
       "city": "Limbe",
-      "date": "2026-07-21",
-      "pm25": 28.799999237060547,
+      "date": "2026-07-22",
+      "pm25": 27.600000381469727,
       "level": "Mauvais",
       "region": "Sud-Ouest",
       "latitude": 4.0167,
@@ -456,29 +356,19 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Mamfe",
-      "date": "2026-07-21",
-      "pm25": 28.799999237060547,
+      "city": "Bafia",
+      "date": "2026-07-27",
+      "pm25": 27.5,
       "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 5.7667,
-      "longitude": 9.3167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mokolo",
-      "date": "2026-07-23",
-      "pm25": 28.700000762939453,
-      "level": "Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 10.7333,
-      "longitude": 13.8,
+      "region": "Centre",
+      "latitude": 4.75,
+      "longitude": 11.23,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Nkongsamba",
       "date": "2026-07-24",
-      "pm25": 28.600000381469727,
+      "pm25": 27.399999618530273,
       "level": "Mauvais",
       "region": "Littoral",
       "latitude": 4.95,
@@ -486,439 +376,19 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Bafoussam",
+      "city": "Yokadouma",
       "date": "2026-07-24",
-      "pm25": 28.5,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.4667,
-      "longitude": 10.4167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mbouda",
-      "date": "2026-07-22",
-      "pm25": 28.5,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.6167,
-      "longitude": 10.2667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Touboro",
-      "date": "2026-07-23",
-      "pm25": 28.5,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 7.7667,
-      "longitude": 15.3667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bafia",
-      "date": "2026-07-23",
-      "pm25": 28.299999237060547,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 4.75,
-      "longitude": 11.23,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ebolowa",
-      "date": "2026-07-22",
-      "pm25": 28.299999237060547,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9,
-      "longitude": 11.15,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Buea",
-      "date": "2026-07-23",
-      "pm25": 28.200000762939453,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.1667,
-      "longitude": 9.2333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Limbe",
-      "date": "2026-07-25",
-      "pm25": 28.100000381469727,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.0167,
-      "longitude": 9.21,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mbouda",
-      "date": "2026-07-23",
-      "pm25": 28.100000381469727,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.6167,
-      "longitude": 10.2667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Loum",
-      "date": "2026-07-23",
-      "pm25": 28.0,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.7167,
-      "longitude": 9.7333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Foumban",
-      "date": "2026-07-23",
-      "pm25": 27.799999237060547,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.7167,
-      "longitude": 10.9,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mbengwi",
-      "date": "2026-07-24",
-      "pm25": 27.799999237060547,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 5.9833,
-      "longitude": 10.0167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bafia",
-      "date": "2026-07-21",
-      "pm25": 27.700000762939453,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 4.75,
-      "longitude": 11.23,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Limbe",
-      "date": "2026-07-27",
-      "pm25": 27.700000762939453,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.0167,
-      "longitude": 9.21,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bafia",
-      "date": "2026-07-27",
-      "pm25": 27.600000381469727,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 4.75,
-      "longitude": 11.23,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Poli",
-      "date": "2026-07-21",
-      "pm25": 27.600000381469727,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 8.4667,
-      "longitude": 13.24,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Batouri",
-      "date": "2026-07-25",
-      "pm25": 27.5,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 4.4333,
-      "longitude": 14.3667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Dschang",
-      "date": "2026-07-22",
-      "pm25": 27.5,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.45,
-      "longitude": 10.05,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Touboro",
-      "date": "2026-07-22",
-      "pm25": 27.5,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 7.7667,
-      "longitude": 15.3667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bafoussam",
-      "date": "2026-07-22",
       "pm25": 27.399999618530273,
       "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.4667,
-      "longitude": 10.4167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bertoua",
-      "date": "2026-07-22",
-      "pm25": 27.299999237060547,
-      "level": "Mauvais",
       "region": "Est",
-      "latitude": 4.5778,
-      "longitude": 13.6833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Limbe",
-      "date": "2026-07-24",
-      "pm25": 27.200000762939453,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.0167,
-      "longitude": 9.21,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mbouda",
-      "date": "2026-07-26",
-      "pm25": 27.200000762939453,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.6167,
-      "longitude": 10.2667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bafia",
-      "date": "2026-07-24",
-      "pm25": 26.899999618530273,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 4.75,
-      "longitude": 11.23,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Batouri",
-      "date": "2026-07-22",
-      "pm25": 26.899999618530273,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 4.4333,
-      "longitude": 14.3667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Dschang",
-      "date": "2026-07-25",
-      "pm25": 26.899999618530273,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.45,
-      "longitude": 10.05,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bertoua",
-      "date": "2026-07-21",
-      "pm25": 26.799999237060547,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 4.5778,
-      "longitude": 13.6833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Guider",
-      "date": "2026-07-27",
-      "pm25": 26.799999237060547,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 9.93,
-      "longitude": 13.94,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Meiganga",
-      "date": "2026-07-25",
-      "pm25": 26.799999237060547,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 6.5167,
-      "longitude": 14.2833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Batouri",
-      "date": "2026-07-26",
-      "pm25": 26.700000762939453,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 4.4333,
-      "longitude": 14.3667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Douala",
-      "date": "2026-07-26",
-      "pm25": 26.700000762939453,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.0483,
-      "longitude": 9.7043,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mbengwi",
-      "date": "2026-07-26",
-      "pm25": 26.600000381469727,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 5.9833,
-      "longitude": 10.0167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Douala",
-      "date": "2026-07-27",
-      "pm25": 26.5,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.0483,
-      "longitude": 9.7043,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bafia",
-      "date": "2026-07-22",
-      "pm25": 26.399999618530273,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 4.75,
-      "longitude": 11.23,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mbengwi",
-      "date": "2026-07-22",
-      "pm25": 26.399999618530273,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 5.9833,
-      "longitude": 10.0167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bafoussam",
-      "date": "2026-07-23",
-      "pm25": 26.299999237060547,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.4667,
-      "longitude": 10.4167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mamfe",
-      "date": "2026-07-22",
-      "pm25": 26.299999237060547,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 5.7667,
-      "longitude": 9.3167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Meiganga",
-      "date": "2026-07-22",
-      "pm25": 26.299999237060547,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 6.5167,
-      "longitude": 14.2833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kumba",
-      "date": "2026-07-23",
-      "pm25": 26.200000762939453,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.6333,
-      "longitude": 9.45,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Sangmelima",
-      "date": "2026-07-23",
-      "pm25": 26.200000762939453,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9333,
-      "longitude": 11.9833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bafoussam",
-      "date": "2026-07-21",
-      "pm25": 26.100000381469727,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.4667,
-      "longitude": 10.4167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Douala",
-      "date": "2026-07-23",
-      "pm25": 26.100000381469727,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.0483,
-      "longitude": 9.7043,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mokolo",
-      "date": "2026-07-25",
-      "pm25": 26.100000381469727,
-      "level": "Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 10.7333,
-      "longitude": 13.8,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Tignere",
-      "date": "2026-07-23",
-      "pm25": 26.0,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 7.37,
-      "longitude": 12.65,
+      "latitude": 3.5139,
+      "longitude": 15.0539,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Wum",
-      "date": "2026-07-27",
-      "pm25": 25.899999618530273,
+      "date": "2026-07-24",
+      "pm25": 27.100000381469727,
       "level": "Mauvais",
       "region": "Nord-Ouest",
       "latitude": 6.3833,
@@ -926,19 +396,59 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Douala",
-      "date": "2026-07-25",
-      "pm25": 25.700000762939453,
+      "city": "Bamenda",
+      "date": "2026-07-27",
+      "pm25": 27.0,
       "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.0483,
-      "longitude": 9.7043,
+      "region": "Nord-Ouest",
+      "latitude": 5.9627,
+      "longitude": 10.1479,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Guider",
+      "date": "2026-07-23",
+      "pm25": 27.0,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 9.93,
+      "longitude": 13.94,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mbouda",
+      "date": "2026-07-25",
+      "pm25": 27.0,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.6167,
+      "longitude": 10.2667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Abong-Mbang",
+      "date": "2026-07-23",
+      "pm25": 26.799999237060547,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 3.9833,
+      "longitude": 13.1833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bamenda",
+      "date": "2026-07-22",
+      "pm25": 26.799999237060547,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 5.9627,
+      "longitude": 10.1479,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Limbe",
-      "date": "2026-07-22",
-      "pm25": 25.700000762939453,
+      "date": "2026-07-25",
+      "pm25": 26.700000762939453,
       "level": "Mauvais",
       "region": "Sud-Ouest",
       "latitude": 4.0167,
@@ -946,39 +456,219 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Abong-Mbang",
-      "date": "2026-07-22",
-      "pm25": 25.5,
+      "city": "Mamfe",
+      "date": "2026-07-25",
+      "pm25": 26.600000381469727,
       "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.9833,
-      "longitude": 13.1833,
+      "region": "Sud-Ouest",
+      "latitude": 5.7667,
+      "longitude": 9.3167,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Ambam",
-      "date": "2026-07-21",
+      "city": "Mbouda",
+      "date": "2026-07-24",
+      "pm25": 26.600000381469727,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.6167,
+      "longitude": 10.2667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Batouri",
+      "date": "2026-07-22",
+      "pm25": 26.399999618530273,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 4.4333,
+      "longitude": 14.3667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Douala",
+      "date": "2026-07-26",
+      "pm25": 26.399999618530273,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.0483,
+      "longitude": 9.7043,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mbengwi",
+      "date": "2026-07-24",
+      "pm25": 26.399999618530273,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 5.9833,
+      "longitude": 10.0167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Wum",
+      "date": "2026-07-23",
+      "pm25": 26.299999237060547,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 6.3833,
+      "longitude": 10.0667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Buea",
+      "date": "2026-07-26",
+      "pm25": 26.200000762939453,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.1667,
+      "longitude": 9.2333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Wum",
+      "date": "2026-07-22",
+      "pm25": 26.200000762939453,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 6.3833,
+      "longitude": 10.0667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Dschang",
+      "date": "2026-07-23",
+      "pm25": 26.0,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.45,
+      "longitude": 10.05,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Foumban",
+      "date": "2026-07-22",
+      "pm25": 26.0,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.7167,
+      "longitude": 10.9,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kumbo",
+      "date": "2026-07-26",
+      "pm25": 26.0,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 6.2,
+      "longitude": 10.6667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bafia",
+      "date": "2026-07-26",
+      "pm25": 25.899999618530273,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 4.75,
+      "longitude": 11.23,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Meiganga",
+      "date": "2026-07-22",
+      "pm25": 25.799999237060547,
+      "level": "Mauvais",
+      "region": "Adamaoua",
+      "latitude": 6.5167,
+      "longitude": 14.2833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mokolo",
+      "date": "2026-07-27",
+      "pm25": 25.799999237060547,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 10.7333,
+      "longitude": 13.8,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yokadouma",
+      "date": "2026-07-22",
+      "pm25": 25.799999237060547,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 3.5139,
+      "longitude": 15.0539,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Batouri",
+      "date": "2026-07-23",
+      "pm25": 25.600000381469727,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 4.4333,
+      "longitude": 14.3667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bertoua",
+      "date": "2026-07-24",
+      "pm25": 25.600000381469727,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 4.5778,
+      "longitude": 13.6833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Tignere",
+      "date": "2026-07-28",
       "pm25": 25.5,
+      "level": "Mauvais",
+      "region": "Adamaoua",
+      "latitude": 7.37,
+      "longitude": 12.65,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kumbo",
+      "date": "2026-07-25",
+      "pm25": 25.399999618530273,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 6.2,
+      "longitude": 10.6667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ngaoundere",
+      "date": "2026-07-27",
+      "pm25": 25.399999618530273,
+      "level": "Mauvais",
+      "region": "Adamaoua",
+      "latitude": 7.3167,
+      "longitude": 13.5833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Sangmelima",
+      "date": "2026-07-24",
+      "pm25": 25.299999237060547,
       "level": "Mauvais",
       "region": "Sud",
-      "latitude": 2.3833,
-      "longitude": 11.2833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Abong-Mbang",
-      "date": "2026-07-23",
-      "pm25": 25.399999618530273,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.9833,
-      "longitude": 13.1833,
+      "latitude": 2.9333,
+      "longitude": 11.9833,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Ambam",
-      "date": "2026-07-26",
-      "pm25": 25.399999618530273,
+      "date": "2026-07-24",
+      "pm25": 25.200000762939453,
       "level": "Mauvais",
       "region": "Sud",
       "latitude": 2.3833,
@@ -988,7 +678,7 @@
     {
       "city": "Garoua",
       "date": "2026-07-26",
-      "pm25": 25.399999618530273,
+      "pm25": 25.200000762939453,
       "level": "Mauvais",
       "region": "Nord",
       "latitude": 9.2992,
@@ -996,119 +686,9 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Mbengwi",
-      "date": "2026-07-25",
-      "pm25": 25.399999618530273,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 5.9833,
-      "longitude": 10.0167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Foumban",
-      "date": "2026-07-27",
-      "pm25": 25.299999237060547,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.7167,
-      "longitude": 10.9,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kumba",
-      "date": "2026-07-25",
-      "pm25": 25.299999237060547,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.6333,
-      "longitude": 9.45,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mokolo",
-      "date": "2026-07-21",
-      "pm25": 25.299999237060547,
-      "level": "Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 10.7333,
-      "longitude": 13.8,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Abong-Mbang",
-      "date": "2026-07-26",
-      "pm25": 25.200000762939453,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.9833,
-      "longitude": 13.1833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bafia",
-      "date": "2026-07-25",
-      "pm25": 25.0,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 4.75,
-      "longitude": 11.23,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Guider",
-      "date": "2026-07-25",
-      "pm25": 25.0,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 9.93,
-      "longitude": 13.94,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Touboro",
-      "date": "2026-07-26",
-      "pm25": 25.0,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 7.7667,
-      "longitude": 15.3667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yokadouma",
-      "date": "2026-07-26",
-      "pm25": 25.0,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.5139,
-      "longitude": 15.0539,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Tignere",
-      "date": "2026-07-22",
-      "pm25": 24.700000762939453,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 7.37,
-      "longitude": 12.65,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Abong-Mbang",
-      "date": "2026-07-25",
-      "pm25": 24.600000381469727,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.9833,
-      "longitude": 13.1833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
       "city": "Kousseri",
       "date": "2026-07-23",
-      "pm25": 24.600000381469727,
+      "pm25": 25.200000762939453,
       "level": "Mauvais",
       "region": "Extreme-Nord",
       "latitude": 12.0667,
@@ -1116,179 +696,19 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Bertoua",
-      "date": "2026-07-25",
-      "pm25": 24.5,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 4.5778,
-      "longitude": 13.6833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Sangmelima",
-      "date": "2026-07-21",
-      "pm25": 24.5,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9333,
-      "longitude": 11.9833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bamenda",
-      "date": "2026-07-27",
-      "pm25": 24.399999618530273,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 5.9627,
-      "longitude": 10.1479,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Foumban",
-      "date": "2026-07-21",
-      "pm25": 24.399999618530273,
+      "city": "Mbouda",
+      "date": "2026-07-23",
+      "pm25": 25.200000762939453,
       "level": "Mauvais",
       "region": "Ouest",
-      "latitude": 5.7167,
-      "longitude": 10.9,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kumbo",
-      "date": "2026-07-22",
-      "pm25": 24.399999618530273,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 6.2,
-      "longitude": 10.6667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mbalmayo",
-      "date": "2026-07-22",
-      "pm25": 24.399999618530273,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.5167,
-      "longitude": 11.5017,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Poli",
-      "date": "2026-07-24",
-      "pm25": 24.399999618530273,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 8.4667,
-      "longitude": 13.24,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yokadouma",
-      "date": "2026-07-23",
-      "pm25": 24.399999618530273,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.5139,
-      "longitude": 15.0539,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yokadouma",
-      "date": "2026-07-27",
-      "pm25": 24.299999237060547,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.5139,
-      "longitude": 15.0539,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Tibati",
-      "date": "2026-07-21",
-      "pm25": 24.200000762939453,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 6.4667,
-      "longitude": 12.6167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ambam",
-      "date": "2026-07-25",
-      "pm25": 24.100000381469727,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.3833,
-      "longitude": 11.2833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kribi",
-      "date": "2026-07-21",
-      "pm25": 24.100000381469727,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.95,
-      "longitude": 9.91,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Abong-Mbang",
-      "date": "2026-07-21",
-      "pm25": 24.0,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.9833,
-      "longitude": 13.1833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Akonolinga",
-      "date": "2026-07-22",
-      "pm25": 24.0,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.7667,
-      "longitude": 12.25,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ambam",
-      "date": "2026-07-22",
-      "pm25": 24.0,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.3833,
-      "longitude": 11.2833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Wum",
-      "date": "2026-07-25",
-      "pm25": 24.0,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 6.3833,
-      "longitude": 10.0667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Garoua",
-      "date": "2026-07-27",
-      "pm25": 23.899999618530273,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 9.2992,
-      "longitude": 13.3954,
+      "latitude": 5.6167,
+      "longitude": 10.2667,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Meiganga",
-      "date": "2026-07-26",
-      "pm25": 23.899999618530273,
+      "date": "2026-07-24",
+      "pm25": 25.200000762939453,
       "level": "Mauvais",
       "region": "Adamaoua",
       "latitude": 6.5167,
@@ -1296,9 +716,219 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Wum",
+      "city": "Touboro",
+      "date": "2026-07-27",
+      "pm25": 25.200000762939453,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 7.7667,
+      "longitude": 15.3667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bafoussam",
+      "date": "2026-07-26",
+      "pm25": 25.100000381469727,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.4667,
+      "longitude": 10.4167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Touboro",
+      "date": "2026-07-26",
+      "pm25": 25.100000381469727,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 7.7667,
+      "longitude": 15.3667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bertoua",
       "date": "2026-07-23",
-      "pm25": 23.899999618530273,
+      "pm25": 25.0,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 4.5778,
+      "longitude": 13.6833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Dschang",
+      "date": "2026-07-28",
+      "pm25": 24.899999618530273,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.45,
+      "longitude": 10.05,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Tibati",
+      "date": "2026-07-27",
+      "pm25": 24.899999618530273,
+      "level": "Mauvais",
+      "region": "Adamaoua",
+      "latitude": 6.4667,
+      "longitude": 12.6167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yagoua",
+      "date": "2026-07-28",
+      "pm25": 24.899999618530273,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 10.3333,
+      "longitude": 15.2333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Garoua",
+      "date": "2026-07-27",
+      "pm25": 24.799999237060547,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 9.2992,
+      "longitude": 13.3954,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mamfe",
+      "date": "2026-07-23",
+      "pm25": 24.799999237060547,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 5.7667,
+      "longitude": 9.3167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Loum",
+      "date": "2026-07-24",
+      "pm25": 24.700000762939453,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.7167,
+      "longitude": 9.7333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mbalmayo",
+      "date": "2026-07-22",
+      "pm25": 24.700000762939453,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.5167,
+      "longitude": 11.5017,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Meiganga",
+      "date": "2026-07-27",
+      "pm25": 24.700000762939453,
+      "level": "Mauvais",
+      "region": "Adamaoua",
+      "latitude": 6.5167,
+      "longitude": 14.2833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ambam",
+      "date": "2026-07-22",
+      "pm25": 24.600000381469727,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.3833,
+      "longitude": 11.2833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Douala",
+      "date": "2026-07-25",
+      "pm25": 24.600000381469727,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.0483,
+      "longitude": 9.7043,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ngaoundere",
+      "date": "2026-07-28",
+      "pm25": 24.600000381469727,
+      "level": "Mauvais",
+      "region": "Adamaoua",
+      "latitude": 7.3167,
+      "longitude": 13.5833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Poli",
+      "date": "2026-07-26",
+      "pm25": 24.600000381469727,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 8.4667,
+      "longitude": 13.24,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Batouri",
+      "date": "2026-07-24",
+      "pm25": 24.5,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 4.4333,
+      "longitude": 14.3667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ebolowa",
+      "date": "2026-07-22",
+      "pm25": 24.5,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9,
+      "longitude": 11.15,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Abong-Mbang",
+      "date": "2026-07-25",
+      "pm25": 24.399999618530273,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 3.9833,
+      "longitude": 13.1833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kribi",
+      "date": "2026-07-24",
+      "pm25": 24.200000762939453,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.95,
+      "longitude": 9.91,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kumbo",
+      "date": "2026-07-22",
+      "pm25": 24.200000762939453,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 6.2,
+      "longitude": 10.6667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Wum",
+      "date": "2026-07-27",
+      "pm25": 24.100000381469727,
       "level": "Mauvais",
       "region": "Nord-Ouest",
       "latitude": 6.3833,
@@ -1306,8 +936,68 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Tibati",
+      "city": "Bafia",
+      "date": "2026-07-24",
+      "pm25": 24.0,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 4.75,
+      "longitude": 11.23,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Dschang",
+      "date": "2026-07-25",
+      "pm25": 24.0,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.45,
+      "longitude": 10.05,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Touboro",
+      "date": "2026-07-23",
+      "pm25": 24.0,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 7.7667,
+      "longitude": 15.3667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Sangmelima",
+      "date": "2026-07-25",
+      "pm25": 23.899999618530273,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9333,
+      "longitude": 11.9833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yaounde",
       "date": "2026-07-22",
+      "pm25": 23.899999618530273,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.8667,
+      "longitude": 11.5167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yokadouma",
+      "date": "2026-07-26",
+      "pm25": 23.899999618530273,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 3.5139,
+      "longitude": 15.0539,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Tibati",
+      "date": "2026-07-28",
       "pm25": 23.799999237060547,
       "level": "Mauvais",
       "region": "Adamaoua",
@@ -1316,119 +1006,39 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Ebolowa",
-      "date": "2026-07-21",
-      "pm25": 23.600000381469727,
+      "city": "Limbe",
+      "date": "2026-07-27",
+      "pm25": 23.700000762939453,
       "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9,
-      "longitude": 11.15,
+      "region": "Sud-Ouest",
+      "latitude": 4.0167,
+      "longitude": 9.21,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Tignere",
-      "date": "2026-07-21",
+      "city": "Loum",
+      "date": "2026-07-23",
+      "pm25": 23.700000762939453,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.7167,
+      "longitude": 9.7333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ngaoundere",
+      "date": "2026-07-24",
       "pm25": 23.600000381469727,
       "level": "Mauvais",
       "region": "Adamaoua",
-      "latitude": 7.37,
-      "longitude": 12.65,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bafoussam",
-      "date": "2026-07-25",
-      "pm25": 23.5,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.4667,
-      "longitude": 10.4167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Edea",
-      "date": "2026-07-23",
-      "pm25": 23.5,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 3.8,
-      "longitude": 10.1333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bertoua",
-      "date": "2026-07-23",
-      "pm25": 23.399999618530273,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 4.5778,
-      "longitude": 13.6833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yagoua",
-      "date": "2026-07-25",
-      "pm25": 23.399999618530273,
-      "level": "Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 10.3333,
-      "longitude": 15.2333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ambam",
-      "date": "2026-07-24",
-      "pm25": 23.299999237060547,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.3833,
-      "longitude": 11.2833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Wum",
-      "date": "2026-07-22",
-      "pm25": 23.299999237060547,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 6.3833,
-      "longitude": 10.0667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Batouri",
-      "date": "2026-07-23",
-      "pm25": 23.200000762939453,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 4.4333,
-      "longitude": 14.3667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ebolowa",
-      "date": "2026-07-24",
-      "pm25": 23.200000762939453,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9,
-      "longitude": 11.15,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kumbo",
-      "date": "2026-07-24",
-      "pm25": 23.200000762939453,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 6.2,
-      "longitude": 10.6667,
+      "latitude": 7.3167,
+      "longitude": 13.5833,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Mbalmayo",
-      "date": "2026-07-23",
-      "pm25": 23.200000762939453,
+      "date": "2026-07-24",
+      "pm25": 23.5,
       "level": "Mauvais",
       "region": "Centre",
       "latitude": 3.5167,
@@ -1436,9 +1046,179 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Ngaoundere",
+      "city": "Mokolo",
+      "date": "2026-07-26",
+      "pm25": 23.5,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 10.7333,
+      "longitude": 13.8,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Poli",
+      "date": "2026-07-25",
+      "pm25": 23.5,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 8.4667,
+      "longitude": 13.24,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Dschang",
       "date": "2026-07-27",
       "pm25": 23.200000762939453,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.45,
+      "longitude": 10.05,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Edea",
+      "date": "2026-07-24",
+      "pm25": 23.200000762939453,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 3.8,
+      "longitude": 10.1333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yaounde",
+      "date": "2026-07-24",
+      "pm25": 23.200000762939453,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.8667,
+      "longitude": 11.5167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ambam",
+      "date": "2026-07-27",
+      "pm25": 23.100000381469727,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.3833,
+      "longitude": 11.2833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Buea",
+      "date": "2026-07-23",
+      "pm25": 23.100000381469727,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.1667,
+      "longitude": 9.2333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Sangmelima",
+      "date": "2026-07-26",
+      "pm25": 23.100000381469727,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9333,
+      "longitude": 11.9833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Loum",
+      "date": "2026-07-26",
+      "pm25": 23.0,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.7167,
+      "longitude": 9.7333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ebolowa",
+      "date": "2026-07-24",
+      "pm25": 22.899999618530273,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9,
+      "longitude": 11.15,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Abong-Mbang",
+      "date": "2026-07-22",
+      "pm25": 22.700000762939453,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 3.9833,
+      "longitude": 13.1833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mbengwi",
+      "date": "2026-07-25",
+      "pm25": 22.700000762939453,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 5.9833,
+      "longitude": 10.0167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bafia",
+      "date": "2026-07-23",
+      "pm25": 22.600000381469727,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 4.75,
+      "longitude": 11.23,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Foumban",
+      "date": "2026-07-23",
+      "pm25": 22.600000381469727,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.7167,
+      "longitude": 10.9,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Sangmelima",
+      "date": "2026-07-22",
+      "pm25": 22.600000381469727,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9333,
+      "longitude": 11.9833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Akonolinga",
+      "date": "2026-07-22",
+      "pm25": 22.5,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.7667,
+      "longitude": 12.25,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Buea",
+      "date": "2026-07-24",
+      "pm25": 22.5,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.1667,
+      "longitude": 9.2333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ngaoundere",
+      "date": "2026-07-22",
+      "pm25": 22.5,
       "level": "Mauvais",
       "region": "Adamaoua",
       "latitude": 7.3167,
@@ -1447,8 +1227,8 @@
     },
     {
       "city": "Sangmelima",
-      "date": "2026-07-25",
-      "pm25": 23.200000762939453,
+      "date": "2026-07-28",
+      "pm25": 22.5,
       "level": "Mauvais",
       "region": "Sud",
       "latitude": 2.9333,
@@ -1456,29 +1236,9 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Tignere",
-      "date": "2026-07-25",
-      "pm25": 23.200000762939453,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 7.37,
-      "longitude": 12.65,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Akonolinga",
-      "date": "2026-07-21",
-      "pm25": 23.100000381469727,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.7667,
-      "longitude": 12.25,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
       "city": "Yagoua",
-      "date": "2026-07-24",
-      "pm25": 23.100000381469727,
+      "date": "2026-07-27",
+      "pm25": 22.5,
       "level": "Mauvais",
       "region": "Extreme-Nord",
       "latitude": 10.3333,
@@ -1486,203 +1246,13 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Maroua",
+      "city": "Douala",
       "date": "2026-07-23",
-      "pm25": 23.0,
-      "level": "Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 10.5833,
-      "longitude": 14.3167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Akonolinga",
-      "date": "2026-07-23",
-      "pm25": 22.899999618530273,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.7667,
-      "longitude": 12.25,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kousseri",
-      "date": "2026-07-27",
-      "pm25": 22.899999618530273,
-      "level": "Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 12.0667,
-      "longitude": 15.0167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kumbo",
-      "date": "2026-07-26",
-      "pm25": 22.899999618530273,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 6.2,
-      "longitude": 10.6667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mamfe",
-      "date": "2026-07-23",
-      "pm25": 22.899999618530273,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 5.7667,
-      "longitude": 9.3167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Buea",
-      "date": "2026-07-22",
-      "pm25": 22.799999237060547,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.1667,
-      "longitude": 9.2333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Akonolinga",
-      "date": "2026-07-27",
-      "pm25": 22.700000762939453,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.7667,
-      "longitude": 12.25,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Edea",
-      "date": "2026-07-26",
-      "pm25": 22.700000762939453,
+      "pm25": 22.399999618530273,
       "level": "Mauvais",
       "region": "Littoral",
-      "latitude": 3.8,
-      "longitude": 10.1333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kumba",
-      "date": "2026-07-21",
-      "pm25": 22.600000381469727,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.6333,
-      "longitude": 9.45,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mbengwi",
-      "date": "2026-07-27",
-      "pm25": 22.600000381469727,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 5.9833,
-      "longitude": 10.0167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Edea",
-      "date": "2026-07-21",
-      "pm25": 22.5,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 3.8,
-      "longitude": 10.1333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Garoua",
-      "date": "2026-07-22",
-      "pm25": 22.5,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 9.2992,
-      "longitude": 13.3954,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kribi",
-      "date": "2026-07-23",
-      "pm25": 22.5,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.95,
-      "longitude": 9.91,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Sangmelima",
-      "date": "2026-07-24",
-      "pm25": 22.5,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9333,
-      "longitude": 11.9833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yaounde",
-      "date": "2026-07-24",
-      "pm25": 22.5,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.8667,
-      "longitude": 11.5167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Garoua",
-      "date": "2026-07-25",
-      "pm25": 22.399999618530273,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 9.2992,
-      "longitude": 13.3954,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Meiganga",
-      "date": "2026-07-27",
-      "pm25": 22.399999618530273,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 6.5167,
-      "longitude": 14.2833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Tignere",
-      "date": "2026-07-24",
-      "pm25": 22.399999618530273,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 7.37,
-      "longitude": 12.65,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yaounde",
-      "date": "2026-07-21",
-      "pm25": 22.399999618530273,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.8667,
-      "longitude": 11.5167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yaounde",
-      "date": "2026-07-23",
-      "pm25": 22.399999618530273,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.8667,
-      "longitude": 11.5167,
+      "latitude": 4.0483,
+      "longitude": 9.7043,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
@@ -1696,89 +1266,29 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Tibati",
-      "date": "2026-07-24",
+      "city": "Mbengwi",
+      "date": "2026-07-27",
+      "pm25": 22.299999237060547,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 5.9833,
+      "longitude": 10.0167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bertoua",
+      "date": "2026-07-25",
       "pm25": 22.200000762939453,
       "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 6.4667,
-      "longitude": 12.6167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bamenda",
-      "date": "2026-07-26",
-      "pm25": 22.0,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 5.9627,
-      "longitude": 10.1479,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ngaoundere",
-      "date": "2026-07-21",
-      "pm25": 22.0,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 7.3167,
-      "longitude": 13.5833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Akonolinga",
-      "date": "2026-07-24",
-      "pm25": 21.899999618530273,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.7667,
-      "longitude": 12.25,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bamenda",
-      "date": "2026-07-23",
-      "pm25": 21.899999618530273,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 5.9627,
-      "longitude": 10.1479,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mbalmayo",
-      "date": "2026-07-21",
-      "pm25": 21.899999618530273,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.5167,
-      "longitude": 11.5017,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Meiganga",
-      "date": "2026-07-24",
-      "pm25": 21.899999618530273,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 6.5167,
-      "longitude": 14.2833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Tibati",
-      "date": "2026-07-25",
-      "pm25": 21.899999618530273,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 6.4667,
-      "longitude": 12.6167,
+      "region": "Est",
+      "latitude": 4.5778,
+      "longitude": 13.6833,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Ambam",
-      "date": "2026-07-23",
-      "pm25": 21.799999237060547,
+      "date": "2026-07-28",
+      "pm25": 22.100000381469727,
       "level": "Mauvais",
       "region": "Sud",
       "latitude": 2.3833,
@@ -1786,89 +1296,9 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Ngaoundere",
-      "date": "2026-07-23",
-      "pm25": 21.700000762939453,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 7.3167,
-      "longitude": 13.5833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ebolowa",
-      "date": "2026-07-23",
-      "pm25": 21.600000381469727,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9,
-      "longitude": 11.15,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Loum",
-      "date": "2026-07-25",
-      "pm25": 21.600000381469727,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.7167,
-      "longitude": 9.7333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ngaoundere",
-      "date": "2026-07-24",
-      "pm25": 21.600000381469727,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 7.3167,
-      "longitude": 13.5833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Wum",
-      "date": "2026-07-24",
-      "pm25": 21.600000381469727,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 6.3833,
-      "longitude": 10.0667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yaounde",
-      "date": "2026-07-25",
-      "pm25": 21.5,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.8667,
-      "longitude": 11.5167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Douala",
-      "date": "2026-07-21",
-      "pm25": 21.399999618530273,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.0483,
-      "longitude": 9.7043,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Douala",
-      "date": "2026-07-24",
-      "pm25": 21.399999618530273,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.0483,
-      "longitude": 9.7043,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
       "city": "Kumbo",
-      "date": "2026-07-21",
-      "pm25": 21.399999618530273,
+      "date": "2026-07-28",
+      "pm25": 22.100000381469727,
       "level": "Mauvais",
       "region": "Nord-Ouest",
       "latitude": 6.2,
@@ -1876,29 +1306,89 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Bafoussam",
-      "date": "2026-07-26",
-      "pm25": 21.200000762939453,
+      "city": "Ebolowa",
+      "date": "2026-07-23",
+      "pm25": 22.0,
       "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.4667,
-      "longitude": 10.4167,
+      "region": "Sud",
+      "latitude": 2.9,
+      "longitude": 11.15,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Guider",
+      "city": "Mamfe",
       "date": "2026-07-24",
-      "pm25": 21.200000762939453,
+      "pm25": 22.0,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 5.7667,
+      "longitude": 9.3167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Nkongsamba",
+      "date": "2026-07-26",
+      "pm25": 22.0,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.95,
+      "longitude": 9.9333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Touboro",
+      "date": "2026-07-22",
+      "pm25": 22.0,
       "level": "Mauvais",
       "region": "Nord",
-      "latitude": 9.93,
-      "longitude": 13.94,
+      "latitude": 7.7667,
+      "longitude": 15.3667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Dschang",
+      "date": "2026-07-26",
+      "pm25": 21.899999618530273,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.45,
+      "longitude": 10.05,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Edea",
+      "date": "2026-07-22",
+      "pm25": 21.899999618530273,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 3.8,
+      "longitude": 10.1333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Loum",
+      "date": "2026-07-25",
+      "pm25": 21.899999618530273,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.7167,
+      "longitude": 9.7333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Akonolinga",
+      "date": "2026-07-23",
+      "pm25": 21.799999237060547,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.7667,
+      "longitude": 12.25,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Kousseri",
-      "date": "2026-07-25",
-      "pm25": 21.200000762939453,
+      "date": "2026-07-27",
+      "pm25": 21.799999237060547,
       "level": "Mauvais",
       "region": "Extreme-Nord",
       "latitude": 12.0667,
@@ -1906,9 +1396,89 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
+      "city": "Kumba",
+      "date": "2026-07-23",
+      "pm25": 21.799999237060547,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.6333,
+      "longitude": 9.45,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Batouri",
+      "date": "2026-07-25",
+      "pm25": 21.700000762939453,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 4.4333,
+      "longitude": 14.3667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ebolowa",
+      "date": "2026-07-25",
+      "pm25": 21.700000762939453,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9,
+      "longitude": 11.15,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Akonolinga",
+      "date": "2026-07-27",
+      "pm25": 21.600000381469727,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.7667,
+      "longitude": 12.25,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yaounde",
+      "date": "2026-07-25",
+      "pm25": 21.600000381469727,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.8667,
+      "longitude": 11.5167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ambam",
+      "date": "2026-07-23",
+      "pm25": 21.5,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.3833,
+      "longitude": 11.2833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Tignere",
+      "date": "2026-07-27",
+      "pm25": 21.5,
+      "level": "Mauvais",
+      "region": "Adamaoua",
+      "latitude": 7.37,
+      "longitude": 12.65,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yokadouma",
+      "date": "2026-07-25",
+      "pm25": 21.5,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 3.5139,
+      "longitude": 15.0539,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
       "city": "Maroua",
-      "date": "2026-07-24",
-      "pm25": 21.0,
+      "date": "2026-07-26",
+      "pm25": 21.399999618530273,
       "level": "Mauvais",
       "region": "Extreme-Nord",
       "latitude": 10.5833,
@@ -1916,9 +1486,169 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Ambam",
+      "city": "Wum",
+      "date": "2026-07-26",
+      "pm25": 21.399999618530273,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 6.3833,
+      "longitude": 10.0667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Guider",
+      "date": "2026-07-26",
+      "pm25": 21.299999237060547,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 9.93,
+      "longitude": 13.94,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kumba",
+      "date": "2026-07-22",
+      "pm25": 21.299999237060547,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.6333,
+      "longitude": 9.45,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mamfe",
       "date": "2026-07-27",
-      "pm25": 20.899999618530273,
+      "pm25": 21.299999237060547,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 5.7667,
+      "longitude": 9.3167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mbalmayo",
+      "date": "2026-07-25",
+      "pm25": 21.299999237060547,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.5167,
+      "longitude": 11.5017,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ngaoundere",
+      "date": "2026-07-25",
+      "pm25": 21.299999237060547,
+      "level": "Mauvais",
+      "region": "Adamaoua",
+      "latitude": 7.3167,
+      "longitude": 13.5833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Poli",
+      "date": "2026-07-24",
+      "pm25": 21.299999237060547,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 8.4667,
+      "longitude": 13.24,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Touboro",
+      "date": "2026-07-28",
+      "pm25": 21.299999237060547,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 7.7667,
+      "longitude": 15.3667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Nkongsamba",
+      "date": "2026-07-27",
+      "pm25": 21.200000762939453,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.95,
+      "longitude": 9.9333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Sangmelima",
+      "date": "2026-07-27",
+      "pm25": 21.200000762939453,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9333,
+      "longitude": 11.9833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Wum",
+      "date": "2026-07-28",
+      "pm25": 21.200000762939453,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 6.3833,
+      "longitude": 10.0667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Abong-Mbang",
+      "date": "2026-07-27",
+      "pm25": 21.100000381469727,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 3.9833,
+      "longitude": 13.1833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Garoua",
+      "date": "2026-07-28",
+      "pm25": 21.100000381469727,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 9.2992,
+      "longitude": 13.3954,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kousseri",
+      "date": "2026-07-25",
+      "pm25": 21.100000381469727,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 12.0667,
+      "longitude": 15.0167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mamfe",
+      "date": "2026-07-22",
+      "pm25": 21.100000381469727,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 5.7667,
+      "longitude": 9.3167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Douala",
+      "date": "2026-07-24",
+      "pm25": 21.0,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.0483,
+      "longitude": 9.7043,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ambam",
+      "date": "2026-07-26",
+      "pm25": 20.799999237060547,
       "level": "Mauvais",
       "region": "Sud",
       "latitude": 2.3833,
@@ -1927,8 +1657,8 @@
     },
     {
       "city": "Mbalmayo",
-      "date": "2026-07-24",
-      "pm25": 20.899999618530273,
+      "date": "2026-07-26",
+      "pm25": 20.799999237060547,
       "level": "Mauvais",
       "region": "Centre",
       "latitude": 3.5167,
@@ -1936,9 +1666,99 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Yagoua",
-      "date": "2026-07-23",
+      "city": "Mbouda",
+      "date": "2026-07-27",
       "pm25": 20.799999237060547,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.6167,
+      "longitude": 10.2667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bafia",
+      "date": "2026-07-25",
+      "pm25": 20.700000762939453,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 4.75,
+      "longitude": 11.23,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bafoussam",
+      "date": "2026-07-23",
+      "pm25": 20.700000762939453,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.4667,
+      "longitude": 10.4167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Edea",
+      "date": "2026-07-26",
+      "pm25": 20.700000762939453,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 3.8,
+      "longitude": 10.1333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Loum",
+      "date": "2026-07-27",
+      "pm25": 20.700000762939453,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.7167,
+      "longitude": 9.7333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Tignere",
+      "date": "2026-07-25",
+      "pm25": 20.700000762939453,
+      "level": "Mauvais",
+      "region": "Adamaoua",
+      "latitude": 7.37,
+      "longitude": 12.65,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yokadouma",
+      "date": "2026-07-27",
+      "pm25": 20.700000762939453,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 3.5139,
+      "longitude": 15.0539,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kousseri",
+      "date": "2026-07-24",
+      "pm25": 20.600000381469727,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 12.0667,
+      "longitude": 15.0167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bertoua",
+      "date": "2026-07-22",
+      "pm25": 20.5,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 4.5778,
+      "longitude": 13.6833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yagoua",
+      "date": "2026-07-24",
+      "pm25": 20.5,
       "level": "Mauvais",
       "region": "Extreme-Nord",
       "latitude": 10.3333,
@@ -1946,19 +1766,29 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Yaounde",
-      "date": "2026-07-22",
-      "pm25": 20.799999237060547,
+      "city": "Akonolinga",
+      "date": "2026-07-26",
+      "pm25": 20.299999237060547,
       "level": "Mauvais",
       "region": "Centre",
-      "latitude": 3.8667,
-      "longitude": 11.5167,
+      "latitude": 3.7667,
+      "longitude": 12.25,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Bertoua",
-      "date": "2026-07-24",
-      "pm25": 20.700000762939453,
+      "date": "2026-07-27",
+      "pm25": 20.299999237060547,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 4.5778,
+      "longitude": 13.6833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bertoua",
+      "date": "2026-07-28",
+      "pm25": 20.299999237060547,
       "level": "Mauvais",
       "region": "Est",
       "latitude": 4.5778,
@@ -1968,7 +1798,7 @@
     {
       "city": "Garoua",
       "date": "2026-07-24",
-      "pm25": 20.700000762939453,
+      "pm25": 20.200000762939453,
       "level": "Mauvais",
       "region": "Nord",
       "latitude": 9.2992,
@@ -1976,143 +1806,43 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Ebolowa",
-      "date": "2026-07-27",
-      "pm25": 20.600000381469727,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9,
-      "longitude": 11.15,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Limbe",
-      "date": "2026-07-23",
-      "pm25": 20.5,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.0167,
-      "longitude": 9.21,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yagoua",
-      "date": "2026-07-26",
-      "pm25": 20.5,
-      "level": "Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 10.3333,
-      "longitude": 15.2333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Nkongsamba",
-      "date": "2026-07-25",
-      "pm25": 20.399999618530273,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.95,
-      "longitude": 9.9333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Guider",
-      "date": "2026-07-23",
-      "pm25": 20.299999237060547,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 9.93,
-      "longitude": 13.94,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bafia",
-      "date": "2026-07-26",
+      "city": "Tignere",
+      "date": "2026-07-22",
       "pm25": 20.200000762939453,
       "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 4.75,
-      "longitude": 11.23,
+      "region": "Adamaoua",
+      "latitude": 7.37,
+      "longitude": 12.65,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Batouri",
-      "date": "2026-07-27",
-      "pm25": 20.200000762939453,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 4.4333,
-      "longitude": 14.3667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Foumban",
-      "date": "2026-07-26",
-      "pm25": 20.200000762939453,
+      "city": "Bafoussam",
+      "date": "2026-07-28",
+      "pm25": 20.100000381469727,
       "level": "Mauvais",
       "region": "Ouest",
-      "latitude": 5.7167,
-      "longitude": 10.9,
+      "latitude": 5.4667,
+      "longitude": 10.4167,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Mbalmayo",
-      "date": "2026-07-25",
+      "city": "Maroua",
+      "date": "2026-07-27",
+      "pm25": 20.100000381469727,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 10.5833,
+      "longitude": 14.3167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yaounde",
+      "date": "2026-07-28",
       "pm25": 20.100000381469727,
       "level": "Mauvais",
       "region": "Centre",
-      "latitude": 3.5167,
-      "longitude": 11.5017,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Guider",
-      "date": "2026-07-26",
-      "pm25": 20.0,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 9.93,
-      "longitude": 13.94,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Batouri",
-      "date": "2026-07-24",
-      "pm25": 19.899999618530273,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 4.4333,
-      "longitude": 14.3667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Foumban",
-      "date": "2026-07-24",
-      "pm25": 19.899999618530273,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.7167,
-      "longitude": 10.9,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kousseri",
-      "date": "2026-07-22",
-      "pm25": 19.899999618530273,
-      "level": "Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 12.0667,
-      "longitude": 15.0167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Buea",
-      "date": "2026-07-24",
-      "pm25": 19.799999237060547,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.1667,
-      "longitude": 9.2333,
+      "latitude": 3.8667,
+      "longitude": 11.5167,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
@@ -2126,16 +1856,6 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Bamenda",
-      "date": "2026-07-22",
-      "pm25": 19.700000762939453,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 5.9627,
-      "longitude": 10.1479,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
       "city": "Edea",
       "date": "2026-07-25",
       "pm25": 19.700000762939453,
@@ -2143,232 +1863,12 @@
       "region": "Littoral",
       "latitude": 3.8,
       "longitude": 10.1333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ngaoundere",
-      "date": "2026-07-26",
-      "pm25": 19.600000381469727,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 7.3167,
-      "longitude": 13.5833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bertoua",
-      "date": "2026-07-26",
-      "pm25": 19.5,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 4.5778,
-      "longitude": 13.6833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Edea",
-      "date": "2026-07-22",
-      "pm25": 19.5,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 3.8,
-      "longitude": 10.1333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Wum",
-      "date": "2026-07-26",
-      "pm25": 19.5,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 6.3833,
-      "longitude": 10.0667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kribi",
-      "date": "2026-07-24",
-      "pm25": 19.399999618530273,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.95,
-      "longitude": 9.91,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ebolowa",
-      "date": "2026-07-25",
-      "pm25": 19.299999237060547,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9,
-      "longitude": 11.15,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Loum",
-      "date": "2026-07-26",
-      "pm25": 19.299999237060547,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.7167,
-      "longitude": 9.7333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yagoua",
-      "date": "2026-07-27",
-      "pm25": 19.299999237060547,
-      "level": "Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 10.3333,
-      "longitude": 15.2333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Foumban",
-      "date": "2026-07-25",
-      "pm25": 19.200000762939453,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.7167,
-      "longitude": 10.9,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Nkongsamba",
-      "date": "2026-07-26",
-      "pm25": 19.200000762939453,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.95,
-      "longitude": 9.9333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Dschang",
-      "date": "2026-07-23",
-      "pm25": 19.100000381469727,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.45,
-      "longitude": 10.05,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Foumban",
-      "date": "2026-07-22",
-      "pm25": 19.100000381469727,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.7167,
-      "longitude": 10.9,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bertoua",
-      "date": "2026-07-27",
-      "pm25": 19.0,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 4.5778,
-      "longitude": 13.6833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kumbo",
-      "date": "2026-07-25",
-      "pm25": 18.899999618530273,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 6.2,
-      "longitude": 10.6667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Loum",
-      "date": "2026-07-22",
-      "pm25": 18.899999618530273,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.7167,
-      "longitude": 9.7333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Sangmelima",
-      "date": "2026-07-26",
-      "pm25": 18.700000762939453,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9333,
-      "longitude": 11.9833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ebolowa",
-      "date": "2026-07-26",
-      "pm25": 18.600000381469727,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9,
-      "longitude": 11.15,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Nkongsamba",
-      "date": "2026-07-27",
-      "pm25": 18.5,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.95,
-      "longitude": 9.9333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Edea",
-      "date": "2026-07-24",
-      "pm25": 18.399999618530273,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 3.8,
-      "longitude": 10.1333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Guider",
-      "date": "2026-07-22",
-      "pm25": 18.399999618530273,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 9.93,
-      "longitude": 13.94,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Dschang",
-      "date": "2026-07-26",
-      "pm25": 18.299999237060547,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.45,
-      "longitude": 10.05,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Touboro",
-      "date": "2026-07-27",
-      "pm25": 18.299999237060547,
-      "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 7.7667,
-      "longitude": 15.3667,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Kousseri",
       "date": "2026-07-26",
-      "pm25": 18.200000762939453,
+      "pm25": 19.700000762939453,
       "level": "Mauvais",
       "region": "Extreme-Nord",
       "latitude": 12.0667,
@@ -2376,19 +1876,9 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Mokolo",
-      "date": "2026-07-26",
-      "pm25": 18.200000762939453,
-      "level": "Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 10.7333,
-      "longitude": 13.8,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
       "city": "Kumba",
-      "date": "2026-07-24",
-      "pm25": 18.100000381469727,
+      "date": "2026-07-25",
+      "pm25": 19.700000762939453,
       "level": "Mauvais",
       "region": "Sud-Ouest",
       "latitude": 4.6333,
@@ -2396,9 +1886,159 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
+      "city": "Nkongsamba",
+      "date": "2026-07-23",
+      "pm25": 19.700000762939453,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.95,
+      "longitude": 9.9333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yokadouma",
+      "date": "2026-07-28",
+      "pm25": 19.700000762939453,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 3.5139,
+      "longitude": 15.0539,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Tibati",
+      "date": "2026-07-25",
+      "pm25": 19.600000381469727,
+      "level": "Mauvais",
+      "region": "Adamaoua",
+      "latitude": 6.4667,
+      "longitude": 12.6167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ambam",
+      "date": "2026-07-25",
+      "pm25": 19.399999618530273,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.3833,
+      "longitude": 11.2833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ebolowa",
+      "date": "2026-07-27",
+      "pm25": 19.399999618530273,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9,
+      "longitude": 11.15,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kumba",
+      "date": "2026-07-27",
+      "pm25": 19.399999618530273,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.6333,
+      "longitude": 9.45,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mbouda",
+      "date": "2026-07-28",
+      "pm25": 19.399999618530273,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.6167,
+      "longitude": 10.2667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mokolo",
+      "date": "2026-07-25",
+      "pm25": 19.299999237060547,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 10.7333,
+      "longitude": 13.8,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Touboro",
+      "date": "2026-07-24",
+      "pm25": 19.299999237060547,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 7.7667,
+      "longitude": 15.3667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Batouri",
+      "date": "2026-07-28",
+      "pm25": 19.200000762939453,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 4.4333,
+      "longitude": 14.3667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mbalmayo",
+      "date": "2026-07-23",
+      "pm25": 19.200000762939453,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.5167,
+      "longitude": 11.5017,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Nkongsamba",
+      "date": "2026-07-25",
+      "pm25": 19.100000381469727,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.95,
+      "longitude": 9.9333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Akonolinga",
+      "date": "2026-07-24",
+      "pm25": 19.0,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.7667,
+      "longitude": 12.25,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Edea",
+      "date": "2026-07-23",
+      "pm25": 18.899999618530273,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 3.8,
+      "longitude": 10.1333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Foumban",
+      "date": "2026-07-28",
+      "pm25": 18.899999618530273,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.7167,
+      "longitude": 10.9,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
       "city": "Kousseri",
-      "date": "2026-07-21",
-      "pm25": 18.0,
+      "date": "2026-07-22",
+      "pm25": 18.799999237060547,
       "level": "Mauvais",
       "region": "Extreme-Nord",
       "latitude": 12.0667,
@@ -2406,19 +2046,69 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Kribi",
-      "date": "2026-07-26",
-      "pm25": 18.0,
+      "city": "Poli",
+      "date": "2026-07-28",
+      "pm25": 18.700000762939453,
       "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.95,
-      "longitude": 9.91,
+      "region": "Nord",
+      "latitude": 8.4667,
+      "longitude": 13.24,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yagoua",
+      "date": "2026-07-23",
+      "pm25": 18.700000762939453,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 10.3333,
+      "longitude": 15.2333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bertoua",
+      "date": "2026-07-26",
+      "pm25": 18.600000381469727,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 4.5778,
+      "longitude": 13.6833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Guider",
+      "date": "2026-07-24",
+      "pm25": 18.600000381469727,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 9.93,
+      "longitude": 13.94,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yagoua",
+      "date": "2026-07-25",
+      "pm25": 18.5,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 10.3333,
+      "longitude": 15.2333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ngaoundere",
+      "date": "2026-07-26",
+      "pm25": 18.399999618530273,
+      "level": "Mauvais",
+      "region": "Adamaoua",
+      "latitude": 7.3167,
+      "longitude": 13.5833,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Loum",
-      "date": "2026-07-24",
-      "pm25": 17.899999618530273,
+      "date": "2026-07-22",
+      "pm25": 18.200000762939453,
       "level": "Mauvais",
       "region": "Littoral",
       "latitude": 4.7167,
@@ -2426,9 +2116,289 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Poli",
+      "city": "Buea",
+      "date": "2026-07-22",
+      "pm25": 18.100000381469727,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.1667,
+      "longitude": 9.2333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Tibati",
       "date": "2026-07-23",
+      "pm25": 18.100000381469727,
+      "level": "Mauvais",
+      "region": "Adamaoua",
+      "latitude": 6.4667,
+      "longitude": 12.6167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ebolowa",
+      "date": "2026-07-26",
+      "pm25": 18.0,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9,
+      "longitude": 11.15,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Foumban",
+      "date": "2026-07-27",
       "pm25": 17.899999618530273,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.7167,
+      "longitude": 10.9,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Garoua",
+      "date": "2026-07-25",
+      "pm25": 17.899999618530273,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 9.2992,
+      "longitude": 13.3954,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bamenda",
+      "date": "2026-07-26",
+      "pm25": 17.799999237060547,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 5.9627,
+      "longitude": 10.1479,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kribi",
+      "date": "2026-07-23",
+      "pm25": 17.799999237060547,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.95,
+      "longitude": 9.91,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Maroua",
+      "date": "2026-07-25",
+      "pm25": 17.799999237060547,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 10.5833,
+      "longitude": 14.3167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mokolo",
+      "date": "2026-07-28",
+      "pm25": 17.700000762939453,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 10.7333,
+      "longitude": 13.8,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yaounde",
+      "date": "2026-07-27",
+      "pm25": 17.700000762939453,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.8667,
+      "longitude": 11.5167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Guider",
+      "date": "2026-07-25",
+      "pm25": 17.600000381469727,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 9.93,
+      "longitude": 13.94,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Sangmelima",
+      "date": "2026-07-23",
+      "pm25": 17.600000381469727,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9333,
+      "longitude": 11.9833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bafia",
+      "date": "2026-07-28",
+      "pm25": 17.5,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 4.75,
+      "longitude": 11.23,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kribi",
+      "date": "2026-07-22",
+      "pm25": 17.399999618530273,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.95,
+      "longitude": 9.91,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kumba",
+      "date": "2026-07-24",
+      "pm25": 17.399999618530273,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.6333,
+      "longitude": 9.45,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Limbe",
+      "date": "2026-07-26",
+      "pm25": 17.399999618530273,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.0167,
+      "longitude": 9.21,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Batouri",
+      "date": "2026-07-27",
+      "pm25": 17.299999237060547,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 4.4333,
+      "longitude": 14.3667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yaounde",
+      "date": "2026-07-26",
+      "pm25": 17.299999237060547,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.8667,
+      "longitude": 11.5167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mokolo",
+      "date": "2026-07-24",
+      "pm25": 17.200000762939453,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 10.7333,
+      "longitude": 13.8,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kribi",
+      "date": "2026-07-25",
+      "pm25": 17.0,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.95,
+      "longitude": 9.91,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yaounde",
+      "date": "2026-07-23",
+      "pm25": 17.0,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.8667,
+      "longitude": 11.5167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Guider",
+      "date": "2026-07-27",
+      "pm25": 16.700000762939453,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 9.93,
+      "longitude": 13.94,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Guider",
+      "date": "2026-07-28",
+      "pm25": 16.700000762939453,
+      "level": "Mauvais",
+      "region": "Nord",
+      "latitude": 9.93,
+      "longitude": 13.94,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ebolowa",
+      "date": "2026-07-28",
+      "pm25": 16.600000381469727,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9,
+      "longitude": 11.15,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Foumban",
+      "date": "2026-07-26",
+      "pm25": 16.600000381469727,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.7167,
+      "longitude": 10.9,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mbalmayo",
+      "date": "2026-07-27",
+      "pm25": 16.600000381469727,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.5167,
+      "longitude": 11.5017,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yagoua",
+      "date": "2026-07-22",
+      "pm25": 16.600000381469727,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 10.3333,
+      "longitude": 15.2333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kumbo",
+      "date": "2026-07-27",
+      "pm25": 16.5,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 6.2,
+      "longitude": 10.6667,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Poli",
+      "date": "2026-07-22",
+      "pm25": 16.5,
       "level": "Mauvais",
       "region": "Nord",
       "latitude": 8.4667,
@@ -2438,137 +2408,7 @@
     {
       "city": "Tibati",
       "date": "2026-07-26",
-      "pm25": 17.899999618530273,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 6.4667,
-      "longitude": 12.6167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Limbe",
-      "date": "2026-07-26",
-      "pm25": 17.799999237060547,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.0167,
-      "longitude": 9.21,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yaounde",
-      "date": "2026-07-26",
-      "pm25": 17.799999237060547,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.8667,
-      "longitude": 11.5167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Sangmelima",
-      "date": "2026-07-27",
-      "pm25": 17.700000762939453,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9333,
-      "longitude": 11.9833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mamfe",
-      "date": "2026-07-25",
-      "pm25": 17.600000381469727,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 5.7667,
-      "longitude": 9.3167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mbalmayo",
-      "date": "2026-07-27",
-      "pm25": 17.600000381469727,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.5167,
-      "longitude": 11.5017,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kribi",
-      "date": "2026-07-25",
-      "pm25": 17.5,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.95,
-      "longitude": 9.91,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Akonolinga",
-      "date": "2026-07-26",
-      "pm25": 17.100000381469727,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.7667,
-      "longitude": 12.25,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Meiganga",
-      "date": "2026-07-21",
-      "pm25": 16.799999237060547,
-      "level": "Mauvais",
-      "region": "Adamaoua",
-      "latitude": 6.5167,
-      "longitude": 14.2833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kumba",
-      "date": "2026-07-22",
-      "pm25": 16.700000762939453,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.6333,
-      "longitude": 9.45,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mamfe",
-      "date": "2026-07-26",
-      "pm25": 16.700000762939453,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 5.7667,
-      "longitude": 9.3167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mbouda",
-      "date": "2026-07-27",
-      "pm25": 16.700000762939453,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.6167,
-      "longitude": 10.2667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Abong-Mbang",
-      "date": "2026-07-27",
-      "pm25": 16.299999237060547,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.9833,
-      "longitude": 13.1833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Tibati",
-      "date": "2026-07-27",
-      "pm25": 16.200000762939453,
+      "pm25": 16.5,
       "level": "Mauvais",
       "region": "Adamaoua",
       "latitude": 6.4667,
@@ -2578,7 +2418,7 @@
     {
       "city": "Douala",
       "date": "2026-07-22",
-      "pm25": 16.100000381469727,
+      "pm25": 16.399999618530273,
       "level": "Mauvais",
       "region": "Littoral",
       "latitude": 4.0483,
@@ -2586,19 +2426,9 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Yaounde",
-      "date": "2026-07-27",
-      "pm25": 16.100000381469727,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.8667,
-      "longitude": 11.5167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
       "city": "Kribi",
-      "date": "2026-07-22",
-      "pm25": 15.800000190734863,
+      "date": "2026-07-26",
+      "pm25": 16.399999618530273,
       "level": "Mauvais",
       "region": "Sud",
       "latitude": 2.95,
@@ -2606,9 +2436,29 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
+      "city": "Maroua",
+      "date": "2026-07-22",
+      "pm25": 16.299999237060547,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 10.5833,
+      "longitude": 14.3167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Abong-Mbang",
+      "date": "2026-07-28",
+      "pm25": 15.899999618530273,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 3.9833,
+      "longitude": 13.1833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
       "city": "Kumba",
-      "date": "2026-07-26",
-      "pm25": 15.699999809265137,
+      "date": "2026-07-28",
+      "pm25": 15.800000190734863,
       "level": "Mauvais",
       "region": "Sud-Ouest",
       "latitude": 4.6333,
@@ -2616,9 +2466,19 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
+      "city": "Yagoua",
+      "date": "2026-07-26",
+      "pm25": 15.5,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 10.3333,
+      "longitude": 15.2333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
       "city": "Kribi",
-      "date": "2026-07-27",
-      "pm25": 15.600000381469727,
+      "date": "2026-07-28",
+      "pm25": 15.399999618530273,
       "level": "Mauvais",
       "region": "Sud",
       "latitude": 2.95,
@@ -2626,53 +2486,53 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Kumbo",
-      "date": "2026-07-27",
-      "pm25": 15.600000381469727,
-      "level": "Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 6.2,
-      "longitude": 10.6667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mamfe",
-      "date": "2026-07-24",
-      "pm25": 15.600000381469727,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 5.7667,
-      "longitude": 9.3167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Touboro",
-      "date": "2026-07-24",
+      "city": "Meiganga",
+      "date": "2026-07-25",
       "pm25": 15.399999618530273,
       "level": "Mauvais",
-      "region": "Nord",
-      "latitude": 7.7667,
-      "longitude": 15.3667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mokolo",
-      "date": "2026-07-24",
-      "pm25": 15.199999809265137,
-      "level": "Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 10.7333,
-      "longitude": 13.8,
+      "region": "Adamaoua",
+      "latitude": 6.5167,
+      "longitude": 14.2833,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Dschang",
-      "date": "2026-07-27",
-      "pm25": 15.100000381469727,
+      "date": "2026-07-22",
+      "pm25": 15.199999809265137,
       "level": "Mauvais",
       "region": "Ouest",
       "latitude": 5.45,
       "longitude": 10.05,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kousseri",
+      "date": "2026-07-28",
+      "pm25": 15.199999809265137,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 12.0667,
+      "longitude": 15.0167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Maroua",
+      "date": "2026-07-24",
+      "pm25": 15.199999809265137,
+      "level": "Mauvais",
+      "region": "Extreme-Nord",
+      "latitude": 10.5833,
+      "longitude": 14.3167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kumbo",
+      "date": "2026-07-23",
+      "pm25": 15.0,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 6.2,
+      "longitude": 10.6667,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     }
   ]
