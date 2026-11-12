@@ -1,14 +1,74 @@
 {
-  "generated_at": "2026-11-11T13:45:25.633116",
+  "generated_at": "2026-11-12T14:48:36.093423",
   "forecast_days": 7,
-  "total_alerts": 278,
-  "dangerous": 98,
+  "total_alerts": 280,
+  "dangerous": 95,
   "model": "cold_start",
   "alerts": [
     {
       "city": "Maroua",
       "date": "2026-11-14",
-      "pm25": 103.30000305175781,
+      "pm25": 103.0,
+      "level": "Extreme",
+      "region": "Extreme-Nord",
+      "latitude": 10.5833,
+      "longitude": 14.3167,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Mokolo",
+      "date": "2026-11-18",
+      "pm25": 100.0999984741211,
+      "level": "Extreme",
+      "region": "Extreme-Nord",
+      "latitude": 10.7333,
+      "longitude": 13.8,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Mokolo",
+      "date": "2026-11-16",
+      "pm25": 98.69999694824219,
+      "level": "Extreme",
+      "region": "Extreme-Nord",
+      "latitude": 10.7333,
+      "longitude": 13.8,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Mokolo",
+      "date": "2026-11-14",
+      "pm25": 98.19999694824219,
+      "level": "Extreme",
+      "region": "Extreme-Nord",
+      "latitude": 10.7333,
+      "longitude": 13.8,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Mokolo",
+      "date": "2026-11-17",
+      "pm25": 95.69999694824219,
+      "level": "Extreme",
+      "region": "Extreme-Nord",
+      "latitude": 10.7333,
+      "longitude": 13.8,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Maroua",
+      "date": "2026-11-18",
+      "pm25": 95.5,
+      "level": "Extreme",
+      "region": "Extreme-Nord",
+      "latitude": 10.5833,
+      "longitude": 14.3167,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Maroua",
+      "date": "2026-11-17",
+      "pm25": 95.0,
       "level": "Extreme",
       "region": "Extreme-Nord",
       "latitude": 10.5833,
@@ -18,7 +78,77 @@
     {
       "city": "Yagoua",
       "date": "2026-11-13",
-      "pm25": 100.30000305175781,
+      "pm25": 94.9000015258789,
+      "level": "Extreme",
+      "region": "Extreme-Nord",
+      "latitude": 10.3333,
+      "longitude": 15.2333,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Yagoua",
+      "date": "2026-11-17",
+      "pm25": 93.5,
+      "level": "Extreme",
+      "region": "Extreme-Nord",
+      "latitude": 10.3333,
+      "longitude": 15.2333,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Guider",
+      "date": "2026-11-16",
+      "pm25": 92.5,
+      "level": "Extreme",
+      "region": "Nord",
+      "latitude": 9.93,
+      "longitude": 13.94,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Guider",
+      "date": "2026-11-18",
+      "pm25": 91.9000015258789,
+      "level": "Extreme",
+      "region": "Nord",
+      "latitude": 9.93,
+      "longitude": 13.94,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Maroua",
+      "date": "2026-11-16",
+      "pm25": 91.9000015258789,
+      "level": "Extreme",
+      "region": "Extreme-Nord",
+      "latitude": 10.5833,
+      "longitude": 14.3167,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Guider",
+      "date": "2026-11-14",
+      "pm25": 91.80000305175781,
+      "level": "Extreme",
+      "region": "Nord",
+      "latitude": 9.93,
+      "longitude": 13.94,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Kousseri",
+      "date": "2026-11-14",
+      "pm25": 91.5999984741211,
+      "level": "Extreme",
+      "region": "Extreme-Nord",
+      "latitude": 12.0667,
+      "longitude": 15.0167,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Yagoua",
+      "date": "2026-11-12",
+      "pm25": 91.30000305175781,
       "level": "Extreme",
       "region": "Extreme-Nord",
       "latitude": 10.3333,
@@ -28,37 +158,7 @@
     {
       "city": "Yagoua",
       "date": "2026-11-14",
-      "pm25": 97.69999694824219,
-      "level": "Extreme",
-      "region": "Extreme-Nord",
-      "latitude": 10.3333,
-      "longitude": 15.2333,
-      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
-    },
-    {
-      "city": "Mokolo",
-      "date": "2026-11-17",
-      "pm25": 97.0999984741211,
-      "level": "Extreme",
-      "region": "Extreme-Nord",
-      "latitude": 10.7333,
-      "longitude": 13.8,
-      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
-    },
-    {
-      "city": "Mokolo",
-      "date": "2026-11-16",
-      "pm25": 97.0,
-      "level": "Extreme",
-      "region": "Extreme-Nord",
-      "latitude": 10.7333,
-      "longitude": 13.8,
-      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
-    },
-    {
-      "city": "Yagoua",
-      "date": "2026-11-15",
-      "pm25": 95.80000305175781,
+      "pm25": 90.9000015258789,
       "level": "Extreme",
       "region": "Extreme-Nord",
       "latitude": 10.3333,
@@ -67,8 +167,28 @@
     },
     {
       "city": "Maroua",
-      "date": "2026-11-17",
-      "pm25": 95.0999984741211,
+      "date": "2026-11-13",
+      "pm25": 90.19999694824219,
+      "level": "Extreme",
+      "region": "Extreme-Nord",
+      "latitude": 10.5833,
+      "longitude": 14.3167,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Yagoua",
+      "date": "2026-11-16",
+      "pm25": 88.19999694824219,
+      "level": "Extreme",
+      "region": "Extreme-Nord",
+      "latitude": 10.3333,
+      "longitude": 15.2333,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Maroua",
+      "date": "2026-11-15",
+      "pm25": 87.5999984741211,
       "level": "Extreme",
       "region": "Extreme-Nord",
       "latitude": 10.5833,
@@ -77,8 +197,8 @@
     },
     {
       "city": "Mokolo",
-      "date": "2026-11-14",
-      "pm25": 94.5,
+      "date": "2026-11-15",
+      "pm25": 87.5999984741211,
       "level": "Extreme",
       "region": "Extreme-Nord",
       "latitude": 10.7333,
@@ -87,108 +207,28 @@
     },
     {
       "city": "Kousseri",
-      "date": "2026-11-14",
-      "pm25": 94.0,
+      "date": "2026-11-18",
+      "pm25": 87.0999984741211,
       "level": "Extreme",
       "region": "Extreme-Nord",
       "latitude": 12.0667,
       "longitude": 15.0167,
-      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
-    },
-    {
-      "city": "Guider",
-      "date": "2026-11-14",
-      "pm25": 90.5999984741211,
-      "level": "Extreme",
-      "region": "Nord",
-      "latitude": 9.93,
-      "longitude": 13.94,
-      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
-    },
-    {
-      "city": "Guider",
-      "date": "2026-11-16",
-      "pm25": 90.30000305175781,
-      "level": "Extreme",
-      "region": "Nord",
-      "latitude": 9.93,
-      "longitude": 13.94,
-      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
-    },
-    {
-      "city": "Yagoua",
-      "date": "2026-11-16",
-      "pm25": 89.0999984741211,
-      "level": "Extreme",
-      "region": "Extreme-Nord",
-      "latitude": 10.3333,
-      "longitude": 15.2333,
       "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
     },
     {
       "city": "Kousseri",
       "date": "2026-11-13",
-      "pm25": 88.80000305175781,
+      "pm25": 87.0,
       "level": "Extreme",
       "region": "Extreme-Nord",
       "latitude": 12.0667,
       "longitude": 15.0167,
-      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
-    },
-    {
-      "city": "Yagoua",
-      "date": "2026-11-17",
-      "pm25": 88.69999694824219,
-      "level": "Extreme",
-      "region": "Extreme-Nord",
-      "latitude": 10.3333,
-      "longitude": 15.2333,
-      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
-    },
-    {
-      "city": "Yagoua",
-      "date": "2026-11-12",
-      "pm25": 88.4000015258789,
-      "level": "Extreme",
-      "region": "Extreme-Nord",
-      "latitude": 10.3333,
-      "longitude": 15.2333,
-      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
-    },
-    {
-      "city": "Kousseri",
-      "date": "2026-11-17",
-      "pm25": 88.0999984741211,
-      "level": "Extreme",
-      "region": "Extreme-Nord",
-      "latitude": 12.0667,
-      "longitude": 15.0167,
-      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
-    },
-    {
-      "city": "Mokolo",
-      "date": "2026-11-15",
-      "pm25": 84.9000015258789,
-      "level": "Extreme",
-      "region": "Extreme-Nord",
-      "latitude": 10.7333,
-      "longitude": 13.8,
-      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
-    },
-    {
-      "city": "Maroua",
-      "date": "2026-11-15",
-      "pm25": 82.69999694824219,
-      "level": "Extreme",
-      "region": "Extreme-Nord",
-      "latitude": 10.5833,
-      "longitude": 14.3167,
       "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
     },
     {
       "city": "Guider",
       "date": "2026-11-17",
-      "pm25": 82.19999694824219,
+      "pm25": 86.4000015258789,
       "level": "Extreme",
       "region": "Nord",
       "latitude": 9.93,
@@ -196,19 +236,19 @@
       "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
     },
     {
-      "city": "Kousseri",
-      "date": "2026-11-12",
-      "pm25": 82.0,
+      "city": "Yagoua",
+      "date": "2026-11-18",
+      "pm25": 84.5999984741211,
       "level": "Extreme",
       "region": "Extreme-Nord",
-      "latitude": 12.0667,
-      "longitude": 15.0167,
+      "latitude": 10.3333,
+      "longitude": 15.2333,
       "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
     },
     {
       "city": "Guider",
       "date": "2026-11-13",
-      "pm25": 81.4000015258789,
+      "pm25": 84.19999694824219,
       "level": "Extreme",
       "region": "Nord",
       "latitude": 9.93,
@@ -217,8 +257,8 @@
     },
     {
       "city": "Kousseri",
-      "date": "2026-11-15",
-      "pm25": 80.0999984741211,
+      "date": "2026-11-17",
+      "pm25": 82.5,
       "level": "Extreme",
       "region": "Extreme-Nord",
       "latitude": 12.0667,
@@ -227,8 +267,28 @@
     },
     {
       "city": "Kousseri",
-      "date": "2026-11-16",
-      "pm25": 79.69999694824219,
+      "date": "2026-11-12",
+      "pm25": 82.0999984741211,
+      "level": "Extreme",
+      "region": "Extreme-Nord",
+      "latitude": 12.0667,
+      "longitude": 15.0167,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Yagoua",
+      "date": "2026-11-15",
+      "pm25": 81.9000015258789,
+      "level": "Extreme",
+      "region": "Extreme-Nord",
+      "latitude": 10.3333,
+      "longitude": 15.2333,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Kousseri",
+      "date": "2026-11-15",
+      "pm25": 80.4000015258789,
       "level": "Extreme",
       "region": "Extreme-Nord",
       "latitude": 12.0667,
@@ -238,17 +298,37 @@
     {
       "city": "Maroua",
       "date": "2026-11-12",
-      "pm25": 78.5999984741211,
+      "pm25": 80.30000305175781,
       "level": "Extreme",
       "region": "Extreme-Nord",
       "latitude": 10.5833,
       "longitude": 14.3167,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Guider",
+      "date": "2026-11-15",
+      "pm25": 79.0,
+      "level": "Extreme",
+      "region": "Nord",
+      "latitude": 9.93,
+      "longitude": 13.94,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
+    },
+    {
+      "city": "Kousseri",
+      "date": "2026-11-16",
+      "pm25": 78.69999694824219,
+      "level": "Extreme",
+      "region": "Extreme-Nord",
+      "latitude": 12.0667,
+      "longitude": 15.0167,
       "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
     },
     {
       "city": "Garoua",
-      "date": "2026-11-16",
-      "pm25": 75.9000015258789,
+      "date": "2026-11-15",
+      "pm25": 76.80000305175781,
       "level": "Extreme",
       "region": "Nord",
       "latitude": 9.2992,
@@ -256,39 +336,19 @@
       "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
     },
     {
-      "city": "Guider",
-      "date": "2026-11-15",
-      "pm25": 75.5,
+      "city": "Mbengwi",
+      "date": "2026-11-18",
+      "pm25": 76.5999984741211,
       "level": "Extreme",
-      "region": "Nord",
-      "latitude": 9.93,
-      "longitude": 13.94,
-      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
-    },
-    {
-      "city": "Bamenda",
-      "date": "2026-11-13",
-      "pm25": 74.5999984741211,
-      "level": "Dangereux",
       "region": "Nord-Ouest",
-      "latitude": 5.9627,
-      "longitude": 10.1479,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Guider",
-      "date": "2026-11-11",
-      "pm25": 74.5999984741211,
-      "level": "Dangereux",
-      "region": "Nord",
-      "latitude": 9.93,
-      "longitude": 13.94,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+      "latitude": 5.9833,
+      "longitude": 10.0167,
+      "message": "URGENCE: Confinement. Masque FFP2. Consultez un medecin si symptomes."
     },
     {
       "city": "Guider",
       "date": "2026-11-12",
-      "pm25": 74.0999984741211,
+      "pm25": 74.9000015258789,
       "level": "Dangereux",
       "region": "Nord",
       "latitude": 9.93,
@@ -296,59 +356,19 @@
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
-      "city": "Maroua",
-      "date": "2026-11-11",
-      "pm25": 74.0999984741211,
-      "level": "Dangereux",
-      "region": "Extreme-Nord",
-      "latitude": 10.5833,
-      "longitude": 14.3167,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Mbengwi",
-      "date": "2026-11-17",
-      "pm25": 74.0999984741211,
-      "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 5.9833,
-      "longitude": 10.0167,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
       "city": "Bamenda",
       "date": "2026-11-17",
-      "pm25": 74.0,
+      "pm25": 73.4000015258789,
       "level": "Dangereux",
       "region": "Nord-Ouest",
       "latitude": 5.9627,
       "longitude": 10.1479,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Garoua",
-      "date": "2026-11-15",
-      "pm25": 73.5999984741211,
-      "level": "Dangereux",
-      "region": "Nord",
-      "latitude": 9.2992,
-      "longitude": 13.3954,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Mbengwi",
-      "date": "2026-11-16",
-      "pm25": 73.5,
-      "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 5.9833,
-      "longitude": 10.0167,
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
       "city": "Mokolo",
       "date": "2026-11-13",
-      "pm25": 73.0,
+      "pm25": 73.4000015258789,
       "level": "Dangereux",
       "region": "Extreme-Nord",
       "latitude": 10.7333,
@@ -357,8 +377,8 @@
     },
     {
       "city": "Mbengwi",
-      "date": "2026-11-11",
-      "pm25": 72.4000015258789,
+      "date": "2026-11-16",
+      "pm25": 73.30000305175781,
       "level": "Dangereux",
       "region": "Nord-Ouest",
       "latitude": 5.9833,
@@ -366,23 +386,43 @@
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
-      "city": "Yagoua",
-      "date": "2026-11-11",
+      "city": "Bamenda",
+      "date": "2026-11-16",
       "pm25": 71.9000015258789,
       "level": "Dangereux",
-      "region": "Extreme-Nord",
-      "latitude": 10.3333,
-      "longitude": 15.2333,
+      "region": "Nord-Ouest",
+      "latitude": 5.9627,
+      "longitude": 10.1479,
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
       "city": "Wum",
-      "date": "2026-11-17",
-      "pm25": 71.0,
+      "date": "2026-11-18",
+      "pm25": 71.9000015258789,
       "level": "Dangereux",
       "region": "Nord-Ouest",
       "latitude": 6.3833,
       "longitude": 10.0667,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Mbengwi",
+      "date": "2026-11-17",
+      "pm25": 71.30000305175781,
+      "level": "Dangereux",
+      "region": "Nord-Ouest",
+      "latitude": 5.9833,
+      "longitude": 10.0167,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Mbengwi",
+      "date": "2026-11-15",
+      "pm25": 70.80000305175781,
+      "level": "Dangereux",
+      "region": "Nord-Ouest",
+      "latitude": 5.9833,
+      "longitude": 10.0167,
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
@@ -396,299 +436,19 @@
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
-      "city": "Bamenda",
-      "date": "2026-11-16",
-      "pm25": 70.5,
-      "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 5.9627,
-      "longitude": 10.1479,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Mbengwi",
-      "date": "2026-11-13",
-      "pm25": 69.0,
-      "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 5.9833,
-      "longitude": 10.0167,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Mbengwi",
-      "date": "2026-11-14",
-      "pm25": 68.69999694824219,
-      "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 5.9833,
-      "longitude": 10.0167,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Mokolo",
-      "date": "2026-11-11",
-      "pm25": 68.5,
-      "level": "Dangereux",
-      "region": "Extreme-Nord",
-      "latitude": 10.7333,
-      "longitude": 13.8,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Kousseri",
-      "date": "2026-11-11",
-      "pm25": 68.0999984741211,
-      "level": "Dangereux",
-      "region": "Extreme-Nord",
-      "latitude": 12.0667,
-      "longitude": 15.0167,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
       "city": "Foumban",
       "date": "2026-11-13",
-      "pm25": 67.9000015258789,
-      "level": "Dangereux",
-      "region": "Ouest",
-      "latitude": 5.7167,
-      "longitude": 10.9,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Garoua",
-      "date": "2026-11-11",
       "pm25": 67.69999694824219,
       "level": "Dangereux",
-      "region": "Nord",
-      "latitude": 9.2992,
-      "longitude": 13.3954,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Bamenda",
-      "date": "2026-11-12",
-      "pm25": 66.9000015258789,
-      "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 5.9627,
-      "longitude": 10.1479,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Mbengwi",
-      "date": "2026-11-15",
-      "pm25": 66.5999984741211,
-      "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 5.9833,
-      "longitude": 10.0167,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Mbouda",
-      "date": "2026-11-13",
-      "pm25": 66.5,
-      "level": "Dangereux",
-      "region": "Ouest",
-      "latitude": 5.6167,
-      "longitude": 10.2667,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Tignere",
-      "date": "2026-11-13",
-      "pm25": 65.80000305175781,
-      "level": "Dangereux",
-      "region": "Adamaoua",
-      "latitude": 7.37,
-      "longitude": 12.65,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Tignere",
-      "date": "2026-11-17",
-      "pm25": 65.0,
-      "level": "Dangereux",
-      "region": "Adamaoua",
-      "latitude": 7.37,
-      "longitude": 12.65,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Wum",
-      "date": "2026-11-15",
-      "pm25": 64.9000015258789,
-      "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 6.3833,
-      "longitude": 10.0667,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Tignere",
-      "date": "2026-11-14",
-      "pm25": 64.69999694824219,
-      "level": "Dangereux",
-      "region": "Adamaoua",
-      "latitude": 7.37,
-      "longitude": 12.65,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Kumbo",
-      "date": "2026-11-14",
-      "pm25": 64.5999984741211,
-      "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 6.2,
-      "longitude": 10.6667,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Bamenda",
-      "date": "2026-11-11",
-      "pm25": 64.30000305175781,
-      "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 5.9627,
-      "longitude": 10.1479,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Wum",
-      "date": "2026-11-13",
-      "pm25": 64.30000305175781,
-      "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 6.3833,
-      "longitude": 10.0667,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Foumban",
-      "date": "2026-11-12",
-      "pm25": 63.900001525878906,
-      "level": "Dangereux",
       "region": "Ouest",
       "latitude": 5.7167,
       "longitude": 10.9,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Ngaoundere",
-      "date": "2026-11-17",
-      "pm25": 63.70000076293945,
-      "level": "Dangereux",
-      "region": "Adamaoua",
-      "latitude": 7.3167,
-      "longitude": 13.5833,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Tignere",
-      "date": "2026-11-15",
-      "pm25": 62.5,
-      "level": "Dangereux",
-      "region": "Adamaoua",
-      "latitude": 7.37,
-      "longitude": 12.65,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Wum",
-      "date": "2026-11-12",
-      "pm25": 62.29999923706055,
-      "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 6.3833,
-      "longitude": 10.0667,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Touboro",
-      "date": "2026-11-11",
-      "pm25": 62.20000076293945,
-      "level": "Dangereux",
-      "region": "Nord",
-      "latitude": 7.7667,
-      "longitude": 15.3667,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Ngaoundere",
-      "date": "2026-11-12",
-      "pm25": 62.0,
-      "level": "Dangereux",
-      "region": "Adamaoua",
-      "latitude": 7.3167,
-      "longitude": 13.5833,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Tignere",
-      "date": "2026-11-12",
-      "pm25": 61.900001525878906,
-      "level": "Dangereux",
-      "region": "Adamaoua",
-      "latitude": 7.37,
-      "longitude": 12.65,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Foumban",
-      "date": "2026-11-14",
-      "pm25": 61.79999923706055,
-      "level": "Dangereux",
-      "region": "Ouest",
-      "latitude": 5.7167,
-      "longitude": 10.9,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Bamenda",
-      "date": "2026-11-15",
-      "pm25": 61.599998474121094,
-      "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 5.9627,
-      "longitude": 10.1479,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Wum",
-      "date": "2026-11-16",
-      "pm25": 61.5,
-      "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 6.3833,
-      "longitude": 10.0667,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Mbengwi",
-      "date": "2026-11-12",
-      "pm25": 60.900001525878906,
-      "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 5.9833,
-      "longitude": 10.0167,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Mbouda",
-      "date": "2026-11-14",
-      "pm25": 60.900001525878906,
-      "level": "Dangereux",
-      "region": "Ouest",
-      "latitude": 5.6167,
-      "longitude": 10.2667,
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
       "city": "Poli",
       "date": "2026-11-17",
-      "pm25": 60.70000076293945,
+      "pm25": 67.5999984741211,
       "level": "Dangereux",
       "region": "Nord",
       "latitude": 8.4667,
@@ -696,9 +456,19 @@
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
+      "city": "Wum",
+      "date": "2026-11-15",
+      "pm25": 67.30000305175781,
+      "level": "Dangereux",
+      "region": "Nord-Ouest",
+      "latitude": 6.3833,
+      "longitude": 10.0667,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
       "city": "Bamenda",
-      "date": "2026-11-14",
-      "pm25": 60.099998474121094,
+      "date": "2026-11-13",
+      "pm25": 66.5,
       "level": "Dangereux",
       "region": "Nord-Ouest",
       "latitude": 5.9627,
@@ -706,9 +476,19 @@
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
+      "city": "Tignere",
+      "date": "2026-11-17",
+      "pm25": 66.4000015258789,
+      "level": "Dangereux",
+      "region": "Adamaoua",
+      "latitude": 7.37,
+      "longitude": 12.65,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
       "city": "Mbouda",
-      "date": "2026-11-12",
-      "pm25": 59.5,
+      "date": "2026-11-13",
+      "pm25": 66.0,
       "level": "Dangereux",
       "region": "Ouest",
       "latitude": 5.6167,
@@ -717,18 +497,98 @@
     },
     {
       "city": "Mbouda",
-      "date": "2026-11-16",
-      "pm25": 59.29999923706055,
+      "date": "2026-11-18",
+      "pm25": 65.5999984741211,
       "level": "Dangereux",
       "region": "Ouest",
       "latitude": 5.6167,
       "longitude": 10.2667,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Tignere",
+      "date": "2026-11-15",
+      "pm25": 65.0999984741211,
+      "level": "Dangereux",
+      "region": "Adamaoua",
+      "latitude": 7.37,
+      "longitude": 12.65,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Tignere",
+      "date": "2026-11-18",
+      "pm25": 65.0999984741211,
+      "level": "Dangereux",
+      "region": "Adamaoua",
+      "latitude": 7.37,
+      "longitude": 12.65,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Mbouda",
+      "date": "2026-11-17",
+      "pm25": 64.9000015258789,
+      "level": "Dangereux",
+      "region": "Ouest",
+      "latitude": 5.6167,
+      "longitude": 10.2667,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Mbengwi",
+      "date": "2026-11-14",
+      "pm25": 64.30000305175781,
+      "level": "Dangereux",
+      "region": "Nord-Ouest",
+      "latitude": 5.9833,
+      "longitude": 10.0167,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Ngaoundere",
+      "date": "2026-11-18",
+      "pm25": 64.0,
+      "level": "Dangereux",
+      "region": "Adamaoua",
+      "latitude": 7.3167,
+      "longitude": 13.5833,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Ngaoundere",
+      "date": "2026-11-17",
+      "pm25": 63.79999923706055,
+      "level": "Dangereux",
+      "region": "Adamaoua",
+      "latitude": 7.3167,
+      "longitude": 13.5833,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Wum",
+      "date": "2026-11-13",
+      "pm25": 63.599998474121094,
+      "level": "Dangereux",
+      "region": "Nord-Ouest",
+      "latitude": 6.3833,
+      "longitude": 10.0667,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Wum",
+      "date": "2026-11-17",
+      "pm25": 62.79999923706055,
+      "level": "Dangereux",
+      "region": "Nord-Ouest",
+      "latitude": 6.3833,
+      "longitude": 10.0667,
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
       "city": "Kumbo",
-      "date": "2026-11-15",
-      "pm25": 58.79999923706055,
+      "date": "2026-11-14",
+      "pm25": 62.70000076293945,
       "level": "Dangereux",
       "region": "Nord-Ouest",
       "latitude": 6.2,
@@ -736,9 +596,29 @@
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
+      "city": "Mbengwi",
+      "date": "2026-11-13",
+      "pm25": 62.599998474121094,
+      "level": "Dangereux",
+      "region": "Nord-Ouest",
+      "latitude": 5.9833,
+      "longitude": 10.0167,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Tignere",
+      "date": "2026-11-14",
+      "pm25": 62.20000076293945,
+      "level": "Dangereux",
+      "region": "Adamaoua",
+      "latitude": 7.37,
+      "longitude": 12.65,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
       "city": "Foumban",
-      "date": "2026-11-11",
-      "pm25": 58.70000076293945,
+      "date": "2026-11-18",
+      "pm25": 62.099998474121094,
       "level": "Dangereux",
       "region": "Ouest",
       "latitude": 5.7167,
@@ -746,9 +626,39 @@
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
-      "city": "Ngaoundere",
+      "city": "Tignere",
       "date": "2026-11-13",
-      "pm25": 58.70000076293945,
+      "pm25": 61.79999923706055,
+      "level": "Dangereux",
+      "region": "Adamaoua",
+      "latitude": 7.37,
+      "longitude": 12.65,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Tibati",
+      "date": "2026-11-13",
+      "pm25": 61.599998474121094,
+      "level": "Dangereux",
+      "region": "Adamaoua",
+      "latitude": 6.4667,
+      "longitude": 12.6167,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Tignere",
+      "date": "2026-11-12",
+      "pm25": 61.599998474121094,
+      "level": "Dangereux",
+      "region": "Adamaoua",
+      "latitude": 7.37,
+      "longitude": 12.65,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Ngaoundere",
+      "date": "2026-11-15",
+      "pm25": 61.0,
       "level": "Dangereux",
       "region": "Adamaoua",
       "latitude": 7.3167,
@@ -758,7 +668,7 @@
     {
       "city": "Tignere",
       "date": "2026-11-16",
-      "pm25": 58.70000076293945,
+      "pm25": 60.79999923706055,
       "level": "Dangereux",
       "region": "Adamaoua",
       "latitude": 7.37,
@@ -766,39 +676,29 @@
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
-      "city": "Wum",
-      "date": "2026-11-14",
-      "pm25": 58.599998474121094,
+      "city": "Foumban",
+      "date": "2026-11-15",
+      "pm25": 60.400001525878906,
       "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 6.3833,
-      "longitude": 10.0667,
+      "region": "Ouest",
+      "latitude": 5.7167,
+      "longitude": 10.9,
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
-      "city": "Tibati",
-      "date": "2026-11-13",
-      "pm25": 58.0,
+      "city": "Foumban",
+      "date": "2026-11-12",
+      "pm25": 59.900001525878906,
       "level": "Dangereux",
-      "region": "Adamaoua",
-      "latitude": 6.4667,
-      "longitude": 12.6167,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Kumbo",
-      "date": "2026-11-13",
-      "pm25": 57.900001525878906,
-      "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 6.2,
-      "longitude": 10.6667,
+      "region": "Ouest",
+      "latitude": 5.7167,
+      "longitude": 10.9,
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
       "city": "Mbouda",
-      "date": "2026-11-11",
-      "pm25": 57.79999923706055,
+      "date": "2026-11-16",
+      "pm25": 59.900001525878906,
       "level": "Dangereux",
       "region": "Ouest",
       "latitude": 5.6167,
@@ -806,9 +706,19 @@
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
+      "city": "Wum",
+      "date": "2026-11-16",
+      "pm25": 59.79999923706055,
+      "level": "Dangereux",
+      "region": "Nord-Ouest",
+      "latitude": 6.3833,
+      "longitude": 10.0667,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
       "city": "Ngaoundere",
-      "date": "2026-11-11",
-      "pm25": 57.79999923706055,
+      "date": "2026-11-12",
+      "pm25": 58.900001525878906,
       "level": "Dangereux",
       "region": "Adamaoua",
       "latitude": 7.3167,
@@ -816,19 +726,109 @@
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
+      "city": "Poli",
+      "date": "2026-11-18",
+      "pm25": 58.900001525878906,
+      "level": "Dangereux",
+      "region": "Nord",
+      "latitude": 8.4667,
+      "longitude": 13.24,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Foumban",
+      "date": "2026-11-14",
+      "pm25": 58.79999923706055,
+      "level": "Dangereux",
+      "region": "Ouest",
+      "latitude": 5.7167,
+      "longitude": 10.9,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Mbengwi",
+      "date": "2026-11-12",
+      "pm25": 58.79999923706055,
+      "level": "Dangereux",
+      "region": "Nord-Ouest",
+      "latitude": 5.9833,
+      "longitude": 10.0167,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
       "city": "Ngaoundere",
-      "date": "2026-11-15",
-      "pm25": 57.79999923706055,
+      "date": "2026-11-14",
+      "pm25": 58.79999923706055,
       "level": "Dangereux",
       "region": "Adamaoua",
       "latitude": 7.3167,
       "longitude": 13.5833,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Wum",
+      "date": "2026-11-12",
+      "pm25": 58.5,
+      "level": "Dangereux",
+      "region": "Nord-Ouest",
+      "latitude": 6.3833,
+      "longitude": 10.0667,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Kumbo",
+      "date": "2026-11-15",
+      "pm25": 58.400001525878906,
+      "level": "Dangereux",
+      "region": "Nord-Ouest",
+      "latitude": 6.2,
+      "longitude": 10.6667,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Ngaoundere",
+      "date": "2026-11-16",
+      "pm25": 58.400001525878906,
+      "level": "Dangereux",
+      "region": "Adamaoua",
+      "latitude": 7.3167,
+      "longitude": 13.5833,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Mbouda",
+      "date": "2026-11-12",
+      "pm25": 58.099998474121094,
+      "level": "Dangereux",
+      "region": "Ouest",
+      "latitude": 5.6167,
+      "longitude": 10.2667,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Tibati",
+      "date": "2026-11-12",
+      "pm25": 57.79999923706055,
+      "level": "Dangereux",
+      "region": "Adamaoua",
+      "latitude": 6.4667,
+      "longitude": 12.6167,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Bafoussam",
+      "date": "2026-11-15",
+      "pm25": 57.70000076293945,
+      "level": "Dangereux",
+      "region": "Ouest",
+      "latitude": 5.4667,
+      "longitude": 10.4167,
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
       "city": "Meiganga",
-      "date": "2026-11-13",
-      "pm25": 57.599998474121094,
+      "date": "2026-11-18",
+      "pm25": 57.70000076293945,
       "level": "Dangereux",
       "region": "Adamaoua",
       "latitude": 6.5167,
@@ -836,59 +836,9 @@
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
-      "city": "Wum",
-      "date": "2026-11-11",
-      "pm25": 57.5,
-      "level": "Dangereux",
-      "region": "Nord-Ouest",
-      "latitude": 6.3833,
-      "longitude": 10.0667,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Ngaoundere",
-      "date": "2026-11-14",
-      "pm25": 57.400001525878906,
-      "level": "Dangereux",
-      "region": "Adamaoua",
-      "latitude": 7.3167,
-      "longitude": 13.5833,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Tignere",
-      "date": "2026-11-11",
-      "pm25": 57.0,
-      "level": "Dangereux",
-      "region": "Adamaoua",
-      "latitude": 7.37,
-      "longitude": 12.65,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Ngaoundere",
-      "date": "2026-11-16",
-      "pm25": 56.599998474121094,
-      "level": "Dangereux",
-      "region": "Adamaoua",
-      "latitude": 7.3167,
-      "longitude": 13.5833,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Poli",
-      "date": "2026-11-12",
-      "pm25": 56.5,
-      "level": "Dangereux",
-      "region": "Nord",
-      "latitude": 8.4667,
-      "longitude": 13.24,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
       "city": "Foumban",
-      "date": "2026-11-15",
-      "pm25": 56.29999923706055,
+      "date": "2026-11-17",
+      "pm25": 57.400001525878906,
       "level": "Dangereux",
       "region": "Ouest",
       "latitude": 5.7167,
@@ -896,39 +846,59 @@
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
-      "city": "Tibati",
-      "date": "2026-11-14",
-      "pm25": 56.0,
+      "city": "Mbouda",
+      "date": "2026-11-15",
+      "pm25": 56.5,
       "level": "Dangereux",
-      "region": "Adamaoua",
-      "latitude": 6.4667,
-      "longitude": 12.6167,
+      "region": "Ouest",
+      "latitude": 5.6167,
+      "longitude": 10.2667,
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
-      "city": "Dschang",
-      "date": "2026-11-17",
-      "pm25": 55.900001525878906,
+      "city": "Kumbo",
+      "date": "2026-11-12",
+      "pm25": 56.400001525878906,
       "level": "Dangereux",
-      "region": "Ouest",
-      "latitude": 5.45,
-      "longitude": 10.05,
+      "region": "Nord-Ouest",
+      "latitude": 6.2,
+      "longitude": 10.6667,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Poli",
+      "date": "2026-11-12",
+      "pm25": 56.29999923706055,
+      "level": "Dangereux",
+      "region": "Nord",
+      "latitude": 8.4667,
+      "longitude": 13.24,
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
       "city": "Meiganga",
+      "date": "2026-11-17",
+      "pm25": 56.20000076293945,
+      "level": "Dangereux",
+      "region": "Adamaoua",
+      "latitude": 6.5167,
+      "longitude": 14.2833,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
+      "city": "Tibati",
       "date": "2026-11-14",
       "pm25": 55.79999923706055,
       "level": "Dangereux",
       "region": "Adamaoua",
-      "latitude": 6.5167,
-      "longitude": 14.2833,
+      "latitude": 6.4667,
+      "longitude": 12.6167,
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
       "city": "Foumban",
       "date": "2026-11-16",
-      "pm25": 55.5,
+      "pm25": 55.70000076293945,
       "level": "Dangereux",
       "region": "Ouest",
       "latitude": 5.7167,
@@ -936,9 +906,19 @@
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
+      "city": "Bamenda",
+      "date": "2026-11-14",
+      "pm25": 55.599998474121094,
+      "level": "Dangereux",
+      "region": "Nord-Ouest",
+      "latitude": 5.9627,
+      "longitude": 10.1479,
+      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
+    },
+    {
       "city": "Meiganga",
-      "date": "2026-11-11",
-      "pm25": 55.400001525878906,
+      "date": "2026-11-12",
+      "pm25": 55.599998474121094,
       "level": "Dangereux",
       "region": "Adamaoua",
       "latitude": 6.5167,
@@ -956,28 +936,18 @@
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
-      "city": "Tibati",
-      "date": "2026-11-11",
-      "pm25": 55.400001525878906,
+      "city": "Ngaoundere",
+      "date": "2026-11-13",
+      "pm25": 55.099998474121094,
       "level": "Dangereux",
       "region": "Adamaoua",
-      "latitude": 6.4667,
-      "longitude": 12.6167,
-      "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
-    },
-    {
-      "city": "Mbouda",
-      "date": "2026-11-15",
-      "pm25": 55.20000076293945,
-      "level": "Dangereux",
-      "region": "Ouest",
-      "latitude": 5.6167,
-      "longitude": 10.2667,
+      "latitude": 7.3167,
+      "longitude": 13.5833,
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
       "city": "Kumbo",
-      "date": "2026-11-11",
+      "date": "2026-11-18",
       "pm25": 55.0,
       "level": "Dangereux",
       "region": "Nord-Ouest",
@@ -986,419 +956,9 @@
       "message": "Restez a l interieur. Fenetres fermees. Evitez tout effort."
     },
     {
-      "city": "Kumbo",
-      "date": "2026-11-17",
-      "pm25": 54.900001525878906,
-      "level": "Tres Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 6.2,
-      "longitude": 10.6667,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Kumbo",
-      "date": "2026-11-12",
-      "pm25": 54.79999923706055,
-      "level": "Tres Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 6.2,
-      "longitude": 10.6667,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Poli",
-      "date": "2026-11-14",
-      "pm25": 54.5,
-      "level": "Tres Mauvais",
-      "region": "Nord",
-      "latitude": 8.4667,
-      "longitude": 13.24,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Poli",
-      "date": "2026-11-16",
-      "pm25": 54.20000076293945,
-      "level": "Tres Mauvais",
-      "region": "Nord",
-      "latitude": 8.4667,
-      "longitude": 13.24,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Meiganga",
-      "date": "2026-11-12",
-      "pm25": 53.900001525878906,
-      "level": "Tres Mauvais",
-      "region": "Adamaoua",
-      "latitude": 6.5167,
-      "longitude": 14.2833,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Kumbo",
-      "date": "2026-11-16",
-      "pm25": 53.70000076293945,
-      "level": "Tres Mauvais",
-      "region": "Nord-Ouest",
-      "latitude": 6.2,
-      "longitude": 10.6667,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Bafoussam",
-      "date": "2026-11-15",
-      "pm25": 53.599998474121094,
-      "level": "Tres Mauvais",
-      "region": "Ouest",
-      "latitude": 5.4667,
-      "longitude": 10.4167,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Meiganga",
-      "date": "2026-11-16",
-      "pm25": 53.599998474121094,
-      "level": "Tres Mauvais",
-      "region": "Adamaoua",
-      "latitude": 6.5167,
-      "longitude": 14.2833,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Poli",
-      "date": "2026-11-13",
-      "pm25": 53.400001525878906,
-      "level": "Tres Mauvais",
-      "region": "Nord",
-      "latitude": 8.4667,
-      "longitude": 13.24,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Dschang",
-      "date": "2026-11-16",
-      "pm25": 53.0,
-      "level": "Tres Mauvais",
-      "region": "Ouest",
-      "latitude": 5.45,
-      "longitude": 10.05,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Garoua",
-      "date": "2026-11-14",
-      "pm25": 52.900001525878906,
-      "level": "Tres Mauvais",
-      "region": "Nord",
-      "latitude": 9.2992,
-      "longitude": 13.3954,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Bafoussam",
-      "date": "2026-11-11",
-      "pm25": 52.79999923706055,
-      "level": "Tres Mauvais",
-      "region": "Ouest",
-      "latitude": 5.4667,
-      "longitude": 10.4167,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Tibati",
-      "date": "2026-11-12",
-      "pm25": 51.79999923706055,
-      "level": "Tres Mauvais",
-      "region": "Adamaoua",
-      "latitude": 6.4667,
-      "longitude": 12.6167,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Dschang",
-      "date": "2026-11-15",
-      "pm25": 51.70000076293945,
-      "level": "Tres Mauvais",
-      "region": "Ouest",
-      "latitude": 5.45,
-      "longitude": 10.05,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Meiganga",
-      "date": "2026-11-17",
-      "pm25": 51.70000076293945,
-      "level": "Tres Mauvais",
-      "region": "Adamaoua",
-      "latitude": 6.5167,
-      "longitude": 14.2833,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Poli",
-      "date": "2026-11-15",
-      "pm25": 51.70000076293945,
-      "level": "Tres Mauvais",
-      "region": "Nord",
-      "latitude": 8.4667,
-      "longitude": 13.24,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Dschang",
-      "date": "2026-11-14",
-      "pm25": 50.0,
-      "level": "Tres Mauvais",
-      "region": "Ouest",
-      "latitude": 5.45,
-      "longitude": 10.05,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Garoua",
-      "date": "2026-11-17",
-      "pm25": 49.20000076293945,
-      "level": "Tres Mauvais",
-      "region": "Nord",
-      "latitude": 9.2992,
-      "longitude": 13.3954,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Tibati",
-      "date": "2026-11-16",
-      "pm25": 49.20000076293945,
-      "level": "Tres Mauvais",
-      "region": "Adamaoua",
-      "latitude": 6.4667,
-      "longitude": 12.6167,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Tibati",
-      "date": "2026-11-17",
-      "pm25": 49.0,
-      "level": "Tres Mauvais",
-      "region": "Adamaoua",
-      "latitude": 6.4667,
-      "longitude": 12.6167,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Tibati",
-      "date": "2026-11-15",
-      "pm25": 48.900001525878906,
-      "level": "Tres Mauvais",
-      "region": "Adamaoua",
-      "latitude": 6.4667,
-      "longitude": 12.6167,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Nkongsamba",
-      "date": "2026-11-13",
-      "pm25": 48.0,
-      "level": "Tres Mauvais",
-      "region": "Littoral",
-      "latitude": 4.95,
-      "longitude": 9.9333,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Limbe",
-      "date": "2026-11-13",
-      "pm25": 47.29999923706055,
-      "level": "Tres Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.0167,
-      "longitude": 9.21,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Foumban",
-      "date": "2026-11-17",
-      "pm25": 45.099998474121094,
-      "level": "Tres Mauvais",
-      "region": "Ouest",
-      "latitude": 5.7167,
-      "longitude": 10.9,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Kumba",
-      "date": "2026-11-14",
-      "pm25": 45.099998474121094,
-      "level": "Tres Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.6333,
-      "longitude": 9.45,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Nkongsamba",
-      "date": "2026-11-15",
-      "pm25": 45.099998474121094,
-      "level": "Tres Mauvais",
-      "region": "Littoral",
-      "latitude": 4.95,
-      "longitude": 9.9333,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Kumba",
-      "date": "2026-11-13",
-      "pm25": 44.900001525878906,
-      "level": "Tres Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.6333,
-      "longitude": 9.45,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Bertoua",
-      "date": "2026-11-15",
-      "pm25": 44.0,
-      "level": "Tres Mauvais",
-      "region": "Est",
-      "latitude": 4.5778,
-      "longitude": 13.6833,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Mamfe",
-      "date": "2026-11-13",
-      "pm25": 43.900001525878906,
-      "level": "Tres Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 5.7667,
-      "longitude": 9.3167,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Batouri",
-      "date": "2026-11-15",
-      "pm25": 43.79999923706055,
-      "level": "Tres Mauvais",
-      "region": "Est",
-      "latitude": 4.4333,
-      "longitude": 14.3667,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Yokadouma",
-      "date": "2026-11-15",
-      "pm25": 43.599998474121094,
-      "level": "Tres Mauvais",
-      "region": "Est",
-      "latitude": 3.5139,
-      "longitude": 15.0539,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Touboro",
-      "date": "2026-11-12",
-      "pm25": 43.400001525878906,
-      "level": "Tres Mauvais",
-      "region": "Nord",
-      "latitude": 7.7667,
-      "longitude": 15.3667,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Yokadouma",
-      "date": "2026-11-11",
-      "pm25": 43.29999923706055,
-      "level": "Tres Mauvais",
-      "region": "Est",
-      "latitude": 3.5139,
-      "longitude": 15.0539,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Buea",
-      "date": "2026-11-11",
-      "pm25": 43.0,
-      "level": "Tres Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.1667,
-      "longitude": 9.2333,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Dschang",
-      "date": "2026-11-13",
-      "pm25": 42.79999923706055,
-      "level": "Tres Mauvais",
-      "region": "Ouest",
-      "latitude": 5.45,
-      "longitude": 10.05,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Touboro",
-      "date": "2026-11-13",
-      "pm25": 42.599998474121094,
-      "level": "Tres Mauvais",
-      "region": "Nord",
-      "latitude": 7.7667,
-      "longitude": 15.3667,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Loum",
-      "date": "2026-11-16",
-      "pm25": 42.5,
-      "level": "Tres Mauvais",
-      "region": "Littoral",
-      "latitude": 4.7167,
-      "longitude": 9.7333,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Nkongsamba",
-      "date": "2026-11-16",
-      "pm25": 42.400001525878906,
-      "level": "Tres Mauvais",
-      "region": "Littoral",
-      "latitude": 4.95,
-      "longitude": 9.9333,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Buea",
-      "date": "2026-11-16",
-      "pm25": 42.29999923706055,
-      "level": "Tres Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.1667,
-      "longitude": 9.2333,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Bafia",
-      "date": "2026-11-17",
-      "pm25": 42.099998474121094,
-      "level": "Tres Mauvais",
-      "region": "Centre",
-      "latitude": 4.75,
-      "longitude": 11.23,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Nkongsamba",
-      "date": "2026-11-12",
-      "pm25": 42.0,
-      "level": "Tres Mauvais",
-      "region": "Littoral",
-      "latitude": 4.95,
-      "longitude": 9.9333,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
       "city": "Mbouda",
-      "date": "2026-11-17",
-      "pm25": 41.900001525878906,
+      "date": "2026-11-14",
+      "pm25": 54.70000076293945,
       "level": "Tres Mauvais",
       "region": "Ouest",
       "latitude": 5.6167,
@@ -1406,29 +966,209 @@
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
-      "city": "Buea",
-      "date": "2026-11-14",
-      "pm25": 41.099998474121094,
+      "city": "Meiganga",
+      "date": "2026-11-16",
+      "pm25": 54.70000076293945,
       "level": "Tres Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.1667,
-      "longitude": 9.2333,
+      "region": "Adamaoua",
+      "latitude": 6.5167,
+      "longitude": 14.2833,
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
-      "city": "Limbe",
-      "date": "2026-11-11",
-      "pm25": 41.099998474121094,
+      "city": "Poli",
+      "date": "2026-11-16",
+      "pm25": 54.400001525878906,
       "level": "Tres Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.0167,
-      "longitude": 9.21,
+      "region": "Nord",
+      "latitude": 8.4667,
+      "longitude": 13.24,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Dschang",
+      "date": "2026-11-18",
+      "pm25": 54.20000076293945,
+      "level": "Tres Mauvais",
+      "region": "Ouest",
+      "latitude": 5.45,
+      "longitude": 10.05,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Meiganga",
+      "date": "2026-11-14",
+      "pm25": 54.20000076293945,
+      "level": "Tres Mauvais",
+      "region": "Adamaoua",
+      "latitude": 6.5167,
+      "longitude": 14.2833,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Tibati",
+      "date": "2026-11-16",
+      "pm25": 53.900001525878906,
+      "level": "Tres Mauvais",
+      "region": "Adamaoua",
+      "latitude": 6.4667,
+      "longitude": 12.6167,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Wum",
+      "date": "2026-11-14",
+      "pm25": 53.900001525878906,
+      "level": "Tres Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 6.3833,
+      "longitude": 10.0667,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Yokadouma",
+      "date": "2026-11-16",
+      "pm25": 53.900001525878906,
+      "level": "Tres Mauvais",
+      "region": "Est",
+      "latitude": 3.5139,
+      "longitude": 15.0539,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Dschang",
+      "date": "2026-11-16",
+      "pm25": 53.79999923706055,
+      "level": "Tres Mauvais",
+      "region": "Ouest",
+      "latitude": 5.45,
+      "longitude": 10.05,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Nkongsamba",
+      "date": "2026-11-18",
+      "pm25": 53.79999923706055,
+      "level": "Tres Mauvais",
+      "region": "Littoral",
+      "latitude": 4.95,
+      "longitude": 9.9333,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Dschang",
+      "date": "2026-11-15",
+      "pm25": 53.70000076293945,
+      "level": "Tres Mauvais",
+      "region": "Ouest",
+      "latitude": 5.45,
+      "longitude": 10.05,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Poli",
+      "date": "2026-11-13",
+      "pm25": 53.5,
+      "level": "Tres Mauvais",
+      "region": "Nord",
+      "latitude": 8.4667,
+      "longitude": 13.24,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Garoua",
+      "date": "2026-11-14",
+      "pm25": 53.29999923706055,
+      "level": "Tres Mauvais",
+      "region": "Nord",
+      "latitude": 9.2992,
+      "longitude": 13.3954,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Tibati",
+      "date": "2026-11-15",
+      "pm25": 53.20000076293945,
+      "level": "Tres Mauvais",
+      "region": "Adamaoua",
+      "latitude": 6.4667,
+      "longitude": 12.6167,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Kumbo",
+      "date": "2026-11-16",
+      "pm25": 53.0,
+      "level": "Tres Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 6.2,
+      "longitude": 10.6667,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Kumbo",
+      "date": "2026-11-17",
+      "pm25": 53.0,
+      "level": "Tres Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 6.2,
+      "longitude": 10.6667,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Kumbo",
+      "date": "2026-11-13",
+      "pm25": 52.599998474121094,
+      "level": "Tres Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 6.2,
+      "longitude": 10.6667,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Tibati",
+      "date": "2026-11-18",
+      "pm25": 50.0,
+      "level": "Tres Mauvais",
+      "region": "Adamaoua",
+      "latitude": 6.4667,
+      "longitude": 12.6167,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Garoua",
+      "date": "2026-11-18",
+      "pm25": 49.400001525878906,
+      "level": "Tres Mauvais",
+      "region": "Nord",
+      "latitude": 9.2992,
+      "longitude": 13.3954,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Poli",
+      "date": "2026-11-15",
+      "pm25": 49.29999923706055,
+      "level": "Tres Mauvais",
+      "region": "Nord",
+      "latitude": 8.4667,
+      "longitude": 13.24,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Garoua",
+      "date": "2026-11-16",
+      "pm25": 48.79999923706055,
+      "level": "Tres Mauvais",
+      "region": "Nord",
+      "latitude": 9.2992,
+      "longitude": 13.3954,
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
       "city": "Loum",
-      "date": "2026-11-17",
-      "pm25": 41.0,
+      "date": "2026-11-18",
+      "pm25": 48.70000076293945,
       "level": "Tres Mauvais",
       "region": "Littoral",
       "latitude": 4.7167,
@@ -1436,9 +1176,49 @@
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
-      "city": "Nkongsamba",
+      "city": "Tibati",
       "date": "2026-11-17",
-      "pm25": 41.0,
+      "pm25": 48.400001525878906,
+      "level": "Tres Mauvais",
+      "region": "Adamaoua",
+      "latitude": 6.4667,
+      "longitude": 12.6167,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Poli",
+      "date": "2026-11-14",
+      "pm25": 47.70000076293945,
+      "level": "Tres Mauvais",
+      "region": "Nord",
+      "latitude": 8.4667,
+      "longitude": 13.24,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Limbe",
+      "date": "2026-11-14",
+      "pm25": 46.79999923706055,
+      "level": "Tres Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.0167,
+      "longitude": 9.21,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Kumba",
+      "date": "2026-11-13",
+      "pm25": 46.29999923706055,
+      "level": "Tres Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.6333,
+      "longitude": 9.45,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Nkongsamba",
+      "date": "2026-11-14",
+      "pm25": 45.29999923706055,
       "level": "Tres Mauvais",
       "region": "Littoral",
       "latitude": 4.95,
@@ -1447,8 +1227,8 @@
     },
     {
       "city": "Touboro",
-      "date": "2026-11-14",
-      "pm25": 41.0,
+      "date": "2026-11-12",
+      "pm25": 45.29999923706055,
       "level": "Tres Mauvais",
       "region": "Nord",
       "latitude": 7.7667,
@@ -1456,59 +1236,9 @@
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
-      "city": "Loum",
-      "date": "2026-11-13",
-      "pm25": 40.900001525878906,
-      "level": "Tres Mauvais",
-      "region": "Littoral",
-      "latitude": 4.7167,
-      "longitude": 9.7333,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Mamfe",
-      "date": "2026-11-17",
-      "pm25": 40.900001525878906,
-      "level": "Tres Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 5.7667,
-      "longitude": 9.3167,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Nkongsamba",
-      "date": "2026-11-11",
-      "pm25": 40.79999923706055,
-      "level": "Tres Mauvais",
-      "region": "Littoral",
-      "latitude": 4.95,
-      "longitude": 9.9333,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Yokadouma",
-      "date": "2026-11-16",
-      "pm25": 40.599998474121094,
-      "level": "Tres Mauvais",
-      "region": "Est",
-      "latitude": 3.5139,
-      "longitude": 15.0539,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Maroua",
-      "date": "2026-11-13",
-      "pm25": 40.5,
-      "level": "Tres Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 10.5833,
-      "longitude": 14.3167,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
       "city": "Limbe",
-      "date": "2026-11-14",
-      "pm25": 40.400001525878906,
+      "date": "2026-11-13",
+      "pm25": 44.900001525878906,
       "level": "Tres Mauvais",
       "region": "Sud-Ouest",
       "latitude": 4.0167,
@@ -1516,19 +1246,49 @@
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
-      "city": "Buea",
+      "city": "Nkongsamba",
       "date": "2026-11-15",
-      "pm25": 40.20000076293945,
+      "pm25": 44.599998474121094,
       "level": "Tres Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.1667,
-      "longitude": 9.2333,
+      "region": "Littoral",
+      "latitude": 4.95,
+      "longitude": 9.9333,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Nkongsamba",
+      "date": "2026-11-16",
+      "pm25": 44.5,
+      "level": "Tres Mauvais",
+      "region": "Littoral",
+      "latitude": 4.95,
+      "longitude": 9.9333,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Garoua",
+      "date": "2026-11-17",
+      "pm25": 44.29999923706055,
+      "level": "Tres Mauvais",
+      "region": "Nord",
+      "latitude": 9.2992,
+      "longitude": 13.3954,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Garoua",
+      "date": "2026-11-12",
+      "pm25": 44.0,
+      "level": "Tres Mauvais",
+      "region": "Nord",
+      "latitude": 9.2992,
+      "longitude": 13.3954,
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
       "city": "Loum",
       "date": "2026-11-14",
-      "pm25": 40.099998474121094,
+      "pm25": 43.70000076293945,
       "level": "Tres Mauvais",
       "region": "Littoral",
       "latitude": 4.7167,
@@ -1536,8 +1296,198 @@
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
-      "city": "Mamfe",
+      "city": "Touboro",
+      "date": "2026-11-13",
+      "pm25": 43.70000076293945,
+      "level": "Tres Mauvais",
+      "region": "Nord",
+      "latitude": 7.7667,
+      "longitude": 15.3667,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Bafia",
+      "date": "2026-11-18",
+      "pm25": 43.599998474121094,
+      "level": "Tres Mauvais",
+      "region": "Centre",
+      "latitude": 4.75,
+      "longitude": 11.23,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Buea",
+      "date": "2026-11-16",
+      "pm25": 43.599998474121094,
+      "level": "Tres Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.1667,
+      "longitude": 9.2333,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Bafoussam",
+      "date": "2026-11-13",
+      "pm25": 43.400001525878906,
+      "level": "Tres Mauvais",
+      "region": "Ouest",
+      "latitude": 5.4667,
+      "longitude": 10.4167,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Dschang",
       "date": "2026-11-14",
+      "pm25": 43.29999923706055,
+      "level": "Tres Mauvais",
+      "region": "Ouest",
+      "latitude": 5.45,
+      "longitude": 10.05,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Mamfe",
+      "date": "2026-11-13",
+      "pm25": 42.599998474121094,
+      "level": "Tres Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 5.7667,
+      "longitude": 9.3167,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Limbe",
+      "date": "2026-11-18",
+      "pm25": 42.400001525878906,
+      "level": "Tres Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.0167,
+      "longitude": 9.21,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Kumba",
+      "date": "2026-11-14",
+      "pm25": 41.900001525878906,
+      "level": "Tres Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.6333,
+      "longitude": 9.45,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Loum",
+      "date": "2026-11-16",
+      "pm25": 41.900001525878906,
+      "level": "Tres Mauvais",
+      "region": "Littoral",
+      "latitude": 4.7167,
+      "longitude": 9.7333,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Bamenda",
+      "date": "2026-11-18",
+      "pm25": 41.79999923706055,
+      "level": "Tres Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 5.9627,
+      "longitude": 10.1479,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Loum",
+      "date": "2026-11-17",
+      "pm25": 41.79999923706055,
+      "level": "Tres Mauvais",
+      "region": "Littoral",
+      "latitude": 4.7167,
+      "longitude": 9.7333,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Buea",
+      "date": "2026-11-18",
+      "pm25": 41.70000076293945,
+      "level": "Tres Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.1667,
+      "longitude": 9.2333,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Nkongsamba",
+      "date": "2026-11-17",
+      "pm25": 41.400001525878906,
+      "level": "Tres Mauvais",
+      "region": "Littoral",
+      "latitude": 4.95,
+      "longitude": 9.9333,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Touboro",
+      "date": "2026-11-17",
+      "pm25": 41.400001525878906,
+      "level": "Tres Mauvais",
+      "region": "Nord",
+      "latitude": 7.7667,
+      "longitude": 15.3667,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Meiganga",
+      "date": "2026-11-13",
+      "pm25": 41.29999923706055,
+      "level": "Tres Mauvais",
+      "region": "Adamaoua",
+      "latitude": 6.5167,
+      "longitude": 14.2833,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Bafia",
+      "date": "2026-11-17",
+      "pm25": 41.0,
+      "level": "Tres Mauvais",
+      "region": "Centre",
+      "latitude": 4.75,
+      "longitude": 11.23,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Touboro",
+      "date": "2026-11-14",
+      "pm25": 40.70000076293945,
+      "level": "Tres Mauvais",
+      "region": "Nord",
+      "latitude": 7.7667,
+      "longitude": 15.3667,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Bafia",
+      "date": "2026-11-16",
+      "pm25": 40.5,
+      "level": "Tres Mauvais",
+      "region": "Centre",
+      "latitude": 4.75,
+      "longitude": 11.23,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Bafia",
+      "date": "2026-11-15",
+      "pm25": 40.400001525878906,
+      "level": "Tres Mauvais",
+      "region": "Centre",
+      "latitude": 4.75,
+      "longitude": 11.23,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Mamfe",
+      "date": "2026-11-16",
       "pm25": 39.900001525878906,
       "level": "Tres Mauvais",
       "region": "Sud-Ouest",
@@ -1546,43 +1496,23 @@
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
-      "city": "Bertoua",
-      "date": "2026-11-14",
-      "pm25": 39.70000076293945,
-      "level": "Tres Mauvais",
-      "region": "Est",
-      "latitude": 4.5778,
-      "longitude": 13.6833,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Nkongsamba",
-      "date": "2026-11-14",
-      "pm25": 39.70000076293945,
-      "level": "Tres Mauvais",
-      "region": "Littoral",
-      "latitude": 4.95,
-      "longitude": 9.9333,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Bafoussam",
-      "date": "2026-11-12",
-      "pm25": 39.599998474121094,
-      "level": "Tres Mauvais",
-      "region": "Ouest",
-      "latitude": 5.4667,
-      "longitude": 10.4167,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Touboro",
-      "date": "2026-11-15",
-      "pm25": 39.599998474121094,
+      "city": "Garoua",
+      "date": "2026-11-13",
+      "pm25": 39.79999923706055,
       "level": "Tres Mauvais",
       "region": "Nord",
-      "latitude": 7.7667,
-      "longitude": 15.3667,
+      "latitude": 9.2992,
+      "longitude": 13.3954,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Bamenda",
+      "date": "2026-11-15",
+      "pm25": 39.5,
+      "level": "Tres Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 5.9627,
+      "longitude": 10.1479,
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
@@ -1596,38 +1526,58 @@
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
-      "city": "Bafoussam",
-      "date": "2026-11-14",
-      "pm25": 39.29999923706055,
+      "city": "Mamfe",
+      "date": "2026-11-18",
+      "pm25": 39.20000076293945,
       "level": "Tres Mauvais",
-      "region": "Ouest",
-      "latitude": 5.4667,
-      "longitude": 10.4167,
+      "region": "Sud-Ouest",
+      "latitude": 5.7667,
+      "longitude": 9.3167,
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
-      "city": "Bafoussam",
+      "city": "Nkongsamba",
       "date": "2026-11-13",
       "pm25": 39.20000076293945,
       "level": "Tres Mauvais",
+      "region": "Littoral",
+      "latitude": 4.95,
+      "longitude": 9.9333,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Bafoussam",
+      "date": "2026-11-18",
+      "pm25": 39.0,
+      "level": "Tres Mauvais",
       "region": "Ouest",
       "latitude": 5.4667,
       "longitude": 10.4167,
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
-      "city": "Bafia",
-      "date": "2026-11-16",
+      "city": "Dschang",
+      "date": "2026-11-17",
       "pm25": 39.0,
       "level": "Tres Mauvais",
-      "region": "Centre",
-      "latitude": 4.75,
-      "longitude": 11.23,
+      "region": "Ouest",
+      "latitude": 5.45,
+      "longitude": 10.05,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Limbe",
+      "date": "2026-11-12",
+      "pm25": 38.900001525878906,
+      "level": "Tres Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.0167,
+      "longitude": 9.21,
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
       "city": "Yokadouma",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "pm25": 38.900001525878906,
       "level": "Tres Mauvais",
       "region": "Est",
@@ -1636,59 +1586,49 @@
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
-      "city": "Bafia",
-      "date": "2026-11-11",
+      "city": "Bafoussam",
+      "date": "2026-11-12",
       "pm25": 38.79999923706055,
       "level": "Tres Mauvais",
-      "region": "Centre",
-      "latitude": 4.75,
-      "longitude": 11.23,
+      "region": "Ouest",
+      "latitude": 5.4667,
+      "longitude": 10.4167,
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
-      "city": "Garoua",
-      "date": "2026-11-12",
-      "pm25": 38.599998474121094,
-      "level": "Tres Mauvais",
-      "region": "Nord",
-      "latitude": 9.2992,
-      "longitude": 13.3954,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Bafia",
-      "date": "2026-11-15",
-      "pm25": 38.400001525878906,
-      "level": "Tres Mauvais",
-      "region": "Centre",
-      "latitude": 4.75,
-      "longitude": 11.23,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Poli",
-      "date": "2026-11-11",
-      "pm25": 38.400001525878906,
-      "level": "Tres Mauvais",
-      "region": "Nord",
-      "latitude": 8.4667,
-      "longitude": 13.24,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Garoua",
+      "city": "Dschang",
       "date": "2026-11-13",
-      "pm25": 38.099998474121094,
+      "pm25": 38.70000076293945,
       "level": "Tres Mauvais",
-      "region": "Nord",
-      "latitude": 9.2992,
-      "longitude": 13.3954,
+      "region": "Ouest",
+      "latitude": 5.45,
+      "longitude": 10.05,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Bertoua",
+      "date": "2026-11-16",
+      "pm25": 38.5,
+      "level": "Tres Mauvais",
+      "region": "Est",
+      "latitude": 4.5778,
+      "longitude": 13.6833,
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
       "city": "Yokadouma",
-      "date": "2026-11-17",
-      "pm25": 38.0,
+      "date": "2026-11-14",
+      "pm25": 38.5,
+      "level": "Tres Mauvais",
+      "region": "Est",
+      "latitude": 3.5139,
+      "longitude": 15.0539,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Yokadouma",
+      "date": "2026-11-18",
+      "pm25": 38.29999923706055,
       "level": "Tres Mauvais",
       "region": "Est",
       "latitude": 3.5139,
@@ -1697,8 +1637,8 @@
     },
     {
       "city": "Batouri",
-      "date": "2026-11-16",
-      "pm25": 37.900001525878906,
+      "date": "2026-11-15",
+      "pm25": 38.099998474121094,
       "level": "Tres Mauvais",
       "region": "Est",
       "latitude": 4.4333,
@@ -1707,8 +1647,8 @@
     },
     {
       "city": "Touboro",
-      "date": "2026-11-16",
-      "pm25": 37.599998474121094,
+      "date": "2026-11-18",
+      "pm25": 38.099998474121094,
       "level": "Tres Mauvais",
       "region": "Nord",
       "latitude": 7.7667,
@@ -1716,39 +1656,69 @@
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
-      "city": "Bertoua",
-      "date": "2026-11-11",
-      "pm25": 37.5,
-      "level": "Tres Mauvais",
-      "region": "Est",
-      "latitude": 4.5778,
-      "longitude": 13.6833,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Limbe",
-      "date": "2026-11-12",
-      "pm25": 37.20000076293945,
+      "city": "Buea",
+      "date": "2026-11-17",
+      "pm25": 38.0,
       "level": "Tres Mauvais",
       "region": "Sud-Ouest",
-      "latitude": 4.0167,
-      "longitude": 9.21,
+      "latitude": 4.1667,
+      "longitude": 9.2333,
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
-      "city": "Maroua",
-      "date": "2026-11-16",
-      "pm25": 37.20000076293945,
+      "city": "Buea",
+      "date": "2026-11-14",
+      "pm25": 37.900001525878906,
       "level": "Tres Mauvais",
-      "region": "Extreme-Nord",
-      "latitude": 10.5833,
-      "longitude": 14.3167,
+      "region": "Sud-Ouest",
+      "latitude": 4.1667,
+      "longitude": 9.2333,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Touboro",
+      "date": "2026-11-16",
+      "pm25": 37.79999923706055,
+      "level": "Tres Mauvais",
+      "region": "Nord",
+      "latitude": 7.7667,
+      "longitude": 15.3667,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Batouri",
+      "date": "2026-11-16",
+      "pm25": 37.70000076293945,
+      "level": "Tres Mauvais",
+      "region": "Est",
+      "latitude": 4.4333,
+      "longitude": 14.3667,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Yokadouma",
+      "date": "2026-11-17",
+      "pm25": 37.70000076293945,
+      "level": "Tres Mauvais",
+      "region": "Est",
+      "latitude": 3.5139,
+      "longitude": 15.0539,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Akonolinga",
+      "date": "2026-11-15",
+      "pm25": 37.599998474121094,
+      "level": "Tres Mauvais",
+      "region": "Centre",
+      "latitude": 3.7667,
+      "longitude": 12.25,
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
       "city": "Bafia",
       "date": "2026-11-14",
-      "pm25": 37.099998474121094,
+      "pm25": 37.20000076293945,
       "level": "Tres Mauvais",
       "region": "Centre",
       "latitude": 4.75,
@@ -1757,28 +1727,8 @@
     },
     {
       "city": "Batouri",
-      "date": "2026-11-14",
-      "pm25": 36.900001525878906,
-      "level": "Tres Mauvais",
-      "region": "Est",
-      "latitude": 4.4333,
-      "longitude": 14.3667,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Mamfe",
-      "date": "2026-11-16",
-      "pm25": 36.900001525878906,
-      "level": "Tres Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 5.7667,
-      "longitude": 9.3167,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Batouri",
-      "date": "2026-11-12",
-      "pm25": 36.79999923706055,
+      "date": "2026-11-13",
+      "pm25": 37.20000076293945,
       "level": "Tres Mauvais",
       "region": "Est",
       "latitude": 4.4333,
@@ -1787,8 +1737,8 @@
     },
     {
       "city": "Touboro",
-      "date": "2026-11-17",
-      "pm25": 36.599998474121094,
+      "date": "2026-11-15",
+      "pm25": 37.0,
       "level": "Tres Mauvais",
       "region": "Nord",
       "latitude": 7.7667,
@@ -1796,29 +1746,19 @@
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
-      "city": "Batouri",
-      "date": "2026-11-13",
-      "pm25": 36.400001525878906,
-      "level": "Tres Mauvais",
-      "region": "Est",
-      "latitude": 4.4333,
-      "longitude": 14.3667,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Akonolinga",
-      "date": "2026-11-14",
-      "pm25": 35.599998474121094,
-      "level": "Tres Mauvais",
-      "region": "Centre",
-      "latitude": 3.7667,
-      "longitude": 12.25,
-      "message": "Evitez les activites physiques en exterieur. Masque recommande."
-    },
-    {
-      "city": "Batouri",
+      "city": "Mamfe",
       "date": "2026-11-17",
-      "pm25": 35.599998474121094,
+      "pm25": 36.70000076293945,
+      "level": "Tres Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 5.7667,
+      "longitude": 9.3167,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Batouri",
+      "date": "2026-11-18",
+      "pm25": 36.5,
       "level": "Tres Mauvais",
       "region": "Est",
       "latitude": 4.4333,
@@ -1827,8 +1767,8 @@
     },
     {
       "city": "Buea",
-      "date": "2026-11-17",
-      "pm25": 35.5,
+      "date": "2026-11-15",
+      "pm25": 36.5,
       "level": "Tres Mauvais",
       "region": "Sud-Ouest",
       "latitude": 4.1667,
@@ -1836,19 +1776,139 @@
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
-      "city": "Loum",
-      "date": "2026-11-11",
-      "pm25": 35.5,
+      "city": "Batouri",
+      "date": "2026-11-12",
+      "pm25": 36.29999923706055,
+      "level": "Tres Mauvais",
+      "region": "Est",
+      "latitude": 4.4333,
+      "longitude": 14.3667,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Douala",
+      "date": "2026-11-14",
+      "pm25": 36.29999923706055,
       "level": "Tres Mauvais",
       "region": "Littoral",
-      "latitude": 4.7167,
-      "longitude": 9.7333,
+      "latitude": 4.0483,
+      "longitude": 9.7043,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Bafoussam",
+      "date": "2026-11-14",
+      "pm25": 36.099998474121094,
+      "level": "Tres Mauvais",
+      "region": "Ouest",
+      "latitude": 5.4667,
+      "longitude": 10.4167,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Bertoua",
+      "date": "2026-11-14",
+      "pm25": 35.900001525878906,
+      "level": "Tres Mauvais",
+      "region": "Est",
+      "latitude": 4.5778,
+      "longitude": 13.6833,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Batouri",
+      "date": "2026-11-17",
+      "pm25": 35.79999923706055,
+      "level": "Tres Mauvais",
+      "region": "Est",
+      "latitude": 4.4333,
+      "longitude": 14.3667,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Buea",
+      "date": "2026-11-13",
+      "pm25": 35.79999923706055,
+      "level": "Tres Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.1667,
+      "longitude": 9.2333,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Sangmelima",
+      "date": "2026-11-15",
+      "pm25": 35.79999923706055,
+      "level": "Tres Mauvais",
+      "region": "Sud",
+      "latitude": 2.9333,
+      "longitude": 11.9833,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Yokadouma",
+      "date": "2026-11-13",
+      "pm25": 35.79999923706055,
+      "level": "Tres Mauvais",
+      "region": "Est",
+      "latitude": 3.5139,
+      "longitude": 15.0539,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Abong-Mbang",
+      "date": "2026-11-14",
+      "pm25": 35.70000076293945,
+      "level": "Tres Mauvais",
+      "region": "Est",
+      "latitude": 3.9833,
+      "longitude": 13.1833,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Kumba",
+      "date": "2026-11-18",
+      "pm25": 35.70000076293945,
+      "level": "Tres Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.6333,
+      "longitude": 9.45,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Edea",
+      "date": "2026-11-13",
+      "pm25": 35.599998474121094,
+      "level": "Tres Mauvais",
+      "region": "Littoral",
+      "latitude": 3.8,
+      "longitude": 10.1333,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Abong-Mbang",
+      "date": "2026-11-15",
+      "pm25": 35.400001525878906,
+      "level": "Tres Mauvais",
+      "region": "Est",
+      "latitude": 3.9833,
+      "longitude": 13.1833,
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
+    },
+    {
+      "city": "Batouri",
+      "date": "2026-11-14",
+      "pm25": 35.29999923706055,
+      "level": "Tres Mauvais",
+      "region": "Est",
+      "latitude": 4.4333,
+      "longitude": 14.3667,
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
       "city": "Mamfe",
       "date": "2026-11-15",
-      "pm25": 35.5,
+      "pm25": 35.29999923706055,
       "level": "Tres Mauvais",
       "region": "Sud-Ouest",
       "latitude": 5.7667,
@@ -1856,99 +1916,29 @@
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
-      "city": "Limbe",
-      "date": "2026-11-15",
+      "city": "Douala",
+      "date": "2026-11-18",
       "pm25": 35.20000076293945,
       "level": "Tres Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.0167,
-      "longitude": 9.21,
+      "region": "Littoral",
+      "latitude": 4.0483,
+      "longitude": 9.7043,
       "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
       "city": "Bertoua",
-      "date": "2026-11-12",
-      "pm25": 34.900001525878906,
-      "level": "Mauvais",
+      "date": "2026-11-15",
+      "pm25": 35.0,
+      "level": "Tres Mauvais",
       "region": "Est",
       "latitude": 4.5778,
       "longitude": 13.6833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Batouri",
-      "date": "2026-11-11",
-      "pm25": 34.79999923706055,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 4.4333,
-      "longitude": 14.3667,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bertoua",
-      "date": "2026-11-16",
-      "pm25": 34.599998474121094,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 4.5778,
-      "longitude": 13.6833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yaounde",
-      "date": "2026-11-14",
-      "pm25": 34.5,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.8667,
-      "longitude": 11.5167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kumba",
-      "date": "2026-11-12",
-      "pm25": 34.29999923706055,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.6333,
-      "longitude": 9.45,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Sangmelima",
-      "date": "2026-11-15",
-      "pm25": 33.79999923706055,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9333,
-      "longitude": 11.9833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Abong-Mbang",
-      "date": "2026-11-15",
-      "pm25": 33.70000076293945,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.9833,
-      "longitude": 13.1833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yokadouma",
-      "date": "2026-11-13",
-      "pm25": 33.5,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.5139,
-      "longitude": 15.0539,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+      "message": "Evitez les activites physiques en exterieur. Masque recommande."
     },
     {
       "city": "Bafoussam",
       "date": "2026-11-17",
-      "pm25": 33.29999923706055,
+      "pm25": 34.900001525878906,
       "level": "Mauvais",
       "region": "Ouest",
       "latitude": 5.4667,
@@ -1956,9 +1946,29 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
+      "city": "Douala",
+      "date": "2026-11-13",
+      "pm25": 34.900001525878906,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.0483,
+      "longitude": 9.7043,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bamenda",
+      "date": "2026-11-12",
+      "pm25": 34.5,
+      "level": "Mauvais",
+      "region": "Nord-Ouest",
+      "latitude": 5.9627,
+      "longitude": 10.1479,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
       "city": "Yokadouma",
       "date": "2026-11-12",
-      "pm25": 33.29999923706055,
+      "pm25": 34.20000076293945,
       "level": "Mauvais",
       "region": "Est",
       "latitude": 3.5139,
@@ -1967,8 +1977,8 @@
     },
     {
       "city": "Abong-Mbang",
-      "date": "2026-11-11",
-      "pm25": 33.20000076293945,
+      "date": "2026-11-17",
+      "pm25": 34.099998474121094,
       "level": "Mauvais",
       "region": "Est",
       "latitude": 3.9833,
@@ -1976,19 +1986,99 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Kumba",
-      "date": "2026-11-11",
-      "pm25": 33.20000076293945,
+      "city": "Abong-Mbang",
+      "date": "2026-11-18",
+      "pm25": 34.099998474121094,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 3.9833,
+      "longitude": 13.1833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Abong-Mbang",
+      "date": "2026-11-16",
+      "pm25": 33.900001525878906,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 3.9833,
+      "longitude": 13.1833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Limbe",
+      "date": "2026-11-15",
+      "pm25": 33.599998474121094,
       "level": "Mauvais",
       "region": "Sud-Ouest",
-      "latitude": 4.6333,
-      "longitude": 9.45,
+      "latitude": 4.0167,
+      "longitude": 9.21,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yaounde",
+      "date": "2026-11-15",
+      "pm25": 33.29999923706055,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.8667,
+      "longitude": 11.5167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Abong-Mbang",
+      "date": "2026-11-12",
+      "pm25": 33.0,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 3.9833,
+      "longitude": 13.1833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Dschang",
+      "date": "2026-11-12",
+      "pm25": 32.900001525878906,
+      "level": "Mauvais",
+      "region": "Ouest",
+      "latitude": 5.45,
+      "longitude": 10.05,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Akonolinga",
+      "date": "2026-11-13",
+      "pm25": 32.79999923706055,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.7667,
+      "longitude": 12.25,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bertoua",
+      "date": "2026-11-12",
+      "pm25": 32.70000076293945,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 4.5778,
+      "longitude": 13.6833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Loum",
+      "date": "2026-11-13",
+      "pm25": 32.70000076293945,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.7167,
+      "longitude": 9.7333,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Bafia",
-      "date": "2026-11-13",
-      "pm25": 33.099998474121094,
+      "date": "2026-11-12",
+      "pm25": 32.599998474121094,
       "level": "Mauvais",
       "region": "Centre",
       "latitude": 4.75,
@@ -1996,9 +2086,59 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
+      "city": "Bertoua",
+      "date": "2026-11-13",
+      "pm25": 32.5,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 4.5778,
+      "longitude": 13.6833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Bertoua",
+      "date": "2026-11-18",
+      "pm25": 32.5,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 4.5778,
+      "longitude": 13.6833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Abong-Mbang",
+      "date": "2026-11-13",
+      "pm25": 32.400001525878906,
+      "level": "Mauvais",
+      "region": "Est",
+      "latitude": 3.9833,
+      "longitude": 13.1833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Akonolinga",
+      "date": "2026-11-18",
+      "pm25": 31.899999618530273,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.7667,
+      "longitude": 12.25,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Limbe",
+      "date": "2026-11-17",
+      "pm25": 31.899999618530273,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.0167,
+      "longitude": 9.21,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
       "city": "Edea",
       "date": "2026-11-15",
-      "pm25": 32.900001525878906,
+      "pm25": 31.799999237060547,
       "level": "Mauvais",
       "region": "Littoral",
       "latitude": 3.8,
@@ -2006,69 +2146,39 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Abong-Mbang",
-      "date": "2026-11-13",
-      "pm25": 32.5,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.9833,
-      "longitude": 13.1833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Abong-Mbang",
+      "city": "Akonolinga",
       "date": "2026-11-14",
-      "pm25": 32.5,
+      "pm25": 31.5,
       "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.9833,
-      "longitude": 13.1833,
+      "region": "Centre",
+      "latitude": 3.7667,
+      "longitude": 12.25,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Abong-Mbang",
+      "city": "Bertoua",
       "date": "2026-11-17",
-      "pm25": 32.20000076293945,
+      "pm25": 31.5,
       "level": "Mauvais",
       "region": "Est",
-      "latitude": 3.9833,
-      "longitude": 13.1833,
+      "latitude": 4.5778,
+      "longitude": 13.6833,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Douala",
-      "date": "2026-11-11",
-      "pm25": 32.20000076293945,
+      "city": "Edea",
+      "date": "2026-11-14",
+      "pm25": 31.399999618530273,
       "level": "Mauvais",
       "region": "Littoral",
-      "latitude": 4.0483,
-      "longitude": 9.7043,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Abong-Mbang",
-      "date": "2026-11-16",
-      "pm25": 32.099998474121094,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.9833,
-      "longitude": 13.1833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ebolowa",
-      "date": "2026-11-14",
-      "pm25": 32.0,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9,
-      "longitude": 11.15,
+      "latitude": 3.8,
+      "longitude": 10.1333,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Akonolinga",
-      "date": "2026-11-15",
-      "pm25": 31.799999237060547,
+      "date": "2026-11-16",
+      "pm25": 31.299999237060547,
       "level": "Mauvais",
       "region": "Centre",
       "latitude": 3.7667,
@@ -2078,7 +2188,7 @@
     {
       "city": "Bafoussam",
       "date": "2026-11-16",
-      "pm25": 31.799999237060547,
+      "pm25": 31.299999237060547,
       "level": "Mauvais",
       "region": "Ouest",
       "latitude": 5.4667,
@@ -2086,49 +2196,19 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Douala",
-      "date": "2026-11-13",
-      "pm25": 31.799999237060547,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.0483,
-      "longitude": 9.7043,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mamfe",
-      "date": "2026-11-11",
-      "pm25": 31.799999237060547,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 5.7667,
-      "longitude": 9.3167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yaounde",
+      "city": "Mbalmayo",
       "date": "2026-11-15",
       "pm25": 31.299999237060547,
       "level": "Mauvais",
       "region": "Centre",
-      "latitude": 3.8667,
-      "longitude": 11.5167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kumba",
-      "date": "2026-11-15",
-      "pm25": 31.100000381469727,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.6333,
-      "longitude": 9.45,
+      "latitude": 3.5167,
+      "longitude": 11.5017,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Limbe",
-      "date": "2026-11-17",
-      "pm25": 31.0,
+      "date": "2026-11-16",
+      "pm25": 31.200000762939453,
       "level": "Mauvais",
       "region": "Sud-Ouest",
       "latitude": 4.0167,
@@ -2136,48 +2216,58 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Akonolinga",
-      "date": "2026-11-16",
+      "city": "Yaounde",
+      "date": "2026-11-18",
+      "pm25": 31.100000381469727,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.8667,
+      "longitude": 11.5167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yaounde",
+      "date": "2026-11-14",
       "pm25": 30.799999237060547,
       "level": "Mauvais",
       "region": "Centre",
-      "latitude": 3.7667,
-      "longitude": 12.25,
+      "latitude": 3.8667,
+      "longitude": 11.5167,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Douala",
-      "date": "2026-11-17",
-      "pm25": 30.200000762939453,
+      "city": "Ebolowa",
+      "date": "2026-11-14",
+      "pm25": 30.399999618530273,
       "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.0483,
-      "longitude": 9.7043,
+      "region": "Sud",
+      "latitude": 2.9,
+      "longitude": 11.15,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Sangmelima",
+      "date": "2026-11-18",
+      "pm25": 30.0,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9333,
+      "longitude": 11.9833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ambam",
+      "date": "2026-11-15",
+      "pm25": 29.799999237060547,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.3833,
+      "longitude": 11.2833,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Akonolinga",
       "date": "2026-11-17",
-      "pm25": 29.799999237060547,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.7667,
-      "longitude": 12.25,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Edea",
-      "date": "2026-11-11",
-      "pm25": 29.799999237060547,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 3.8,
-      "longitude": 10.1333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Akonolinga",
-      "date": "2026-11-11",
       "pm25": 29.700000762939453,
       "level": "Mauvais",
       "region": "Centre",
@@ -2186,259 +2276,29 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Limbe",
-      "date": "2026-11-16",
+      "city": "Nkongsamba",
+      "date": "2026-11-12",
       "pm25": 29.600000381469727,
       "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.0167,
-      "longitude": 9.21,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Douala",
-      "date": "2026-11-12",
-      "pm25": 29.5,
-      "level": "Mauvais",
       "region": "Littoral",
-      "latitude": 4.0483,
-      "longitude": 9.7043,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Douala",
-      "date": "2026-11-14",
-      "pm25": 29.299999237060547,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.0483,
-      "longitude": 9.7043,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kumba",
-      "date": "2026-11-17",
-      "pm25": 29.200000762939453,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.6333,
-      "longitude": 9.45,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ambam",
-      "date": "2026-11-14",
-      "pm25": 28.899999618530273,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.3833,
-      "longitude": 11.2833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bafia",
-      "date": "2026-11-12",
-      "pm25": 28.899999618530273,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 4.75,
-      "longitude": 11.23,
+      "latitude": 4.95,
+      "longitude": 9.9333,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Douala",
       "date": "2026-11-15",
-      "pm25": 28.5,
+      "pm25": 29.100000381469727,
       "level": "Mauvais",
       "region": "Littoral",
       "latitude": 4.0483,
       "longitude": 9.7043,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Loum",
-      "date": "2026-11-12",
-      "pm25": 28.5,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.7167,
-      "longitude": 9.7333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bertoua",
-      "date": "2026-11-17",
-      "pm25": 28.399999618530273,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 4.5778,
-      "longitude": 13.6833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Edea",
-      "date": "2026-11-13",
-      "pm25": 28.399999618530273,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 3.8,
-      "longitude": 10.1333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Akonolinga",
-      "date": "2026-11-13",
-      "pm25": 28.200000762939453,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.7667,
-      "longitude": 12.25,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Edea",
-      "date": "2026-11-17",
-      "pm25": 27.899999618530273,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 3.8,
-      "longitude": 10.1333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Douala",
-      "date": "2026-11-16",
-      "pm25": 27.600000381469727,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 4.0483,
-      "longitude": 9.7043,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Bertoua",
-      "date": "2026-11-13",
-      "pm25": 27.5,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 4.5778,
-      "longitude": 13.6833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kribi",
-      "date": "2026-11-11",
-      "pm25": 27.200000762939453,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.95,
-      "longitude": 9.91,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Sangmelima",
-      "date": "2026-11-13",
-      "pm25": 27.200000762939453,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9333,
-      "longitude": 11.9833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Edea",
-      "date": "2026-11-16",
-      "pm25": 27.100000381469727,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 3.8,
-      "longitude": 10.1333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Abong-Mbang",
-      "date": "2026-11-12",
-      "pm25": 26.799999237060547,
-      "level": "Mauvais",
-      "region": "Est",
-      "latitude": 3.9833,
-      "longitude": 13.1833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Edea",
-      "date": "2026-11-14",
-      "pm25": 26.5,
-      "level": "Mauvais",
-      "region": "Littoral",
-      "latitude": 3.8,
-      "longitude": 10.1333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yaounde",
-      "date": "2026-11-17",
-      "pm25": 26.100000381469727,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.8667,
-      "longitude": 11.5167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ambam",
-      "date": "2026-11-11",
-      "pm25": 26.0,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.3833,
-      "longitude": 11.2833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kumba",
-      "date": "2026-11-16",
-      "pm25": 25.799999237060547,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.6333,
-      "longitude": 9.45,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mbalmayo",
-      "date": "2026-11-14",
-      "pm25": 25.700000762939453,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.5167,
-      "longitude": 11.5017,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Dschang",
-      "date": "2026-11-12",
-      "pm25": 25.600000381469727,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.45,
-      "longitude": 10.05,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yaounde",
-      "date": "2026-11-16",
-      "pm25": 25.5,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.8667,
-      "longitude": 11.5167,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Ebolowa",
       "date": "2026-11-15",
-      "pm25": 25.299999237060547,
+      "pm25": 28.799999237060547,
       "level": "Mauvais",
       "region": "Sud",
       "latitude": 2.9,
@@ -2446,39 +2306,29 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Kribi",
-      "date": "2026-11-13",
-      "pm25": 25.100000381469727,
+      "city": "Kumba",
+      "date": "2026-11-15",
+      "pm25": 28.600000381469727,
       "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.95,
-      "longitude": 9.91,
+      "region": "Sud-Ouest",
+      "latitude": 4.6333,
+      "longitude": 9.45,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Kribi",
-      "date": "2026-11-14",
-      "pm25": 25.100000381469727,
+      "date": "2026-11-18",
+      "pm25": 28.399999618530273,
       "level": "Mauvais",
       "region": "Sud",
       "latitude": 2.95,
       "longitude": 9.91,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yaounde",
-      "date": "2026-11-11",
-      "pm25": 25.100000381469727,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.8667,
-      "longitude": 11.5167,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Sangmelima",
-      "date": "2026-11-17",
-      "pm25": 25.0,
+      "date": "2026-11-13",
+      "pm25": 28.399999618530273,
       "level": "Mauvais",
       "region": "Sud",
       "latitude": 2.9333,
@@ -2486,39 +2336,39 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Yaounde",
+      "city": "Douala",
+      "date": "2026-11-17",
+      "pm25": 28.299999237060547,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.0483,
+      "longitude": 9.7043,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Edea",
+      "date": "2026-11-18",
+      "pm25": 28.299999237060547,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 3.8,
+      "longitude": 10.1333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Douala",
       "date": "2026-11-12",
-      "pm25": 25.0,
+      "pm25": 28.100000381469727,
       "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.8667,
-      "longitude": 11.5167,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Dschang",
-      "date": "2026-11-11",
-      "pm25": 24.899999618530273,
-      "level": "Mauvais",
-      "region": "Ouest",
-      "latitude": 5.45,
-      "longitude": 10.05,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Yaounde",
-      "date": "2026-11-13",
-      "pm25": 24.799999237060547,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.8667,
-      "longitude": 11.5167,
+      "region": "Littoral",
+      "latitude": 4.0483,
+      "longitude": 9.7043,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Mamfe",
-      "date": "2026-11-12",
-      "pm25": 24.5,
+      "date": "2026-11-14",
+      "pm25": 28.100000381469727,
       "level": "Mauvais",
       "region": "Sud-Ouest",
       "latitude": 5.7667,
@@ -2526,19 +2376,119 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Mbalmayo",
-      "date": "2026-11-15",
-      "pm25": 24.5,
+      "city": "Bafia",
+      "date": "2026-11-13",
+      "pm25": 28.0,
       "level": "Mauvais",
       "region": "Centre",
-      "latitude": 3.5167,
-      "longitude": 11.5017,
+      "latitude": 4.75,
+      "longitude": 11.23,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ambam",
+      "date": "2026-11-13",
+      "pm25": 27.899999618530273,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.3833,
+      "longitude": 11.2833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Douala",
+      "date": "2026-11-16",
+      "pm25": 27.899999618530273,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.0483,
+      "longitude": 9.7043,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kumba",
+      "date": "2026-11-12",
+      "pm25": 27.899999618530273,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.6333,
+      "longitude": 9.45,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kumba",
+      "date": "2026-11-16",
+      "pm25": 27.899999618530273,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.6333,
+      "longitude": 9.45,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yaounde",
+      "date": "2026-11-17",
+      "pm25": 27.5,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.8667,
+      "longitude": 11.5167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kribi",
+      "date": "2026-11-16",
+      "pm25": 27.299999237060547,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.95,
+      "longitude": 9.91,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kumba",
+      "date": "2026-11-17",
+      "pm25": 27.299999237060547,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 4.6333,
+      "longitude": 9.45,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yaounde",
+      "date": "2026-11-13",
+      "pm25": 26.799999237060547,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.8667,
+      "longitude": 11.5167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ambam",
+      "date": "2026-11-12",
+      "pm25": 26.600000381469727,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.3833,
+      "longitude": 11.2833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ebolowa",
+      "date": "2026-11-18",
+      "pm25": 26.600000381469727,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9,
+      "longitude": 11.15,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Mbalmayo",
       "date": "2026-11-16",
-      "pm25": 24.399999618530273,
+      "pm25": 26.399999618530273,
       "level": "Mauvais",
       "region": "Centre",
       "latitude": 3.5167,
@@ -2547,8 +2497,128 @@
     },
     {
       "city": "Mbalmayo",
-      "date": "2026-11-11",
-      "pm25": 24.299999237060547,
+      "date": "2026-11-18",
+      "pm25": 26.399999618530273,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.5167,
+      "longitude": 11.5017,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yaounde",
+      "date": "2026-11-16",
+      "pm25": 26.200000762939453,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.8667,
+      "longitude": 11.5167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mbalmayo",
+      "date": "2026-11-13",
+      "pm25": 25.899999618530273,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.5167,
+      "longitude": 11.5017,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ambam",
+      "date": "2026-11-14",
+      "pm25": 25.600000381469727,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.3833,
+      "longitude": 11.2833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kribi",
+      "date": "2026-11-14",
+      "pm25": 25.600000381469727,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.95,
+      "longitude": 9.91,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Edea",
+      "date": "2026-11-16",
+      "pm25": 25.399999618530273,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 3.8,
+      "longitude": 10.1333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kribi",
+      "date": "2026-11-15",
+      "pm25": 25.100000381469727,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.95,
+      "longitude": 9.91,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Edea",
+      "date": "2026-11-17",
+      "pm25": 25.0,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 3.8,
+      "longitude": 10.1333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ebolowa",
+      "date": "2026-11-13",
+      "pm25": 24.899999618530273,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9,
+      "longitude": 11.15,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kribi",
+      "date": "2026-11-13",
+      "pm25": 24.700000762939453,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.95,
+      "longitude": 9.91,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ebolowa",
+      "date": "2026-11-12",
+      "pm25": 24.0,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9,
+      "longitude": 11.15,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Loum",
+      "date": "2026-11-12",
+      "pm25": 23.600000381469727,
+      "level": "Mauvais",
+      "region": "Littoral",
+      "latitude": 4.7167,
+      "longitude": 9.7333,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mbalmayo",
+      "date": "2026-11-17",
+      "pm25": 23.600000381469727,
       "level": "Mauvais",
       "region": "Centre",
       "latitude": 3.5167,
@@ -2557,8 +2627,8 @@
     },
     {
       "city": "Kribi",
-      "date": "2026-11-17",
-      "pm25": 24.100000381469727,
+      "date": "2026-11-12",
+      "pm25": 23.299999237060547,
       "level": "Mauvais",
       "region": "Sud",
       "latitude": 2.95,
@@ -2568,7 +2638,7 @@
     {
       "city": "Sangmelima",
       "date": "2026-11-14",
-      "pm25": 24.100000381469727,
+      "pm25": 23.100000381469727,
       "level": "Mauvais",
       "region": "Sud",
       "latitude": 2.9333,
@@ -2576,9 +2646,49 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
+      "city": "Sangmelima",
+      "date": "2026-11-16",
+      "pm25": 22.899999618530273,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9333,
+      "longitude": 11.9833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Sangmelima",
+      "date": "2026-11-17",
+      "pm25": 22.700000762939453,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9333,
+      "longitude": 11.9833,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Yaounde",
+      "date": "2026-11-12",
+      "pm25": 22.700000762939453,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.8667,
+      "longitude": 11.5167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Kribi",
+      "date": "2026-11-17",
+      "pm25": 22.200000762939453,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.95,
+      "longitude": 9.91,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
       "city": "Akonolinga",
       "date": "2026-11-12",
-      "pm25": 23.799999237060547,
+      "pm25": 22.0,
       "level": "Mauvais",
       "region": "Centre",
       "latitude": 3.7667,
@@ -2586,9 +2696,19 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
+      "city": "Ebolowa",
+      "date": "2026-11-16",
+      "pm25": 21.899999618530273,
+      "level": "Mauvais",
+      "region": "Sud",
+      "latitude": 2.9,
+      "longitude": 11.15,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
       "city": "Ambam",
-      "date": "2026-11-17",
-      "pm25": 23.600000381469727,
+      "date": "2026-11-18",
+      "pm25": 21.700000762939453,
       "level": "Mauvais",
       "region": "Sud",
       "latitude": 2.3833,
@@ -2598,7 +2718,7 @@
     {
       "city": "Ebolowa",
       "date": "2026-11-17",
-      "pm25": 23.0,
+      "pm25": 21.399999618530273,
       "level": "Mauvais",
       "region": "Sud",
       "latitude": 2.9,
@@ -2606,133 +2726,13 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Sangmelima",
-      "date": "2026-11-16",
-      "pm25": 23.0,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9333,
-      "longitude": 11.9833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kribi",
-      "date": "2026-11-15",
-      "pm25": 22.899999618530273,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.95,
-      "longitude": 9.91,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mbalmayo",
+      "city": "Ambam",
       "date": "2026-11-17",
-      "pm25": 22.899999618530273,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.5167,
-      "longitude": 11.5017,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kribi",
-      "date": "2026-11-16",
-      "pm25": 22.600000381469727,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.95,
-      "longitude": 9.91,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ambam",
-      "date": "2026-11-15",
-      "pm25": 22.5,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.3833,
-      "longitude": 11.2833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Sangmelima",
-      "date": "2026-11-11",
-      "pm25": 22.299999237060547,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9333,
-      "longitude": 11.9833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ebolowa",
-      "date": "2026-11-16",
-      "pm25": 22.100000381469727,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9,
-      "longitude": 11.15,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ambam",
-      "date": "2026-11-16",
       "pm25": 20.700000762939453,
       "level": "Mauvais",
       "region": "Sud",
       "latitude": 2.3833,
       "longitude": 11.2833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Kribi",
-      "date": "2026-11-12",
-      "pm25": 20.100000381469727,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.95,
-      "longitude": 9.91,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Sangmelima",
-      "date": "2026-11-12",
-      "pm25": 19.799999237060547,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9333,
-      "longitude": 11.9833,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Buea",
-      "date": "2026-11-13",
-      "pm25": 19.299999237060547,
-      "level": "Mauvais",
-      "region": "Sud-Ouest",
-      "latitude": 4.1667,
-      "longitude": 9.2333,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Ebolowa",
-      "date": "2026-11-11",
-      "pm25": 19.299999237060547,
-      "level": "Mauvais",
-      "region": "Sud",
-      "latitude": 2.9,
-      "longitude": 11.15,
-      "message": "Limitez les activites exterieures pour enfants et personnes agees."
-    },
-    {
-      "city": "Mbalmayo",
-      "date": "2026-11-13",
-      "pm25": 19.299999237060547,
-      "level": "Mauvais",
-      "region": "Centre",
-      "latitude": 3.5167,
-      "longitude": 11.5017,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
@@ -2746,19 +2746,39 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Ebolowa",
+      "city": "Mamfe",
       "date": "2026-11-12",
-      "pm25": 18.5,
+      "pm25": 18.899999618530273,
+      "level": "Mauvais",
+      "region": "Sud-Ouest",
+      "latitude": 5.7667,
+      "longitude": 9.3167,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Mbalmayo",
+      "date": "2026-11-14",
+      "pm25": 18.899999618530273,
+      "level": "Mauvais",
+      "region": "Centre",
+      "latitude": 3.5167,
+      "longitude": 11.5017,
+      "message": "Limitez les activites exterieures pour enfants et personnes agees."
+    },
+    {
+      "city": "Ambam",
+      "date": "2026-11-16",
+      "pm25": 18.700000762939453,
       "level": "Mauvais",
       "region": "Sud",
-      "latitude": 2.9,
-      "longitude": 11.15,
+      "latitude": 2.3833,
+      "longitude": 11.2833,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
       "city": "Buea",
       "date": "2026-11-12",
-      "pm25": 18.100000381469727,
+      "pm25": 18.600000381469727,
       "level": "Mauvais",
       "region": "Sud-Ouest",
       "latitude": 4.1667,
@@ -2768,7 +2788,7 @@
     {
       "city": "Mbalmayo",
       "date": "2026-11-12",
-      "pm25": 17.399999618530273,
+      "pm25": 17.700000762939453,
       "level": "Mauvais",
       "region": "Centre",
       "latitude": 3.5167,
@@ -2776,13 +2796,13 @@
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     },
     {
-      "city": "Ebolowa",
-      "date": "2026-11-13",
-      "pm25": 16.200000762939453,
+      "city": "Sangmelima",
+      "date": "2026-11-12",
+      "pm25": 15.199999809265137,
       "level": "Mauvais",
       "region": "Sud",
-      "latitude": 2.9,
-      "longitude": 11.15,
+      "latitude": 2.9333,
+      "longitude": 11.9833,
       "message": "Limitez les activites exterieures pour enfants et personnes agees."
     }
   ]
